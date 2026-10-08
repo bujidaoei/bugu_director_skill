@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-08T22:23:51.845514+00:00",
+  "phase": "planning",
+  "repository": "https://github.com/bujidaoei/bugu_director_skill.git",
+  "operation": "Normal atomic push of design baseline to work branch and main, followed by independent remote reference read",
+  "force_push": false,
+  "verified_baseline_commit": "52e763e2234fc2d02eccd17ef1756283359fc61d",
+  "remote_default_ref": "refs/heads/main",
+  "remote_refs_at_observation": {
+    "HEAD": "52e763e2234fc2d02eccd17ef1756283359fc61d",
+    "refs/heads/codex/001-director-runtime": "52e763e2234fc2d02eccd17ef1756283359fc61d",
+    "refs/heads/main": "52e763e2234fc2d02eccd17ef1756283359fc61d"
+  },
+  "both_required_refs_match_local_baseline": true,
+  "result": "pass",
+  "completed_scope": "Research, original Spec Kit design, read-only research tools and evidence",
+  "production_skill_implemented": false,
+  "real_media_acceptance": "not-run",
+  "formal_release_eligible": false,
+  "T090_final_product_delivery": "not-complete; requires T089",
+  "credentials_in_repository_or_commands": false,
+  "point_in_time_note": "This receipt verifies its parent design baseline. A following commit adds this receipt and refreshed structure evidence; its final remote equality is verified separately, avoiding a self-referential commit hash."
+}

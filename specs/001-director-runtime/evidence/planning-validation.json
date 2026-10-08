@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observed_at_utc": "2026-10-08T22:21:53.905718+00:00",
+  "observed_at_utc": "2026-10-08T22:23:52.156042+00:00",
   "scope": "Planning structure, explicit task coverage, JSON parsing and local file links only",
   "production_acceptance": "not-run",
   "formal_release_eligible": false,
@@ -16,7 +16,7 @@
   "unmapped_requirements": [],
   "unknown_requirement_references": [],
   "checked_local_links": 32,
-  "json_files_parsed": 6,
+  "json_files_parsed": 7,
   "document_hashes": {
     "README.md": "3f4f4d049958878a64cbfba37740f1268e6ff76b1e5062666bbc2c1eca765347",
     "THIRD_PARTY_NOTICES.md": "c78761873f0a0326d6b2cac5db3ea2c853327a8c0993b38c39efff1cee310d7a",
