@@ -1,0 +1,1084 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "observed_at_utc": "2026-10-08T21:59:37.645172+00:00",
+  "scope": "read-only upstream and local integration research; design evidence only",
+  "runtime_validation": "not-run",
+  "formal_release_eligible": false,
+  "formal_release_blockers": [
+    "Locked DSH 0.2.1-alpha.1 is an official Pre-release, not a stable baseline",
+    "Director implementation, bridge, new image integration and real workload acceptance are not performed in this research"
+  ],
+  "repositories": {
+    "ai_drama": {
+      "path": "D:\\bugu_projects\\ai_drama",
+      "head": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "research_commit": "db62e56c57716e19f69659ce361ec3c83059fcff"
+    },
+    "dsh": {
+      "path": "D:\\bugu_projects\\deepseek-harness",
+      "head": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "research_commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc"
+    },
+    "local_comfyui": {
+      "path": "D:\\bugu_projects\\ComfyUI",
+      "head": "65787d668397d230bf5839d69a0a7239e2dad378",
+      "used_for_pinned_semantics": false
+    }
+  },
+  "components": {
+    "dsh": {
+      "package": "@deepseek-ai/dsh",
+      "version": "0.2.1-alpha.1",
+      "release_channel": "prerelease",
+      "repository": "https://github.com/deepseek-ai/deepseek-harness",
+      "release_tag": "dsh-v0.2.1-alpha.1",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "tarball": "https://registry.npmjs.org/@deepseek-ai/dsh/-/dsh-0.2.1-alpha.1.tgz",
+      "integrity": "sha512-DJ8pwG/XqzwDrYQTgJXuIga6ku153Z4vJI/B3MzNtudVCkDaOf4O2pUQh1ToroLHPPe4mxhhFeNJ7ttNculqMw==",
+      "lock": "runtime/dsh/package-lock.json",
+      "user_policy": "latest official DSH prerelease explicitly authorized; exact plugin exemptions and genuine acceptance required",
+      "formal_release_eligible": false
+    },
+    "comfyui": {
+      "version": "0.39.0",
+      "release_channel": "stable",
+      "repository": "https://github.com/Comfy-Org/ComfyUI.git",
+      "commit": "b0b743566f65daafc423b4fea8a2fbda94b3384a",
+      "requirements": "requirements/comfyui.txt",
+      "requirements_sha256": "bc8968fdb1ff5ca7b895387749b3d3357378b4618c962bc065b6e44a2d08f2df",
+      "requirements_source": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/b0b743566f65daafc423b4fea8a2fbda94b3384a/requirements.txt"
+    },
+    "dsh_comfyui": {
+      "version": "0.5.4",
+      "tarball": "https://registry.npmjs.org/dsh-comfyui/-/dsh-comfyui-0.5.4.tgz",
+      "integrity": "sha512-Xa5nAYlS8XAc43WPTpI0cqWHH9D5H+UGvs5O160UtsjJZE+fHblYbi2NXq/z8uPi6tktsXkxjbcjPuHNTszblw==",
+      "lock": "runtime/profile/pnpm-lock.yaml"
+    },
+    "dshmarket": {
+      "version": "1.66.9",
+      "tarball": "https://registry.npmjs.org/dshmarket/-/dshmarket-1.66.9.tgz",
+      "integrity": "sha512-av9EZ4+xd1yUpStItqNCM2PpeqrxFNbh+iD2ki+5TrdZbI3HyO2ARel8hK1rdwLHJArMzFVekl+GqM7SSb27iw==",
+      "lock": "runtime/profile/pnpm-lock.yaml"
+    }
+  },
+  "web_research": {
+    "github_api": "Unauthenticated public API was rate-limited. Complete API release JSON was not acquired; public HTML and npm registry were checked instead.",
+    "sources": [
+      {
+        "component": "dsh",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.1",
+        "sha256": "2980b5e4d9381d4a79a0cdd94c33293fd624cc3790299ae24774fc79c4463485",
+        "bytes": 224053,
+        "pre_release_label_present": true,
+        "official_release_page": true,
+        "published_at_candidates": [
+          "2026-10-03T06:42:19Z"
+        ]
+      },
+      {
+        "component": "comfyui",
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
+        "sha256": "2d730bf7909fa4fdf717a476667ce07c3448d83719f24eeb98514b19c75e81da",
+        "bytes": 237529,
+        "pre_release_label_present": false,
+        "official_release_page": true,
+        "published_at_candidates": [
+          "2026-10-05T22:49:43Z"
+        ]
+      },
+      {
+        "url": "https://github.com/deepseek-ai/deepseek-harness/releases",
+        "sha256": "9b6d61e2358e3c87b9605b0daa88975edc0180d6c712382354b5952087e9f26c",
+        "bytes": 782650,
+        "release_tags": [
+          "dsh-v0.2.1-alpha.1",
+          "dsh-v0.2.0-rc.2",
+          "dsh-v0.2.0-rc.1",
+          "dsh-v0.1.7-rc.2",
+          "dsh-v0.1.7-rc.1",
+          "dsh-v0.1.7-alpha.2",
+          "dsh-v0.1.7-alpha.1",
+          "dsh-v0.1.6-alpha.2",
+          "dsh-v0.1.6-alpha.1",
+          "dsh-v0.1.5-rc.2"
+        ],
+        "pre_release_label_count": 20
+      },
+      {
+        "url": "https://github.com/deepseek-ai/deepseek-harness/releases?page=2",
+        "sha256": "7b08d1ec7029d4191437d8b099c6da24a4806a159176aa9a0d5353660bb5819d",
+        "bytes": 670510,
+        "release_tags": [
+          "dsh-v0.1.5-rc.1",
+          "dsh-v0.1.5-alpha.2",
+          "dsh-v0.1.5-alpha.1",
+          "dsh-v0.1.3-alpha.2",
+          "dsh-v0.1.3-alpha.1",
+          "dsh-v0.1.2-rc.1",
+          "dsh-v0.1.2-alpha.5",
+          "dsh-v0.1.2-alpha.4",
+          "dsh-v0.1.2-alpha.3",
+          "dsh-v0.1.2-alpha.2"
+        ],
+        "pre_release_label_count": 20
+      },
+      {
+        "url": "https://github.com/deepseek-ai/deepseek-harness/releases?page=3",
+        "sha256": "44ace0c220cea4ff133917f0c3803692a2d4f87e3f9485dde6cb840dcb35e1d5",
+        "bytes": 392833,
+        "release_tags": [
+          "dsh-v0.1.2-alpha.1",
+          "dsh-v0.1.1-rc.2",
+          "dsh-v0.1.1-rc.1",
+          "dsh-v0.1.0-rc.8",
+          "dsh-v0.1.0-rc.7"
+        ],
+        "pre_release_label_count": 10
+      },
+      {
+        "url": "https://github.com/deepseek-ai/deepseek-harness/releases?page=4",
+        "sha256": "6bcbd0e9820dd58d664852772757528d0157b2ffec71f2c0bb9db3d69a3a4ea7",
+        "bytes": 172855,
+        "release_tags": [],
+        "pre_release_label_count": 0
+      },
+      {
+        "url": "https://registry.npmjs.org/@deepseek-ai/dsh",
+        "kind": "npm official registry metadata",
+        "name": "@deepseek-ai/dsh",
+        "version": "0.2.1-alpha.1"
+      },
+      {
+        "url": "https://registry.npmjs.org/dsh-comfyui",
+        "kind": "npm official registry metadata",
+        "name": "dsh-comfyui",
+        "version": "0.5.4"
+      },
+      {
+        "url": "https://registry.npmjs.org/dshmarket",
+        "kind": "npm official registry metadata",
+        "name": "dshmarket",
+        "version": "1.66.9"
+      }
+    ]
+  },
+  "npm": [
+    {
+      "name": "@deepseek-ai/dsh",
+      "version": "0.2.1-alpha.1",
+      "url": "https://registry.npmjs.org/@deepseek-ai/dsh",
+      "registry_response_sha256": "4be942bcfb01d675aa387c605a62466f1b92b987248455b7e30d61111e5b64ae",
+      "dist_tags": {
+        "alpha": "0.2.1-alpha.1",
+        "next": "0.2.0-rc.2",
+        "latest": "0.2.0-rc.2"
+      },
+      "repository": {
+        "url": "git+https://github.com/deepseek-ai/deepseek-harness.git",
+        "type": "git",
+        "directory": "apps/cli"
+      },
+      "license": "MIT",
+      "gitHead": null,
+      "dist": {
+        "tarball": "https://registry.npmjs.org/@deepseek-ai/dsh/-/dsh-0.2.1-alpha.1.tgz",
+        "integrity": "sha512-DJ8pwG/XqzwDrYQTgJXuIga6ku153Z4vJI/B3MzNtudVCkDaOf4O2pUQh1ToroLHPPe4mxhhFeNJ7ttNculqMw==",
+        "shasum": "4f0727d2b8b62d798cfbb5d5df0c797671a3a888",
+        "unpackedSize": 73774
+      },
+      "version_count": 30,
+      "all_versions": [
+        "0.0.1-rc.1",
+        "0.0.1-rc.2",
+        "0.0.1-rc.5",
+        "0.1.0-rc.2",
+        "0.1.0-rc.3",
+        "0.1.0-rc.6",
+        "0.1.0-rc.7",
+        "0.1.0-rc.8",
+        "0.1.1-rc.1",
+        "0.1.1-rc.2",
+        "0.1.2-alpha.2",
+        "0.1.2-alpha.3",
+        "0.1.2-alpha.4",
+        "0.1.2-alpha.5",
+        "0.1.2-rc.1",
+        "0.1.3-alpha.2",
+        "0.1.5-alpha.1",
+        "0.1.5-alpha.2",
+        "0.1.5-rc.1",
+        "0.1.5-rc.2",
+        "0.1.6-alpha.1",
+        "0.1.6-alpha.2",
+        "0.1.5-rc.3",
+        "0.1.7-alpha.1",
+        "0.1.7-alpha.2",
+        "0.1.7-rc.1",
+        "0.1.7-rc.2",
+        "0.2.0-rc.1",
+        "0.2.0-rc.2",
+        "0.2.1-alpha.1"
+      ],
+      "stable_semver_versions": []
+    },
+    {
+      "name": "dsh-comfyui",
+      "version": "0.5.4",
+      "url": "https://registry.npmjs.org/dsh-comfyui",
+      "registry_response_sha256": "adfde84b02011fd166e0b6c997fd3fb3aa18ecdb05230293c3b4e22c4eaeed17",
+      "dist_tags": {
+        "beta": "0.3.0-beta.6",
+        "latest": "0.5.4"
+      },
+      "repository": {
+        "url": "git+https://github.com/fandc520/dsh-comfyui.git",
+        "type": "git"
+      },
+      "license": "MIT",
+      "gitHead": "3440ad6787f5de4b76925a7f3766388d96786380",
+      "dist": {
+        "tarball": "https://registry.npmjs.org/dsh-comfyui/-/dsh-comfyui-0.5.4.tgz",
+        "integrity": "sha512-Xa5nAYlS8XAc43WPTpI0cqWHH9D5H+UGvs5O160UtsjJZE+fHblYbi2NXq/z8uPi6tktsXkxjbcjPuHNTszblw==",
+        "shasum": "33075176696efc8f830afe9ea27cdc76c2b858f7",
+        "unpackedSize": 4052295
+      }
+    },
+    {
+      "name": "dshmarket",
+      "version": "1.66.9",
+      "url": "https://registry.npmjs.org/dshmarket",
+      "registry_response_sha256": "48c5a45450521e9ff891c1d04d3a0c1f2b6a768b882c3b1c79dfe28dfd70215c",
+      "dist_tags": {
+        "dev": "1.16.0-dev.202608191514-19afba9",
+        "beta": "1.19.0-beta.4",
+        "latest": "1.66.14"
+      },
+      "repository": {
+        "url": "git+https://github.com/dsh-market/dsh-market.git",
+        "type": "git"
+      },
+      "license": "MIT",
+      "gitHead": "e03c7a035596c96b51b47ad2e44209bc6029334d",
+      "dist": {
+        "tarball": "https://registry.npmjs.org/dshmarket/-/dshmarket-1.66.9.tgz",
+        "integrity": "sha512-av9EZ4+xd1yUpStItqNCM2PpeqrxFNbh+iD2ki+5TrdZbI3HyO2ARel8hK1rdwLHJArMzFVekl+GqM7SSb27iw==",
+        "shasum": "ad3eafd579805bac8e598fbed66c95eaac3f6c02",
+        "unpackedSize": 4347180
+      }
+    }
+  ],
+  "dsh_sources": [
+    {
+      "path": "SAFETY.zh.md",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "d021947c09c83eb352961cf12c95f4b5781d3987663e78c4a8b621d2e3be07a3",
+      "bytes": 1530,
+      "line_ranges": [
+        [
+          5,
+          17
+        ]
+      ],
+      "claims": [
+        "Developer preview and unaudited",
+        "Permissions alone do not guarantee isolation"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/SAFETY.zh.md#L5"
+    },
+    {
+      "path": "docs/subsystems/skills.zh.md",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "d09bc88617855741f5bd7ce666567aaaa33dcae15fd8b54165a8f09fc307c1b5",
+      "bytes": 24310,
+      "line_ranges": [
+        [
+          62,
+          86
+        ]
+      ],
+      "claims": [
+        "Six root precedence levels",
+        "Kebab-case identity and no arbitrary recursive discovery"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/docs/subsystems/skills.zh.md#L62"
+    },
+    {
+      "path": "packages/skill/skill/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "af4fad67fb086c3f5c93aed4604830718b4535e7e59a60d680404b07ea08477c",
+      "bytes": 35965,
+      "line_ranges": [
+        [
+          21,
+          37
+        ]
+      ],
+      "claims": [
+        "Skill name grammar"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/skill/skill/src/index.ts#L21"
+    },
+    {
+      "path": "packages/skill/skill-filesystem/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "a3fcfefcc6500f4bd7c19ba48dfa80efad312034f196f81a40d33d0d0098d315",
+      "bytes": 39233,
+      "line_ranges": [
+        [
+          59,
+          88
+        ],
+        [
+          250,
+          263
+        ],
+        [
+          723,
+          744
+        ],
+        [
+          797,
+          834
+        ]
+      ],
+      "claims": [
+        "Root configuration and source rank",
+        "Immediate root enumeration",
+        "Required frontmatter and valid names"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/skill/skill-filesystem/src/index.ts#L59"
+    },
+    {
+      "path": "packages/bundle/headless/src/startup.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "0edebc16f554a08eb5c141721204065c27a73860d0ab45626df28f97d8e402a4",
+      "bytes": 5573,
+      "line_ranges": [
+        [
+          36,
+          48
+        ]
+      ],
+      "claims": [
+        "CLI exposes json and session-id; no approve(all) flag"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/bundle/headless/src/startup.ts#L36"
+    },
+    {
+      "path": "packages/bundle/headless/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "6d0a4795d41f76bbbee2e34591254e83949b0d857d02f0e09359f1ed1016a472",
+      "bytes": 17312,
+      "line_ranges": [
+        [
+          211,
+          291
+        ],
+        [
+          335,
+          381
+        ]
+      ],
+      "claims": [
+        "Resume checks cwd/preset/live ownership",
+        "Flushes Session; exit0 means turn completed"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/bundle/headless/src/index.ts#L211"
+    },
+    {
+      "path": "packages/bundle/base/cordis.patch.yml",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "9c2be64f46a193eff3cca190c26e697e8e8eee25c9b40149dfdb56f8142c252d",
+      "bytes": 20780,
+      "line_ranges": [
+        [
+          226,
+          262
+        ]
+      ],
+      "claims": [
+        "DSH_PERMISSION_MODE controls sandbox and approval presets"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/bundle/base/cordis.patch.yml#L226"
+    },
+    {
+      "path": "packages/interaction/user-approval/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "6bba9feef5257063aa41d89ddd51c31a1a474b5920c256c65d5ec2857cff1ff6",
+      "bytes": 13582,
+      "line_ranges": [
+        [
+          58,
+          75
+        ],
+        [
+          269,
+          276
+        ]
+      ],
+      "claims": [
+        "never policy deterministically rejects approval requests"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/interaction/user-approval/src/index.ts#L58"
+    },
+    {
+      "path": "packages/interaction/user-questions/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "5bf54301a5560daf36a75ec12496a57dc7d2f20d741e17895df3c03584673106",
+      "bytes": 15058,
+      "line_ranges": [
+        [
+          133,
+          148
+        ],
+        [
+          160,
+          205
+        ],
+        [
+          273,
+          335
+        ]
+      ],
+      "claims": [
+        "Exact live root restriction",
+        "Continued reply batch validation",
+        "Human answerer waterfall seam"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/interaction/user-questions/src/index.ts#L133"
+    },
+    {
+      "path": "packages/interaction/user-questions/src/types.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "682e2c58e1915019b3ef50be91a4edcdd7ba6cf3e4637baeb0fb4efa7319fa93",
+      "bytes": 6385,
+      "line_ranges": [
+        [
+          8,
+          79
+        ]
+      ],
+      "claims": [
+        "Choice/custom answer vocabulary; no stage-hash receipt contract"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/interaction/user-questions/src/types.ts#L8"
+    },
+    {
+      "path": "packages/interaction/tool-ask-user/README.md",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "18c3739308973adc0716f69cf39d3d3efdabe04f2ad883ed05880a6710ca03b9",
+      "bytes": 8860,
+      "line_ranges": [
+        [
+          12,
+          74
+        ],
+        [
+          145,
+          152
+        ]
+      ],
+      "claims": [
+        "Question timed/indefinite and no timeout approval",
+        "Native pending reconstruction boundaries"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/interaction/tool-ask-user/README.md#L12"
+    },
+    {
+      "path": "packages/api/remotes/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "50a9d1dadedbd61d5cc8f12a1ce7c88797c006ffa32a9d5230c24b4e6f521f2f",
+      "bytes": 6298,
+      "line_ranges": [
+        [
+          48,
+          70
+        ]
+      ],
+      "claims": [
+        "Agent-scoped forwarding validates carrier identity"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/api/remotes/src/index.ts#L48"
+    },
+    {
+      "path": "packages/client/ui-user-questions/src/client/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "909f686a18a45ea81119355c1d9c3aa199c722578478e3e8e1332f9606863ce2",
+      "bytes": 17729,
+      "line_ranges": [
+        [
+          208,
+          271
+        ],
+        [
+          397,
+          403
+        ]
+      ],
+      "claims": [
+        "Official Web answerer frontend contribution"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/client/ui-user-questions/src/client/index.ts#L208"
+    },
+    {
+      "path": "packages/fs/tool-fs/src/read-image.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "e8c6ab79e4e24e302ef8e3b52fed5c35e254e4d2b55cd14a90ed48ea0cb267be",
+      "bytes": 16411,
+      "line_ranges": [
+        [
+          112,
+          131
+        ]
+      ],
+      "claims": [
+        "Resolve active provider/model and require explicit image modality"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/fs/tool-fs/src/read-image.ts#L112"
+    },
+    {
+      "path": "packages/llm/llm/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "336cc8be1c05a6cb1881cbec4defdd6586d49c8b6a7bea08e1dceb258fb1a89d",
+      "bytes": 51689,
+      "line_ranges": [
+        [
+          725,
+          739
+        ],
+        [
+          778,
+          811
+        ]
+      ],
+      "claims": [
+        "Exact model metadata resolution with input modalities"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/llm/llm/src/index.ts#L725"
+    },
+    {
+      "path": "packages/llm/llm/src/types.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "f5206fd5daf18d3899202c96ca0edb6e7c1a10ddc535edead062ed28f2261b2d",
+      "bytes": 22007,
+      "line_ranges": [
+        [
+          137,
+          150
+        ]
+      ],
+      "claims": [
+        "Core content blocks include image/file but no video/audio"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/llm/llm/src/types.ts#L137"
+    },
+    {
+      "path": "packages/core/tools/src/index.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "9107a2b6447b10c2ecb90429d7c1b80b956759e96d35230af16f5a88f5d3eccd",
+      "bytes": 90679,
+      "line_ranges": [
+        [
+          685,
+          692
+        ],
+        [
+          1127,
+          1141
+        ],
+        [
+          1296,
+          1312
+        ]
+      ],
+      "claims": [
+        "PTC concurrency cap",
+        "Monotonic guard; no force-allow",
+        "Only explicitly safe tools parallel"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/core/tools/src/index.ts#L685"
+    },
+    {
+      "path": "packages/core/agent-loop/src/constants.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "435d31d3c8740f5ebaefa5c12f22d7cda8ea8c6d018e6fcda459161174ecc971",
+      "bytes": 202,
+      "line_ranges": [
+        [
+          5,
+          6
+        ]
+      ],
+      "claims": [
+        "Default max parallel safe tool calls is 10"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/core/agent-loop/src/constants.ts#L5"
+    },
+    {
+      "path": "packages/core/agent-loop/src/tool-calls.ts",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "5c7e8d8ff0028b436efdd13e5dffa4801d2311c211c3af039e7dab705f87b303",
+      "bytes": 11591,
+      "line_ranges": [
+        [
+          114,
+          132
+        ],
+        [
+          200,
+          205
+        ]
+      ],
+      "claims": [
+        "Bounded pool and exclusive barriers"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/core/agent-loop/src/tool-calls.ts#L114"
+    },
+    {
+      "path": "packages/deliverables/tool-present/README.md",
+      "commit": "5badb15009ae1756c3afe0ae0cef1faafc290ccc",
+      "sha256": "b39fadef669bcf53f8711fa41ddbcbb5757232798166706a051bd13b09758bff",
+      "bytes": 4899,
+      "line_ranges": [
+        [
+          12,
+          12
+        ],
+        [
+          87,
+          90
+        ]
+      ],
+      "claims": [
+        "Present declarations reference current source files, not persistent copied versions"
+      ],
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/5badb15009ae1756c3afe0ae0cef1faafc290ccc/packages/deliverables/tool-present/README.md#L12"
+    }
+  ],
+  "ai_drama_sources": [
+    {
+      "path": "components.lock.json",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "0884c5423f4b7ea058c85789862e9a1898aa76fcccde8a5c945407a1b45248c2",
+      "bytes": 5120,
+      "line_ranges": [
+        [
+          1,
+          8
+        ],
+        [
+          32,
+          40
+        ],
+        [
+          59,
+          84
+        ]
+      ],
+      "claims": [
+        "Formal release blocked by DSH prerelease",
+        "Exact component provenance"
+      ]
+    },
+    {
+      "path": "runtime/profile/package.json",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "e2e682de32d70436afcfb5e4097f022898e3add453b022fcf8c8938800513589",
+      "bytes": 426,
+      "line_ranges": [
+        [
+          1,
+          21
+        ]
+      ],
+      "claims": [
+        "Current enabled plugins exclude production"
+      ]
+    },
+    {
+      "path": "runtime/profile/seed.json",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "c2ecb3494c1252c9873231a7592e275c40c17fc21f808f9a41cd9c3ad13c18a7",
+      "bytes": 363,
+      "line_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "claims": [
+        "Exact plugin roster and DSH compatibility exemptions"
+      ]
+    },
+    {
+      "path": "runtime/profile/compatibility.json",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "b4bff0ae97f1cd057b47c0ec2d7efad378a5f89792eaf7ec10b8440854eab5d0",
+      "bytes": 121,
+      "line_ranges": [
+        [
+          1,
+          9
+        ]
+      ],
+      "claims": [
+        "Version-specific exemptions"
+      ]
+    },
+    {
+      "path": "runtime/profile/pnpm-lock.yaml",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "dbdf9713628d6eb22fe92e56f24571da1c7af548de99e16e7233686c00c6b12c",
+      "bytes": 3940,
+      "line_ranges": [],
+      "claims": [
+        "Locked community plugin tarball integrity"
+      ]
+    },
+    {
+      "path": "Dockerfile",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "25e38b1957aaba1f23717acb73f5c5bb1b0ef87d79fae3c341496afd1d1b6a98",
+      "bytes": 3782,
+      "line_ranges": [
+        [
+          45,
+          50
+        ]
+      ],
+      "claims": [
+        "Runtime/seed build copy boundaries"
+      ]
+    },
+    {
+      "path": "scripts/install.sh",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "9e70bcdf5d3f96e169d1dfaf31d5f20af84f5f69bfd78baad5415d4d7396110c",
+      "bytes": 8784,
+      "line_ranges": [
+        [
+          119,
+          139
+        ]
+      ],
+      "claims": [
+        "Pinned package install and seed creation"
+      ]
+    },
+    {
+      "path": "scripts/dsh_profile.py",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "5692e65761001d448760d79e4021684254d9a8152c5409499f9d1c2afa3ffa27",
+      "bytes": 26883,
+      "line_ranges": [
+        [
+          222,
+          247
+        ],
+        [
+          284,
+          320
+        ],
+        [
+          440,
+          492
+        ]
+      ],
+      "claims": [
+        "Clean seed excludes historical production",
+        "Existing seed mismatch refuses overwrite",
+        "skillsDir belongs to community workflow packs; separate core provider root"
+      ]
+    },
+    {
+      "path": "scripts/start.py",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "a06fb68b98c1f78c3e07c581858ce7007a16acf930e0cb7f326d47cf22018494",
+      "bytes": 27506,
+      "line_ranges": [
+        [
+          483,
+          483
+        ],
+        [
+          519,
+          527
+        ]
+      ],
+      "claims": [
+        "Persistent DSH_HOME and web/profile startup"
+      ]
+    },
+    {
+      "path": "scripts/config.py",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "a2a3fe39f6987826e764bed286efed0e3f86b64283264097ccbeec34fc33693e",
+      "bytes": 10150,
+      "line_ranges": [
+        [
+          173,
+          174
+        ]
+      ],
+      "claims": [
+        "Persistent DSH data root"
+      ]
+    },
+    {
+      "path": "scripts/release.py",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "1fe22e5b864f3d44c1656bc8058f475d228723be101858515d138a59ce6223c1",
+      "bytes": 20496,
+      "line_ranges": [
+        [
+          27,
+          27
+        ],
+        [
+          53,
+          79
+        ]
+      ],
+      "claims": [
+        "Formal release critical component gate"
+      ]
+    },
+    {
+      "path": "runtime/production-plugin/README.md",
+      "commit": "db62e56c57716e19f69659ce361ec3c83059fcff",
+      "sha256": "61bd8d3a6a57fa2423dfce4498b293fc29fb0aa07d9fd73a50e53fb01d67cd1b",
+      "bytes": 19484,
+      "line_ranges": [],
+      "claims": [
+        "Historical design reference; package is not currently installed or active"
+      ]
+    }
+  ],
+  "comfyui_sources": [
+    {
+      "path": "server.py",
+      "commit": "b0b743566f65daafc423b4fea8a2fbda94b3384a",
+      "raw_url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/b0b743566f65daafc423b4fea8a2fbda94b3384a/server.py",
+      "url": "https://github.com/Comfy-Org/ComfyUI/blob/b0b743566f65daafc423b4fea8a2fbda94b3384a/server.py#L1053",
+      "bytes": 64964,
+      "sha256": "7dc4ca3bd801a64da1fe7c2d1af81da61999f6b96dd96637d456e0562e8ce40b",
+      "line_ranges": [
+        [
+          1053,
+          1080
+        ],
+        [
+          1098,
+          1112
+        ],
+        [
+          1132,
+          1144
+        ],
+        [
+          1168,
+          1195
+        ]
+      ],
+      "claims": [
+        "History/queue/prompt APIs",
+        "Client UUID validation",
+        "Valid POST always queues; no dedup",
+        "Targeted interruption"
+      ]
+    },
+    {
+      "path": "execution.py",
+      "commit": "b0b743566f65daafc423b4fea8a2fbda94b3384a",
+      "raw_url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/b0b743566f65daafc423b4fea8a2fbda94b3384a/execution.py",
+      "url": "https://github.com/Comfy-Org/ComfyUI/blob/b0b743566f65daafc423b4fea8a2fbda94b3384a/execution.py#L1296",
+      "bytes": 63856,
+      "sha256": "65f0a4ec361649cbd50869ef20c0f590b6931206cb07e3066b646e81a1a1a201",
+      "line_ranges": [
+        [
+          1296,
+          1311
+        ],
+        [
+          1331,
+          1350
+        ],
+        [
+          1409,
+          1442
+        ]
+      ],
+      "claims": [
+        "Queue/history are volatile",
+        "put is heap push",
+        "History eviction and clear"
+      ]
+    },
+    {
+      "path": "main.py",
+      "commit": "b0b743566f65daafc423b4fea8a2fbda94b3384a",
+      "raw_url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/b0b743566f65daafc423b4fea8a2fbda94b3384a/main.py",
+      "url": "https://github.com/Comfy-Org/ComfyUI/blob/b0b743566f65daafc423b4fea8a2fbda94b3384a/main.py#L322",
+      "bytes": 26154,
+      "sha256": "c3eb9175ad667127d61c8bb68d07a5e6542f0490851dc73176f73bd6d0320cb1",
+      "line_ranges": [
+        [
+          322,
+          325
+        ],
+        [
+          564,
+          564
+        ]
+      ],
+      "claims": [
+        "Prompt worker thread"
+      ]
+    }
+  ],
+  "community_plugin_artifact": {
+    "name": "dsh-comfyui",
+    "version": "0.5.4",
+    "gitHead": "3440ad6787f5de4b76925a7f3766388d96786380",
+    "tarball_sha256": "05be6bfc20e453f5f879cdd2814ca951b4aec0f66919493ea2abc900ad44b4ad",
+    "tarball_bytes": 3227478,
+    "inspection": "Tarball read in memory; not installed or extracted into ai_drama",
+    "sources": [
+      {
+        "path": "package/lib/routes.js",
+        "sha256": "dd93ea7bf8f10bb2e562718e1f060fa8f6aa9c47095268a0e8ed7d7358eed675",
+        "bytes": 74440,
+        "line_ranges": [
+          [
+            1127,
+            1164
+          ],
+          [
+            1323,
+            1358
+          ],
+          [
+            1420,
+            1461
+          ]
+        ],
+        "claims": [
+          "Saved workflow run payload and receipt",
+          "Queue status",
+          "queued combines pending and running without history"
+        ]
+      },
+      {
+        "path": "package/lib/comfyui.js",
+        "sha256": "6f5ef7924d022c8f92f9b37017a762d9670d5deed227d8999bdcef32b5842a68",
+        "bytes": 23439,
+        "line_ranges": [
+          [
+            186,
+            203
+          ],
+          [
+            487,
+            494
+          ]
+        ],
+        "claims": [
+          "Low-level promptId support is not exposed by saved run route",
+          "File-based media URL independent of history"
+        ]
+      },
+      {
+        "path": "package/lib/index.js",
+        "sha256": "0fc863ad692a67999e67db7baf89bac0113b5115ea2419f8d6add569056523a4",
+        "bytes": 20390,
+        "line_ranges": [
+          [
+            168,
+            185
+          ]
+        ],
+        "claims": [
+          "Workflow graph/parameter loaded at submit time; no atomic frozen digest contract"
+        ]
+      },
+      {
+        "path": "package/lib/http.js",
+        "sha256": "6a1f24fd69208a185277893b0108b40ef0b5441e679ebbcb51d842454aa0c2a2",
+        "bytes": 1469,
+        "line_ranges": [
+          [
+            29,
+            36
+          ]
+        ],
+        "claims": [
+          "Missing Origin accepted; sameOrigin not authentication"
+        ]
+      },
+      {
+        "path": "package/lib/tools.js",
+        "sha256": "51cc4e81266aba9cf5392b177f0494ef25b549c5d3109c1f6af5114bf4025eee",
+        "bytes": 50388,
+        "line_ranges": [
+          [
+            147,
+            156
+          ],
+          [
+            333,
+            342
+          ],
+          [
+            865,
+            870
+          ]
+        ],
+        "claims": [
+          "Registered model tool names"
+        ]
+      },
+      {
+        "path": "package/client/client.js",
+        "sha256": "850a955a56f1feace88cee733209ed73409a4754bf9c1effd98548e4d4354155",
+        "bytes": 239170,
+        "line_ranges": [
+          [
+            5046,
+            5059
+          ]
+        ],
+        "claims": [
+          "Media toolviews register only own tool names"
+        ]
+      }
+    ]
+  },
+  "proposed_skill_identity": {
+    "product_repository": "bugu_director_skill",
+    "dsh_skill": "bugu-director-skill",
+    "valid_name_grammar": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+    "name_grammar_static_check": true
+  },
+  "design_not_upstream_features": [
+    "Durable director Project/Stage/Review/Job store",
+    "Cryptographically bound stage/input/artifact approval receipts",
+    "Dedicated service identity and isolated signer for strong anti-forgery",
+    "Persistent cross-agent GPU resource leases",
+    "Bugu-owned media toolview client",
+    "Explicit bugu image/profile migration",
+    "Per-backend production quality and full decode acceptance"
+  ],
+  "not_run": [
+    "DSH runtime boot",
+    "DSH natural-language invocation",
+    "Browser stage approval and authenticated media playback",
+    "Director API requests",
+    "ComfyUI prompt submission",
+    "GPU or remote-provider generation",
+    "Video decode/quality acceptance",
+    "Image build/push/deploy",
+    "Live profile upgrade/rollback"
+  ]
+}

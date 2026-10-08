@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-08T22:21:53.905718+00:00",
+  "scope": "Planning structure, explicit task coverage, JSON parsing and local file links only",
+  "production_acceptance": "not-run",
+  "formal_release_eligible": false,
+  "requirements": 54,
+  "tasks": 90,
+  "completed_task_ids": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005"
+  ],
+  "unmapped_requirements": [],
+  "unknown_requirement_references": [],
+  "checked_local_links": 32,
+  "json_files_parsed": 6,
+  "document_hashes": {
+    "README.md": "3f4f4d049958878a64cbfba37740f1268e6ff76b1e5062666bbc2c1eca765347",
+    "THIRD_PARTY_NOTICES.md": "c78761873f0a0326d6b2cac5db3ea2c853327a8c0993b38c39efff1cee310d7a",
+    "docs/enterprise-plan.md": "d5f2e4603edd9cb9305510e49894a8135b42cc8864e70c1e0a6c75da8b5fc4c3",
+    "specs/001-director-runtime/checklists/requirements.md": "ad41e5bef825d83c2d82deba9494e5827e898877edfc2a663f100a219fa8de2a",
+    "specs/001-director-runtime/contracts/cli.md": "bd946adce159665ba145a282c80d56f66dc3b5a3960a8c4231ef5dc6bf71877e",
+    "specs/001-director-runtime/contracts/delivery.md": "3fa15b47ab078574328729e5d77b54ee92f025c8d35dc3648c1f5b6b7569db43",
+    "specs/001-director-runtime/contracts/lifecycle.md": "7cff2a6baeca37dfb17b70bbbdb7721a4ab197d164319153a1a363ed34fa5ce8",
+    "specs/001-director-runtime/contracts/production.md": "4d9839259d3d62cd92cf8a91f81881010c9c15e3a87f7a68722912bdb79bbd67",
+    "specs/001-director-runtime/contracts/review.md": "69d47fb40560ac782438022812764996da8fa035fe1d22fee48bf2bdceb3d917",
+    "specs/001-director-runtime/data-model.md": "e22bb010a1d3145aad06180e9ab5d9eafecdae5be3a7592de842173dee401c71",
+    "specs/001-director-runtime/plan.md": "ae2512a42656963d1cfe2e4f011786181cf6ffdce60887ce4a90238ac8ae5b59",
+    "specs/001-director-runtime/quickstart.md": "7e24fc3647db80061d63bbcbd7ceb5cbd32ae84f060a0965be471127f64abcef",
+    "specs/001-director-runtime/research/core-suite.md": "76fcb9ab5dc94c8e5a9058ac5cae4b3e01beb458029ee2843f19a0e36ec659fa",
+    "specs/001-director-runtime/research/source-context.md": "14bfa252165ba9da0a261a065b0777621909749a0a3d8daa61efd67ab18be011",
+    "specs/001-director-runtime/research/supporting-suites.md": "fbe02c08b650d44f1f4df63b1c904fc12792e9146d212ed6cb72d33cb2fe95cf",
+    "specs/001-director-runtime/research/upstream-integration.md": "b5807534ff7cc019d367041108ef6cb17f2d327e20f1e6fa09644a738a127ab7",
+    "specs/001-director-runtime/research.md": "e4bee7033066716129715e5b365447088970caf92134eb878256d7ea25cab45a",
+    "specs/001-director-runtime/spec.md": "cdbad9e2996e63bb04224f3bfa3e2a11c0a5e72207d6800a9e59ef9aeb301b9b",
+    "specs/001-director-runtime/tasks.md": "01f25d8c805134c122880e6791cee5e9ee5b6b954b53bf42eece8281b6085706"
+  },
+  "errors": [],
+  "result": "pass"
+}

@@ -1,0 +1,4378 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-08T21:53:41.247015+00:00",
+  "source_root": "D:\\bugu_data\\ai漫剧\\skills\\Acheng 影视牛马skill（全自动全资产生成skill）\\Acheng 影视牛马skill（全自动全资产生成skill）\\acheng-director-suite-v4.3.9\\skills",
+  "scope": "All regular files including pre-existing caches; no source mutation",
+  "file_count": 871,
+  "byte_count": 14158658,
+  "skill_count": 31,
+  "top_level_file_counts": {
+    "acheng-director": 786,
+    "camera-moves-whitebox": 5,
+    "cinematic-vfx-prompt-engine": 1,
+    "colossal-scale-visual-director": 3,
+    "h3-prompt-writing": 4,
+    "im2-clean-image": 7,
+    "lobster-skills": 55,
+    "prompt-library": 9,
+    "reverify-anti-hallucination": 1
+  },
+  "manifest_sha256": "2e8dc25b713c8bd6364f4b209860efef8d0f0a7a0f778527e06c81488eca0e6d",
+  "files": [
+    {
+      "path": "acheng-director/3.5.4简便操作指南.md",
+      "size": 2714,
+      "sha256": "06dcfa54d3c95d1936a0ef695e4b9addd62e9a69ab1a27cb44be731d6394abf0"
+    },
+    {
+      "path": "acheng-director/CONTRIBUTING.md",
+      "size": 1000,
+      "sha256": "2b6be6257d45d25b98168abc40d5c0f2226cfd2f798dea1b5bd2dd1530faaa2b"
+    },
+    {
+      "path": "acheng-director/DELIVERY.md",
+      "size": 8314,
+      "sha256": "c8cc21541cadebd7f93574850847ed2238f8b1593ab075242e2202e265d740d6"
+    },
+    {
+      "path": "acheng-director/HANDOFF-V3.5.4.md",
+      "size": 8330,
+      "sha256": "1fa359bf612e4a334fe89369295a0dbe18b9d82f08aed2ca622afe1abbe73500"
+    },
+    {
+      "path": "acheng-director/LICENSE",
+      "size": 10107,
+      "sha256": "17d4120710e6db63312ee0114e8739fc88d927a433e03d3c414a6cb36cd16b55"
+    },
+    {
+      "path": "acheng-director/LICENSE-DOCS.md",
+      "size": 1121,
+      "sha256": "03dc41138c7634575523dbba84b65686e2c320f7a04bcb51c538c52736df8ebf"
+    },
+    {
+      "path": "acheng-director/LICENSE-SCOPE.md",
+      "size": 2009,
+      "sha256": "b49059c283d5949dedc02b14d4701a443824fa086d83ad90f38393d9a8b090c1"
+    },
+    {
+      "path": "acheng-director/NOTICE",
+      "size": 1274,
+      "sha256": "40e48be09b33ef48aecbb0d8df4c93d7b6d160d5ab972d61d8930ba238a3c47f"
+    },
+    {
+      "path": "acheng-director/SECURITY.md",
+      "size": 857,
+      "sha256": "d5fde5c25c48288c81be2dec6a738321c0c87e312f29e97a33336510ec736384"
+    },
+    {
+      "path": "acheng-director/SKILL.md",
+      "size": 31561,
+      "sha256": "a17aff7cd96a9906471e03371b526f66cc8e8264ea7d004f54d582ba3c2b9d18"
+    },
+    {
+      "path": "acheng-director/TRADEMARKS.md",
+      "size": 1247,
+      "sha256": "796a5d469be879b2304bfa769e8b7814c91bc27fbdd413d0331d3c53f7c4f509"
+    },
+    {
+      "path": "acheng-director/UPGRADE-4.3.6.md",
+      "size": 5023,
+      "sha256": "35b00b585c0303e305142c126bc63935d67f2888bd40eb3d6dd9480f8f838dad"
+    },
+    {
+      "path": "acheng-director/UPGRADE-4.3.7.md",
+      "size": 7908,
+      "sha256": "287d56411d4038e1e58a5c6acecbabd1d6fbbd5e050fea28cbbd4201222e8829"
+    },
+    {
+      "path": "acheng-director/UPGRADE-4.3.8.md",
+      "size": 8821,
+      "sha256": "d9304b3865016d6c8856a21039606b903c8293abe1872d3cedc5a9cca689b3a2"
+    },
+    {
+      "path": "acheng-director/agents/openai.yaml",
+      "size": 395,
+      "sha256": "7d6338b24dec5469716f661dd44758561a5325dc64ff09bdc6b3ecc76959d71c"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/01_dolly_in.mp4",
+      "size": 740373,
+      "sha256": "21e0b5a6c554bb572f46a6bb520ee5a1497d17de70cc556cd0e7692da89fad3a"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/README.md",
+      "size": 31371,
+      "sha256": "0a1bbdb5c6ffd601a8d09aca1e6fac6d8cc85dfa3b0c87434c2a06cefa1eec3a"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/contact-sheet.png",
+      "size": 4792797,
+      "sha256": "c40354c0a0ebf366425478e985493ff4141d7cda224e05b75f05c9eea4626aeb"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/manifest.json",
+      "size": 38791,
+      "sha256": "64e4f14c02223c4b0318738b30ad889451f7e7967c5e91539e1d654dd695b0fe"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-foot-slip.txt",
+      "size": 4856,
+      "sha256": "ea39dbc40ef6c18d3e0f008301f41fba9a93c6348595b4ebdfd12406bd8d3225"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-frames-film.txt",
+      "size": 3778,
+      "sha256": "416caa582b0711ea5d57541a074893e198249bcd363a4832bce071e3f7b57d26"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-frames-film2.txt",
+      "size": 4386,
+      "sha256": "2477f2911dcb55e7872fe9b57d4ea6dccda8db85c10c6f980c0f908c1f3b7d7b"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-gait-quality.txt",
+      "size": 4472,
+      "sha256": "ad6bd3a59794c1ba8295f887bd86f5565d2f62c009b0837f83f5e86acc7155d9"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-motion.txt",
+      "size": 22824,
+      "sha256": "cc9641e002760ea41c88ca5ad140c3c961f9dae46588dee5e82348bccb1d0d46"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-semantics.txt",
+      "size": 15332,
+      "sha256": "7a4a640042eb7d941495792c1b1ec927f0cddb9e43d6c6cc78061e24a9632b96"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-speed-fast.txt",
+      "size": 4234,
+      "sha256": "5ef6a935bc33be8f0554fdb4920f433f2901d33e6db9841bad6fba9051372b51"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-subject-constraint.txt",
+      "size": 3654,
+      "sha256": "14ba6a0cb1211d4049e191f79cb3d06c58a8a970910eff4066a561e31af5ab9a"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/verification/verification-tracking.txt",
+      "size": 3632,
+      "sha256": "211b6482b549db3c319ff975671829f6afc25134220a5a28f53c8ef93f4648c0"
+    },
+    {
+      "path": "acheng-director/camera-moves-whitebox-132/清单.md",
+      "size": 11425,
+      "sha256": "b381331b48a37955e6153728f51653e283a4080242c2f2c48c734df97c3d9ca1"
+    },
+    {
+      "path": "acheng-director/data/animation-art-terminology.json",
+      "size": 37472,
+      "sha256": "676846eb5aaa08730bc011381a539402fc65ad614fb6a0f4f9c1d52de258155a"
+    },
+    {
+      "path": "acheng-director/data/camera-moves.json",
+      "size": 43854,
+      "sha256": "5e395e1d1586b0f82ea560b94668d3c835eaf64317b9b644b3271a2d9ea2b10d"
+    },
+    {
+      "path": "acheng-director/data/director-inquiries.json",
+      "size": 31709,
+      "sha256": "34051454efd682757ed40360b3340d7314814fe34e16a9a21211638b07287210"
+    },
+    {
+      "path": "acheng-director/data/module-registry.json",
+      "size": 5529,
+      "sha256": "1da3ccc7d126ee3ad2448480e2fb2b59a4dc16cebe051c9a09f5608c09821c63"
+    },
+    {
+      "path": "acheng-director/data/red-monkey-integrations.json",
+      "size": 20975,
+      "sha256": "17ffa82337ef04132ea9ff26d3a86390a6462e1a07ac26eb653c476bacd9a6bb"
+    },
+    {
+      "path": "acheng-director/data/source-hashes.json",
+      "size": 12074,
+      "sha256": "fcf846492164055f812e6bb73211eaa74edaff16f92b8265459ed0afd452b84d"
+    },
+    {
+      "path": "acheng-director/data/visual-style-materials.json",
+      "size": 23074,
+      "sha256": "bfd5a041d7fda1b3a3d092267a1427af69f2112b2893798c7ec447191c9fcfdc"
+    },
+    {
+      "path": "acheng-director/examples/01-hollywood-mecha-combat-h3.md",
+      "size": 54150,
+      "sha256": "fceed14b7db6dcbe30327503b1405c589a79b916e8d3471e1df70583b024be10"
+    },
+    {
+      "path": "acheng-director/examples/01-mecha.production.json",
+      "size": 39541,
+      "sha256": "9fc921f64091d757fe4be80db1dd597c570984c853733898245301ff479a3e79"
+    },
+    {
+      "path": "acheng-director/examples/02-drama.production.json",
+      "size": 30382,
+      "sha256": "05789f300713a1c1c6e909a60cc422d9dc51343711c335f6c58bbf0649e46ab9"
+    },
+    {
+      "path": "acheng-director/examples/02-dramatic-micro-acting-h3.md",
+      "size": 40892,
+      "sha256": "afd565598ac33fa3ddf75b2a0c9006bb9ca0960fed89aab457f6e9a71847ba5b"
+    },
+    {
+      "path": "acheng-director/examples/03-colossal-scale-combat-h3.md",
+      "size": 56614,
+      "sha256": "4aed38891cbb49b294eefef87b5f88650b951fdd7f3b9e84a148cdd512a0630d"
+    },
+    {
+      "path": "acheng-director/examples/03-colossal.production.json",
+      "size": 41271,
+      "sha256": "5e21c57be2e83b92f8f3b041dde943c21ed3d67c023119f3afd4f7fe6c2c0933"
+    },
+    {
+      "path": "acheng-director/examples/04-serial.asset-plan.json",
+      "size": 6768,
+      "sha256": "d75ca0779abecbd3aa1172dc3d94d43237c4b3eb5d93cbfaf884fa9f0c225fcc"
+    },
+    {
+      "path": "acheng-director/examples/04-serial.dispatch.json",
+      "size": 14426,
+      "sha256": "115fc80d278aaf4c85882cd23e480c9c77617a8c409906ed48a8aa2d0ae07325"
+    },
+    {
+      "path": "acheng-director/examples/04-serial.production.json",
+      "size": 133643,
+      "sha256": "197a8841b3a933ec508ca784f118213af0e61c6c83da159e0f51386b4d69de5c"
+    },
+    {
+      "path": "acheng-director/examples/04-serial.production.md",
+      "size": 10866,
+      "sha256": "9faac6b12ee69c2baa5c5198e49b7d28126e7ab0c766d561fc50d84c595a559b"
+    },
+    {
+      "path": "acheng-director/examples/05-ink.production.json",
+      "size": 14013,
+      "sha256": "0df71823002c56332fac73d1f7b7de05a18c0bb34289aa2240266bbff9860167"
+    },
+    {
+      "path": "acheng-director/examples/05-ink.production.md",
+      "size": 1903,
+      "sha256": "55520b146c6f467d7257f2d667904d7bae5c8c8c9b14e666931e90628b40024b"
+    },
+    {
+      "path": "acheng-director/examples/06-animated-phone.md",
+      "size": 485,
+      "sha256": "51a44f91748c675e1bafe2b726c8695baa3c165cf9302ca294f833d6d43a64ce"
+    },
+    {
+      "path": "acheng-director/examples/06-animated-phone.production.json",
+      "size": 30674,
+      "sha256": "67f0265edb304c255173f0dc6d514d8f06f91f7d1cbca09c7af79e4522c5e0bf"
+    },
+    {
+      "path": "acheng-director/examples/07-comedy-misunderstanding.md",
+      "size": 597,
+      "sha256": "032ec1767e50dfe483bb1dc5116aa0e16b8d4d95bb5fba63583c8686716970f9"
+    },
+    {
+      "path": "acheng-director/examples/07-comedy-misunderstanding.production.json",
+      "size": 24906,
+      "sha256": "17d44059aa3ff09c735dcbf77f71d0bb16f5947e4e691d6c10adfd73b7333284"
+    },
+    {
+      "path": "acheng-director/examples/08-suspense-whisper.md",
+      "size": 483,
+      "sha256": "9fe42ca7d895553019d8a09a27ba0ac411d4bd3be3509669e549dfbc7daf209e"
+    },
+    {
+      "path": "acheng-director/examples/08-suspense-whisper.production.json",
+      "size": 24572,
+      "sha256": "de0c92a61f74f75f87b2745c836879970f28296070b877059ca857bd528a8a40"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/colossal/COLOSSAL_SEG01.h3.txt",
+      "size": 4207,
+      "sha256": "ae4f30daa9b30282f4cf64718b6781605a418550fcaed73f7e4a8162faa43b56"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/colossal/UPLOAD.md",
+      "size": 846,
+      "sha256": "c2b568e9591df9f438c6584180ada8d825bd669beae281226a7ce02a2f21acba"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/colossal/audit.json",
+      "size": 2342,
+      "sha256": "c8cd13973c91a75b5a19fc4a6a8bb491d756f797dfda6ed8e7772ccbc77be03d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/colossal/index.json",
+      "size": 806,
+      "sha256": "c7b7f8e6735f5cfa5bd78a2eb162a89cb5e3cfe81edfe3312a007ec6deb4f559"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/colossal/references/4b83cbc11da3c06b490cced8f8ea854d871c596e41b76ee67149c16abef499b4.png",
+      "size": 75421,
+      "sha256": "4b83cbc11da3c06b490cced8f8ea854d871c596e41b76ee67149c16abef499b4"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/drama/DRAMA_SEG01.h3.txt",
+      "size": 5903,
+      "sha256": "1f1539efce37d7c32df4f29a308ebeeb54e81ffe296e91cd79a89d2f59c4f1bf"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/drama/DRAMA_SEG02.h3.txt",
+      "size": 5610,
+      "sha256": "0d6d139e33999619d1cc9f199bfd77d63eb0dfea0fc68c7494e9314533b87f97"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/drama/UPLOAD.md",
+      "size": 917,
+      "sha256": "2e4ea49efb469b9bc2e1710670f507dae789fcab54f80d8f6783f255366f2fcb"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/drama/audit.json",
+      "size": 2339,
+      "sha256": "e48af3c22a5027c1a42ef3f619de7e75f479e0ddc510f3a12484aff6bac3c513"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/drama/index.json",
+      "size": 874,
+      "sha256": "a7c02d094b6ec2bc9339cd8b6445b7a54078cbf541df11fcc43a04118e22655e"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/colossal/ASSET_03_COLOSSAL.image.txt",
+      "size": 1393,
+      "sha256": "e11f206295ab426a4650cc0bb38ab028211cb3d280197f2a6df42b4afccf1453"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/colossal/UPLOAD.md",
+      "size": 842,
+      "sha256": "f2783c13b077f367a8c040a7867ed45b596f36c8cf4765c96b3b134ab7ccbd36"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/colossal/audit.json",
+      "size": 334,
+      "sha256": "74492f3c42c02a61e960c82cb3101707204df3bb6c3f3c5bc5c1f22f992d27f7"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/colossal/index.json",
+      "size": 1232,
+      "sha256": "657e8cd44d33c2fcc7e2d93581db462e12d56f5202c2d431ad062490ccd6cd0a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/drama/ASSET_02_DRAMA.image.txt",
+      "size": 1483,
+      "sha256": "bf7e27e294178f1976cb610afc9079d865ba092b2c2d5c9c827e2f3eff326d7d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/drama/UPLOAD.md",
+      "size": 375,
+      "sha256": "11c183099cfaeb71138bb7607f094433935847d1b739e4fa269e873ed07db1d9"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/drama/audit.json",
+      "size": 334,
+      "sha256": "cdc0d9f2f9f26e15540c60a027d1f6d8ccc3c632cb7680959ed33a3b7147b533"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/drama/index.json",
+      "size": 569,
+      "sha256": "d7cea35161f5361c9c7ee637d08f44aac0e0037c5df47ae21f7851af7ba3ddcb"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/ink/INK_CHARACTER.image.txt",
+      "size": 685,
+      "sha256": "f372c8f51daab35dfb04e0b0ae69ad04022872b320de0088817ceddec2214cb8"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/ink/UPLOAD.md",
+      "size": 364,
+      "sha256": "4aa1e49eb787ef6dbd6094b8ac33d1a2e9b393a921bfe1d04ca7d4426a17ebab"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/ink/audit.json",
+      "size": 334,
+      "sha256": "234b46d1bb91ff84513e83ed19c7b518f85976d468f90d37335252ed0c7eee82"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/ink/index.json",
+      "size": 567,
+      "sha256": "e24519b2124659ddc5e2de25ec5e373a8cfc48bcbe8f57a8f304e44bbc0db2df"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/mecha/ASSET_01_MECHA.image.txt",
+      "size": 1346,
+      "sha256": "72c54a8e55e3f23e2934dd935b6dc19bcdd516ed5ef9293ac08286b4cd3cc61f"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/mecha/UPLOAD.md",
+      "size": 820,
+      "sha256": "25f2779302c61f3d7a4375aed5395f9e4af3bc2e231e45aa80b8d3516b8a2b44"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/mecha/audit.json",
+      "size": 334,
+      "sha256": "254af1c08a7fb6f8976dc0c3e2fc996d8be005ecb1cb3dae591448ab1ccf6e83"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/mecha/index.json",
+      "size": 1210,
+      "sha256": "272578871ce8a87790f5d34e942f1af03c5f4f88e25cab90b4b85ea6eb0fc725"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_ARCHIVE.image.txt",
+      "size": 638,
+      "sha256": "76535a520447b0a9c378b9da7e1a148045e4343bc4979382135adbed82a44824"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_BO.image.txt",
+      "size": 591,
+      "sha256": "0164a79126a1c56785e8d2ba4c29cf25df2d7a9f349380ee1c076aa9211c1064"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_DOCK.image.txt",
+      "size": 755,
+      "sha256": "701a7c87a54727aa5230065279ac25b35d489656f6d283fe92b863fc8a278406"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_KEYFRAME_01.draft.txt",
+      "size": 2292,
+      "sha256": "5245e1b92b55924c6a341cb08a51703400fa620fc7e464c6620a47edc2784e93"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_KEYFRAME_05.draft.txt",
+      "size": 2632,
+      "sha256": "9b72e783c86fe350e0fdee56103df938f04933da39906e09ae0c3942d9ee7ae5"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_KEYFRAME_09.draft.txt",
+      "size": 2633,
+      "sha256": "3b911261e285c6f4afe8ef3179b6d48db3f176bf0a71185c93739b74a55fd78c"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_LEDGER.image.txt",
+      "size": 530,
+      "sha256": "d91a979b14a79c122c7218936ea646397d7e9075cd872e500329d2e097c32290"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_MEI.image.txt",
+      "size": 606,
+      "sha256": "a3a96cc06c64734a15a362e5928d400a903bb5cb0f95b1aa5782345996a0db41"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_NOTICE.image.txt",
+      "size": 553,
+      "sha256": "4a60bb88b4b6fe5392f9622a37f3edcd34303eb587deab93e4392a044f005d8b"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_SANDBAG.image.txt",
+      "size": 523,
+      "sha256": "e6929264dda171406f1503f72ed70504b4ed330474683f46ab7f9beb0f86151d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_STATIONERY.image.txt",
+      "size": 562,
+      "sha256": "14648ad4b5911772c5edecb47962a43934f05047c44ad888c76c07156b63b8f2"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/ART_TIDE.image.txt",
+      "size": 508,
+      "sha256": "e59a1ea965eb0d415bdf2b93acb4f6c13f257791a7558403a3a14082225a7791"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/UPLOAD.md",
+      "size": 3171,
+      "sha256": "92353bfcd721a58ad5b23ca4788a4805e320f55b1d947b218a339ad02a16c54d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/audit.json",
+      "size": 8531,
+      "sha256": "de53cadbd260a9eef8ed3cd4b95077809cd53cadb036a0f44c2688d877022655"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/images/serial/index.json",
+      "size": 13304,
+      "sha256": "91e16fde4aaa8367791ba0c90fefa5096ec875801704b7e5fbce8a8f2923c2b8"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/INK_SEG_1.h3.txt",
+      "size": 1453,
+      "sha256": "45b573ffba5f17b808c1da7836d4d0de16c6172f5deec0fd5cc6edca442ed209"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/INK_SEG_2.h3.txt",
+      "size": 1588,
+      "sha256": "c0185f7eb047d938e819426dd8eaab60aa432313cc2817f4218f6cfa17ac94f0"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/INK_SEG_3.h3.txt",
+      "size": 1513,
+      "sha256": "cc78fe478b2107200e2e7420cfb813b6bf8a62e076f833f67fac6f091d605417"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/UPLOAD.md",
+      "size": 1741,
+      "sha256": "5af0be06d2b2f2d5df0f7d2b79025c94c8abd39fff9f8cde8db7eb6346868046"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/audit.json",
+      "size": 2467,
+      "sha256": "3832062ce0b027a1f56352424f0ccc3a63be6e2e780084f7b77779f8e4f4bbe5"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/index.json",
+      "size": 2331,
+      "sha256": "0b97bcce55b3e00f0593b5a16e03260b11ef875509f9b4a5f798fd988b3ff942"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/references/1f162fe79a3b4683c7cfba91f380df1ba5d7866cfde201399e72044d130e550a.png",
+      "size": 4510,
+      "sha256": "1f162fe79a3b4683c7cfba91f380df1ba5d7866cfde201399e72044d130e550a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/references/898a0a419c7c4278d8cab2c5ce8da405c31cfdbd399ae258b70ca68584e08256.png",
+      "size": 4486,
+      "sha256": "898a0a419c7c4278d8cab2c5ce8da405c31cfdbd399ae258b70ca68584e08256"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/references/d336742e4c3ee0bf3cbb0d467aafd823accd76f25b56502c10f65d4d45286d88.png",
+      "size": 4863,
+      "sha256": "d336742e4c3ee0bf3cbb0d467aafd823accd76f25b56502c10f65d4d45286d88"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/ink/references/fd15eb196d4f96b3d903efb1c371b06363d87744550f4ce445cd52e2229d1255.png",
+      "size": 4529,
+      "sha256": "fd15eb196d4f96b3d903efb1c371b06363d87744550f4ce445cd52e2229d1255"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/mecha/MECHA_SEG01.h3.txt",
+      "size": 4192,
+      "sha256": "988db1bce48d1d9235eb48c894212e9e0c9c33dbef2e329c12c549c6abbc9fd2"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/mecha/UPLOAD.md",
+      "size": 840,
+      "sha256": "740b2fdbc6d272e7f47c7983d3eb4429f04d0ac688a98fdf3abbd34cdd144cbe"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/mecha/audit.json",
+      "size": 2380,
+      "sha256": "33c53d7278679e1731f6f4b9fc852902c933b602b266b347219d035d36544894"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/mecha/index.json",
+      "size": 800,
+      "sha256": "bf8984986550a1614b6896488bc189295b2fa46e6e3d01afd5644918748a86d3"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/mecha/references/e59d9fca54092bdb44496a15a925d362325c1c9478d7552551d56f856006d78a.png",
+      "size": 70773,
+      "sha256": "e59d9fca54092bdb44496a15a925d362325c1c9478d7552551d56f856006d78a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_01.h3.txt",
+      "size": 2085,
+      "sha256": "53c2c1642f8b4ce4b886c4750de4f45a91cacdd7c63fe233b2d61a5d497eb776"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_02.h3.txt",
+      "size": 1985,
+      "sha256": "03561710a84b9da3b571fbbef8db10a43b21041380564660289e3c58ffe7259a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_03.h3.txt",
+      "size": 1933,
+      "sha256": "2b986910f1a6fad6e2e316868e264c9731452ff781376da7c06abcbb9a86a911"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_04.h3.txt",
+      "size": 1966,
+      "sha256": "7396e99fabf94c9f87ca03cd5eb4dce2b5fe4ad2972b5adf7d6c591a470786b2"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_05.h3.txt",
+      "size": 1926,
+      "sha256": "6c3941eb3f64e5cbbb86cd075014f69dcfc37af1ed3db38a12cf2e762ecb1d6a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_06.h3.txt",
+      "size": 2037,
+      "sha256": "340ca98ba21ed13c3e059be0e3f4c07c559809c92c590217a87e7ace6c0fdf69"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_07.h3.txt",
+      "size": 1931,
+      "sha256": "26c471f8853614c5393f47ca3dcbfc83a79837a62c730a4506e053c20f066952"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_08.h3.txt",
+      "size": 2102,
+      "sha256": "bb0ef1986426f9669e1b40479bf6fd8b42ac6ebec4c0246858d9551c386a9459"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_09.h3.txt",
+      "size": 2026,
+      "sha256": "312899a74076518c05158a54c20f502e2aa3c0a0c6fe74abfb62813ce411cbc0"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_10.h3.txt",
+      "size": 2050,
+      "sha256": "99ed43312b6a2a1224ca6161955d767aa68fa2849c18983674be44375372613b"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_11.h3.txt",
+      "size": 1943,
+      "sha256": "15dd8effc1f0a0395c517d377de970c62644e7bffead81635eb67b3aae7fa325"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/SERIAL_SEG_12.h3.txt",
+      "size": 2088,
+      "sha256": "c710c7a480fe51d54560dcef8578b844ce019f6abbe9039561c803c604e3b398"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/UPLOAD.md",
+      "size": 4595,
+      "sha256": "186ef4baf9a1f96ecde94e760fb17f0101835e27190b5fb336d8474f7dc39268"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/audit.json",
+      "size": 2386,
+      "sha256": "475ee3a27108c49b1268cc370f1cda8faafe1e0c6bf769a9fa55304b94958937"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.1-backup/serial/index.json",
+      "size": 4470,
+      "sha256": "aece03176c809e9ceaee15cd7ec659ac8b9c8a59749021790289dc3826011055"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/animated-phone/ANIME_PHONE_SEG01.h3.txt",
+      "size": 15120,
+      "sha256": "3c27f28c496c657827bc275b84ccaf6da3554fd1d5917c6f7b3ddc655b79acf7"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/animated-phone/UPLOAD.md",
+      "size": 688,
+      "sha256": "ef4fce77f04b9967a4dfdc4eeb514cbdfa929311bcb0877534e8fd84bd653a20"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/animated-phone/audit.json",
+      "size": 2389,
+      "sha256": "61337733a966f5e770ee84b382d888dedb4491d13757ed5864fc68847a649502"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/animated-phone/index.json",
+      "size": 851,
+      "sha256": "e79c2abb8520055334501f2cac30cbd1f33ce35ed24622485917d88bf5929fe0"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/colossal/COLOSSAL_SEG01.h3.txt",
+      "size": 6720,
+      "sha256": "b6d3e52b82b0815738022a67661f042eba07042a956d08e0ef5c4d3f7c59a1df"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/colossal/UPLOAD.md",
+      "size": 846,
+      "sha256": "c2b568e9591df9f438c6584180ada8d825bd669beae281226a7ce02a2f21acba"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/colossal/audit.json",
+      "size": 2342,
+      "sha256": "c8cd13973c91a75b5a19fc4a6a8bb491d756f797dfda6ed8e7772ccbc77be03d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/colossal/index.json",
+      "size": 806,
+      "sha256": "c7b7f8e6735f5cfa5bd78a2eb162a89cb5e3cfe81edfe3312a007ec6deb4f559"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/drama/DRAMA_SEG01.h3.txt",
+      "size": 7676,
+      "sha256": "ce98e34f3235edc4ff5b351a860f071cba1e58b7d99b178c3804d756935580b0"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/drama/DRAMA_SEG02.h3.txt",
+      "size": 7391,
+      "sha256": "7ca70c965fda0e1e390fdaf07d021b55296a9ff8b2bc295ee2c9f3685007e9f9"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/drama/UPLOAD.md",
+      "size": 917,
+      "sha256": "2e4ea49efb469b9bc2e1710670f507dae789fcab54f80d8f6783f255366f2fcb"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/drama/audit.json",
+      "size": 2339,
+      "sha256": "e48af3c22a5027c1a42ef3f619de7e75f479e0ddc510f3a12484aff6bac3c513"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/drama/index.json",
+      "size": 874,
+      "sha256": "a7c02d094b6ec2bc9339cd8b6445b7a54078cbf541df11fcc43a04118e22655e"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/colossal/ASSET_03_COLOSSAL.image.txt",
+      "size": 1393,
+      "sha256": "e11f206295ab426a4650cc0bb38ab028211cb3d280197f2a6df42b4afccf1453"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/colossal/ASSET_NAMES.txt",
+      "size": 56,
+      "sha256": "26fb764e0d2a0ee62af517b2bc5664de88ce5eb06142d64a47df3e532b2f38e6"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/colossal/UPLOAD.md",
+      "size": 906,
+      "sha256": "3252e1e2be5f591151df6aca414900681c3fd7d6fec287a5474e2651fc49f002"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/colossal/audit.json",
+      "size": 334,
+      "sha256": "74492f3c42c02a61e960c82cb3101707204df3bb6c3f3c5bc5c1f22f992d27f7"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/colossal/index.json",
+      "size": 1313,
+      "sha256": "3f721bc2f90683b226aeaceb25b800b3a029823c64d8e3fdf3f018a420e607f6"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/drama/ASSET_02_DRAMA.image.txt",
+      "size": 1483,
+      "sha256": "bf7e27e294178f1976cb610afc9079d865ba092b2c2d5c9c827e2f3eff326d7d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/drama/ASSET_NAMES.txt",
+      "size": 86,
+      "sha256": "56baa867405537c5263d4a4ddaeebf1a18c8d678cf17b56d190c5473deff91ef"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/drama/UPLOAD.md",
+      "size": 439,
+      "sha256": "f69649deae241e055f2ee7778890b1e332bdbba5416c428d3080c77eb1475873"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/drama/audit.json",
+      "size": 334,
+      "sha256": "cdc0d9f2f9f26e15540c60a027d1f6d8ccc3c632cb7680959ed33a3b7147b533"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/drama/index.json",
+      "size": 680,
+      "sha256": "b3685a9109246337eb19dc2060981f93827b7835c9fe1a08684d678c78eb50c2"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/ink/ASSET_NAMES.txt",
+      "size": 85,
+      "sha256": "bae9f54f444f2c1445aaefb45fcfe3ddbc07677846b56cc5d1cffe6c4b3d998e"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/ink/INK_CHARACTER.image.txt",
+      "size": 685,
+      "sha256": "f372c8f51daab35dfb04e0b0ae69ad04022872b320de0088817ceddec2214cb8"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/ink/UPLOAD.md",
+      "size": 436,
+      "sha256": "64daf390ad7e4b479708c83e3027049b449b02ec314cccfd96c5c0b1a3ab575c"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/ink/audit.json",
+      "size": 334,
+      "sha256": "234b46d1bb91ff84513e83ed19c7b518f85976d468f90d37335252ed0c7eee82"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/ink/index.json",
+      "size": 677,
+      "sha256": "de402d6c160f0960f6311fa93c472ce34a745855c4a29210a80e5b3e12f2cefe"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/mecha/ASSET_01_MECHA.image.txt",
+      "size": 1346,
+      "sha256": "72c54a8e55e3f23e2934dd935b6dc19bcdd516ed5ef9293ac08286b4cd3cc61f"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/mecha/ASSET_NAMES.txt",
+      "size": 56,
+      "sha256": "f6b3d5544a5a26918224fadb7ea7f8164544b4638a3922ab087278979000da09"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/mecha/UPLOAD.md",
+      "size": 884,
+      "sha256": "42174e781c645c24cbca5b9f59455b335b14e03a52d788c427a82744a57bf5e5"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/mecha/audit.json",
+      "size": 334,
+      "sha256": "254af1c08a7fb6f8976dc0c3e2fc996d8be005ecb1cb3dae591448ab1ccf6e83"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/mecha/index.json",
+      "size": 1291,
+      "sha256": "7acd3d0882476d2ad2521bdc3467a1a6ff357e62cf0d3c23287b8161154608a6"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_ARCHIVE.image.txt",
+      "size": 638,
+      "sha256": "76535a520447b0a9c378b9da7e1a148045e4343bc4979382135adbed82a44824"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_BO.image.txt",
+      "size": 591,
+      "sha256": "0164a79126a1c56785e8d2ba4c29cf25df2d7a9f349380ee1c076aa9211c1064"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_DOCK.image.txt",
+      "size": 755,
+      "sha256": "701a7c87a54727aa5230065279ac25b35d489656f6d283fe92b863fc8a278406"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_KEYFRAME_01.draft.txt",
+      "size": 2292,
+      "sha256": "5245e1b92b55924c6a341cb08a51703400fa620fc7e464c6620a47edc2784e93"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_KEYFRAME_05.draft.txt",
+      "size": 2632,
+      "sha256": "9b72e783c86fe350e0fdee56103df938f04933da39906e09ae0c3942d9ee7ae5"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_KEYFRAME_09.draft.txt",
+      "size": 2633,
+      "sha256": "3b911261e285c6f4afe8ef3179b6d48db3f176bf0a71185c93739b74a55fd78c"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_LEDGER.image.txt",
+      "size": 530,
+      "sha256": "d91a979b14a79c122c7218936ea646397d7e9075cd872e500329d2e097c32290"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_MEI.image.txt",
+      "size": 606,
+      "sha256": "a3a96cc06c64734a15a362e5928d400a903bb5cb0f95b1aa5782345996a0db41"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_NOTICE.image.txt",
+      "size": 553,
+      "sha256": "4a60bb88b4b6fe5392f9622a37f3edcd34303eb587deab93e4392a044f005d8b"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_SANDBAG.image.txt",
+      "size": 523,
+      "sha256": "e6929264dda171406f1503f72ed70504b4ed330474683f46ab7f9beb0f86151d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_STATIONERY.image.txt",
+      "size": 562,
+      "sha256": "14648ad4b5911772c5edecb47962a43934f05047c44ad888c76c07156b63b8f2"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ART_TIDE.image.txt",
+      "size": 508,
+      "sha256": "e59a1ea965eb0d415bdf2b93acb4f6c13f257791a7558403a3a14082225a7791"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/ASSET_NAMES.txt",
+      "size": 484,
+      "sha256": "e04fe1cfcf54c41ded8583e7aa7a1dd6b9c35dd8e5ad6afca64c4dc1ba8b8eec"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/UPLOAD.md",
+      "size": 3481,
+      "sha256": "a0ee064abfc14dc5ec1e585785eeeb1f2b53c74eac845e17b8732c737db7480b"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/audit.json",
+      "size": 8531,
+      "sha256": "de53cadbd260a9eef8ed3cd4b95077809cd53cadb036a0f44c2688d877022655"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/images/serial/index.json",
+      "size": 14088,
+      "sha256": "61b49ff9c3f8ba576b2ba1919ceb897dd81722892e85df2ec9c335b85d0c00cf"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/INK_SEG_1.h3.txt",
+      "size": 3094,
+      "sha256": "cc8382711846ef3e3fcca14578a5050f85d2dd9950c4a2a2071a6a6711cd264b"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/INK_SEG_2.h3.txt",
+      "size": 3242,
+      "sha256": "405ea65a656be14f2b00cfcd3d1df13ae6687713e44d211d4c3b03911a58ebb0"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/INK_SEG_3.h3.txt",
+      "size": 3154,
+      "sha256": "3de3b0cea1b3f2319852b0eff4501e66781e2e697d974e55266f81d1f3f02e21"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/UPLOAD.md",
+      "size": 1741,
+      "sha256": "5af0be06d2b2f2d5df0f7d2b79025c94c8abd39fff9f8cde8db7eb6346868046"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/audit.json",
+      "size": 2467,
+      "sha256": "3832062ce0b027a1f56352424f0ccc3a63be6e2e780084f7b77779f8e4f4bbe5"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/index.json",
+      "size": 2331,
+      "sha256": "0b97bcce55b3e00f0593b5a16e03260b11ef875509f9b4a5f798fd988b3ff942"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/references/1f162fe79a3b4683c7cfba91f380df1ba5d7866cfde201399e72044d130e550a.png",
+      "size": 4510,
+      "sha256": "1f162fe79a3b4683c7cfba91f380df1ba5d7866cfde201399e72044d130e550a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/references/898a0a419c7c4278d8cab2c5ce8da405c31cfdbd399ae258b70ca68584e08256.png",
+      "size": 4486,
+      "sha256": "898a0a419c7c4278d8cab2c5ce8da405c31cfdbd399ae258b70ca68584e08256"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/references/d336742e4c3ee0bf3cbb0d467aafd823accd76f25b56502c10f65d4d45286d88.png",
+      "size": 4863,
+      "sha256": "d336742e4c3ee0bf3cbb0d467aafd823accd76f25b56502c10f65d4d45286d88"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/ink/references/fd15eb196d4f96b3d903efb1c371b06363d87744550f4ce445cd52e2229d1255.png",
+      "size": 4529,
+      "sha256": "fd15eb196d4f96b3d903efb1c371b06363d87744550f4ce445cd52e2229d1255"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/mecha/MECHA_SEG01.h3.txt",
+      "size": 6742,
+      "sha256": "13186fa4a635e432bd80fc14a9cce4cee5b61e31ea13e6eaf72cd9b39fcaa1c1"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/mecha/UPLOAD.md",
+      "size": 840,
+      "sha256": "740b2fdbc6d272e7f47c7983d3eb4429f04d0ac688a98fdf3abbd34cdd144cbe"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/mecha/audit.json",
+      "size": 2380,
+      "sha256": "33c53d7278679e1731f6f4b9fc852902c933b602b266b347219d035d36544894"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/mecha/index.json",
+      "size": 800,
+      "sha256": "bf8984986550a1614b6896488bc189295b2fa46e6e3d01afd5644918748a86d3"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/mecha/references/e59d9fca54092bdb44496a15a925d362325c1c9478d7552551d56f856006d78a.png",
+      "size": 70773,
+      "sha256": "e59d9fca54092bdb44496a15a925d362325c1c9478d7552551d56f856006d78a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_01.h3.txt",
+      "size": 3749,
+      "sha256": "3ba8b9538a1238597708ba7887b09dfb0ebbfcb71f2bee36a3277e5e7638b858"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_02.h3.txt",
+      "size": 3587,
+      "sha256": "bd966fbe3cc7b080ed318afa67317bac69cff53cec14140d041a036fddc63e1c"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_03.h3.txt",
+      "size": 3535,
+      "sha256": "c8ac58ffc49cb709af0e7f2a3fafa09299e495c1330bc18326233aec020b2f64"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_04.h3.txt",
+      "size": 3568,
+      "sha256": "4af13c6a8e50a3a18f7377c8997179c7d7b80e1a78b848ac679cb7d1a5a4d29a"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_05.h3.txt",
+      "size": 3528,
+      "sha256": "862ffefcc652896a002e209003e8de633e587877cd244cc24ccb8c4a478d71ca"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_06.h3.txt",
+      "size": 3639,
+      "sha256": "f7d2b53a7adeb5b0bf232a2f822e6e95d74f616286a8c0fa42857afe2eff641d"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_07.h3.txt",
+      "size": 3533,
+      "sha256": "27703346eeeffcee8aa24172b25edec2324cc2e0cc8cb4e1326ed15bb542aa90"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_08.h3.txt",
+      "size": 3709,
+      "sha256": "f8ccae87e1ef197273b79ea7d117aeaa1856804bc482a58ff5802c83d3c6a9f6"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_09.h3.txt",
+      "size": 3690,
+      "sha256": "b639ba103d9cdbeb872641d0936f20a14054bca15313d801a413052f5446bfa5"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_10.h3.txt",
+      "size": 3652,
+      "sha256": "7928262de9ad3c44ba1872ab7a638b5b342a727e4b80612f113c250646166dfe"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_11.h3.txt",
+      "size": 3545,
+      "sha256": "b7eea3a36bf189485545fd64e139fcd86ebdf496f68d5ba2fbc40dce3f87f3a1"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/SERIAL_SEG_12.h3.txt",
+      "size": 3690,
+      "sha256": "ed0ab9e9d2777b9a585107ca00717411ee0dfa501b20d6c707e3bfb6196841bb"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/UPLOAD.md",
+      "size": 4595,
+      "sha256": "186ef4baf9a1f96ecde94e760fb17f0101835e27190b5fb336d8474f7dc39268"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/audit.json",
+      "size": 2386,
+      "sha256": "475ee3a27108c49b1268cc370f1cda8faafe1e0c6bf769a9fa55304b94958937"
+    },
+    {
+      "path": "acheng-director/examples/compiled-v3.2-partial/serial/index.json",
+      "size": 4470,
+      "sha256": "aece03176c809e9ceaee15cd7ec659ac8b9c8a59749021790289dc3826011055"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/ANIME_PHONE_SEG01.h3.draft.txt",
+      "size": 20000,
+      "sha256": "5d246a7ac2d03004b6b20fe7c5374a02c126347de2905b480ddf7bb708da2776"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/ANIME_PHONE_SEG01.h3.draft.txt.delivery.json",
+      "size": 6743,
+      "sha256": "4c27a300b612322a02d42b07bdb01701f03b2d2528a1972f0d92b2921461898c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/ANIME_PHONE_SEG01.upload.md",
+      "size": 2005,
+      "sha256": "897e3dc6b5bc3add98a38bba793a99fcd41670c7c178ad727309351aaaf8f6bc"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/ASSET_ANIME_PHONE.asset-upload.md",
+      "size": 734,
+      "sha256": "3ad7d4725669509ca0300bb9592115f711628eb22d51cd2a5660b3992c1ba624"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/CHAT_DELIVERY.md",
+      "size": 6563,
+      "sha256": "9cca50b70f693aac49e1ccc2b44b8f2336d3ed9bcb309abfe8451c78605e0a26"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/DELIVERY_VIEW.md",
+      "size": 7449,
+      "sha256": "c6187904b4157c82ab07576bb2167617d2e2819c7c2d71d05c8620b6a1bcafd4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/UPLOAD.md",
+      "size": 2035,
+      "sha256": "14a50d600e13d60acb9bbd3dd25362989610ec470bbe4e9b2d6be81842a0b595"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/asset_prompts/ASSET_ANIME_PHONE.image.txt",
+      "size": 870,
+      "sha256": "e5fc6003f9200f9d8ae458326cecb1a639c22a735a88a5859773ff0e2cf8e384"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/audit.json",
+      "size": 2469,
+      "sha256": "28c5f546ab7710c52e30d5d8773a63b43eeaa4b8a48477d5eae0ef700f5714f0"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/delivery.acceptance.json",
+      "size": 948,
+      "sha256": "d6ebee454d048ea50043d7ef53f88d1762d70e26a37c68bea331f21c3c2cf8f5"
+    },
+    {
+      "path": "acheng-director/examples/compiled/animated-phone/index.json",
+      "size": 9214,
+      "sha256": "d91be21414a82d4f497bd40cb778d8fdaefc893a08d411e909507fec4b3699d8"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/ASSET_03_COLOSSAL.asset-upload.md",
+      "size": 1357,
+      "sha256": "16b790a106dd1d5aa30ae6f2837490b4a5b114d69ea50efe0326fd00b2bcf6fb"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/CHAT_DELIVERY.md",
+      "size": 7031,
+      "sha256": "4e3f37eb0301983787ffb7c93cc1ca37ac7dd8b29b5f2e7d23ad1740ce08b2e4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/COLOSSAL_SEG01.h3.txt",
+      "size": 23749,
+      "sha256": "2e80b460f4f9e894f0713cf928c8096cb54a80f71eb368b766414763430dfe7f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/COLOSSAL_SEG01.h3.txt.acceptance.json",
+      "size": 945,
+      "sha256": "3c252d21d84e350a8c8248b7e96895278ff9b8de59c927adacfa041376a2b8df"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/COLOSSAL_SEG01.h3.txt.check.json",
+      "size": 2872,
+      "sha256": "843bdf87db8ee78ad6e634f14ca4b4f3382ec11a3e9e9b244a83949a90a6a66c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/COLOSSAL_SEG01.h3.txt.delivery.json",
+      "size": 5555,
+      "sha256": "eebfa20cf3e69a0a9c8bc662e0d525ef5f7452697739146c21d7565078b87800"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/COLOSSAL_SEG01.upload.md",
+      "size": 1819,
+      "sha256": "40117f4c97f75783530817a681e867ed344b57a5694a62d56f19f3ca182decc3"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/DELIVERY_VIEW.md",
+      "size": 8440,
+      "sha256": "46e56d8248406d479213f072e50d3f6aeb172e83774f57d1a436338587cbbfdd"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/UPLOAD.md",
+      "size": 1849,
+      "sha256": "d96dacebadd0297b06426521ed029d19dc4589ee1510449cb7972bd92dec5406"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/asset_prompts/ASSET_03_COLOSSAL.image.txt",
+      "size": 1393,
+      "sha256": "e11f206295ab426a4650cc0bb38ab028211cb3d280197f2a6df42b4afccf1453"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/audit.json",
+      "size": 2342,
+      "sha256": "758996bcc4cd02e1e2faac9f0b4f98321bc5c4a1134ba3850b78a497b4f519f5"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/delivery.acceptance.json",
+      "size": 904,
+      "sha256": "5f78a8a72beccb5013734e9a209d1581e6b6ec21e7fb9b329a8a2044242c37b9"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/index.json",
+      "size": 8734,
+      "sha256": "77c1f0e4fc0ce3e4beaf8863d750b25cac791b0f4b5dc2c61e27200f7cc120b2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/colossal/references/028eee66c71c1f4148764ce5ed3c3d9d6d48570af091ff710b53346509c68826.png",
+      "size": 73547,
+      "sha256": "028eee66c71c1f4148764ce5ed3c3d9d6d48570af091ff710b53346509c68826"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/ASSET_COMEDY_UMBRELLA.asset-upload.md",
+      "size": 711,
+      "sha256": "721a4546a2bf42b77728ba68bd16c30489b65cffe67ae26303fe5b7776245204"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/CHAT_DELIVERY.md",
+      "size": 5646,
+      "sha256": "ee63d9c802f5ee280b9e2f0ffc0366560297bb223fa06646302e9909c09eb572"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG01.h3.txt",
+      "size": 7389,
+      "sha256": "cadf5616f941a3f2c022db9cb6971db704d322f5ed69fd7068b487632fc6f44c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG01.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "a0a32f3c88570bc398bdf9c7a06147ef6e65b19ca7b22f6713479bfc2094c84a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG01.h3.txt.check.json",
+      "size": 556,
+      "sha256": "190dd1caa5cbda1081dda81ab32ac4a5d9abc9092186f8bb30a0205b400bb128"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG01.h3.txt.delivery.json",
+      "size": 1607,
+      "sha256": "6767ebc063880780721fffde96dcce2e98df67fbdbaaa0693676ca51237c76b6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG01.upload.md",
+      "size": 853,
+      "sha256": "4061beaa87758516de7194ba5423722504266c2dd9bedf5f5919f394781d8fb6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG02.h3.txt",
+      "size": 7686,
+      "sha256": "85faa57da457fdfe3ec5adda3fc85648d6a25f35d4ab5cf1a948ec3937c61b07"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG02.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "9a7931c81654556f56865156823e388754034bcda048d5c10632a884c725d329"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG02.h3.txt.check.json",
+      "size": 556,
+      "sha256": "57d6330de66960f8d0c255509dd499ed1127c66d3604004b550f2401eec85b53"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG02.h3.txt.delivery.json",
+      "size": 1609,
+      "sha256": "eaa25cdb1d1ad5243991325ace985f19306d8e17c7f5ea9882064af279cf1d98"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/COMEDY_SEG02.upload.md",
+      "size": 853,
+      "sha256": "e09a7371cd48e2d3a66b7ce686c811a0aff8bfe9294cea56907174e7a4867b5d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/DELIVERY_VIEW.md",
+      "size": 6308,
+      "sha256": "a2a7c4fbf4094e1149003a4782c89b9456a146ce4368633a6e71a3346424a49d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/UPLOAD.md",
+      "size": 1738,
+      "sha256": "d13ca1a2e910d1f418e0432fb2e3a35a8f7679e0a7000c1cf753225b67c6df32"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/asset_prompts/ASSET_COMEDY_UMBRELLA.image.txt",
+      "size": 646,
+      "sha256": "943450b7fa1c7e310debe1304b7e872de7f19a9b098c232de7ab43dfa4816ef6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/audit.json",
+      "size": 2398,
+      "sha256": "4e9e2765de7bf4cce53360fe69632e36eb1d96fa7d43035a7a74b6b6dad5ff60"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/delivery.acceptance.json",
+      "size": 1396,
+      "sha256": "c1e6234a91cc71bb5a0623e7037dfb6ba9a08c15cca2ef2e622d3f80bab909c4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/comedy-misunderstanding/index.json",
+      "size": 5355,
+      "sha256": "0167622689834234dc53fb8322040819484fa5d4b8e18ceec5a21c13fe24f6d3"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/ASSET_02_DRAMA.asset-upload.md",
+      "size": 757,
+      "sha256": "a8ac2d145cf2b903f4009d0eca577bb3831d83da47470b9ad8514f36ecbc1e2b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/CHAT_DELIVERY.md",
+      "size": 5812,
+      "sha256": "f80a1038ccd6a5e310d6a0f33c6e00fc289c256835db20d00c3be0557cc2b76b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DELIVERY_VIEW.md",
+      "size": 7311,
+      "sha256": "2c3e367ded9a62800dc66fa00e1dcb26e1e21659ff6e013cd6deb2dff36b8bf4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG01.h3.txt",
+      "size": 9241,
+      "sha256": "c6de183de6e6d260c5d690d37325f31e12e051ca67660081f2d97208bab7fdbb"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG01.h3.txt.acceptance.json",
+      "size": 653,
+      "sha256": "d93d176564200a4b4aed15dd2cdfb73dc4338e8bf4ff7c13f0f80d1911859120"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG01.h3.txt.check.json",
+      "size": 574,
+      "sha256": "54e049238c5512057d53c00b5eafe4b875e10db8368c98e0b2e789a7041a1584"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG01.h3.txt.delivery.json",
+      "size": 1601,
+      "sha256": "0015a5811ba338419c273a12821418c4bd3cc379455cc586795aadcdf73f5e41"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG01.upload.md",
+      "size": 850,
+      "sha256": "d19b372ad5b72a6afaa01ff272d8c573f8c6cb2a705d69062a8549b926194125"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG02.h3.txt",
+      "size": 9075,
+      "sha256": "153fb4ca8aedad373a4349c5083e2aa19fda50011eb54484a7836d964b4d7b04"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG02.h3.txt.acceptance.json",
+      "size": 653,
+      "sha256": "604cd809ec965962815fb494413ed51296dd6e7816aea1c47319922543597c06"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG02.h3.txt.check.json",
+      "size": 565,
+      "sha256": "84803f317b51077e6bbffbc56f741425300799a026e312d681e903a546264fe3"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG02.h3.txt.delivery.json",
+      "size": 1601,
+      "sha256": "6d3ae4c4f5c551d003d680e2ed7ab30f9f32ac06bec27dbdf9d3312cfc8f9ca9"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/DRAMA_SEG02.upload.md",
+      "size": 850,
+      "sha256": "1aebe29f577c337d1ced9ea41279cef9dd3a6ead24556807c69787286e104869"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/UPLOAD.md",
+      "size": 1732,
+      "sha256": "c89a7d39524392683d1d26920f6b8b4b246f225807162f217321a29da145dda4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/asset_prompts/ASSET_02_DRAMA.image.txt",
+      "size": 1483,
+      "sha256": "bf7e27e294178f1976cb610afc9079d865ba092b2c2d5c9c827e2f3eff326d7d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/audit.json",
+      "size": 2380,
+      "sha256": "08f8830c77c9c76e77307a2159ebff7bfa555cdbe756011d5e0f4e7c97e508fa"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/delivery.acceptance.json",
+      "size": 1387,
+      "sha256": "88975f610466bd347803776fd6f125a6b7a5a3f355fc8cea839910f54f90e5e8"
+    },
+    {
+      "path": "acheng-director/examples/compiled/drama/index.json",
+      "size": 5452,
+      "sha256": "2d1f5b994f34abd9932f8e3054cd4c75bf80b644524107d65fcd5919a41a2a52"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/ASSET_ANIME_PHONE.image.txt",
+      "size": 870,
+      "sha256": "e5fc6003f9200f9d8ae458326cecb1a639c22a735a88a5859773ff0e2cf8e384"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/ASSET_ANIME_PHONE.upload.md",
+      "size": 737,
+      "sha256": "b4676ce88690d4a903e685ab43ef236d914d62671945f65fbccfa57374525759"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/ASSET_NAMES.txt",
+      "size": 56,
+      "sha256": "cbe2c1e987bc8ac2ce602da048cd9deabd616158c97a9826c31f7fe8575094ae"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/DELIVERY_VIEW.md",
+      "size": 2355,
+      "sha256": "815814c8cdf79e9e368639ca8e4cb78c0d35f56b607f8acd7cf3ee03f9b0062a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/UPLOAD.md",
+      "size": 498,
+      "sha256": "3c1265ee1b4c2ac498e09136e5e558de7138702e17614dad04169515c0eb84f5"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/audit.json",
+      "size": 513,
+      "sha256": "ce827630295ffe67eb3f56f77a8b44c07d94bf27748f623a312943433c644eee"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/delivery.acceptance.json",
+      "size": 280,
+      "sha256": "e809c5b43857517e0ae4d745b762f7d5d13a9cc8ae3847832ef47129452fb2c9"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/animated-phone/index.json",
+      "size": 1643,
+      "sha256": "74b0a6ba6206e6c4d1bdfc2f9a6766e5f77eeec8992ef768febb5c7f010062cf"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/ASSET_03_COLOSSAL.image.txt",
+      "size": 1393,
+      "sha256": "e11f206295ab426a4650cc0bb38ab028211cb3d280197f2a6df42b4afccf1453"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/ASSET_03_COLOSSAL.upload.md",
+      "size": 1360,
+      "sha256": "d9ff9a704af4a2df4a0ec85aad07daa4a77957fc1c68fe434b2642b63ee97d96"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/ASSET_NAMES.txt",
+      "size": 56,
+      "sha256": "26fb764e0d2a0ee62af517b2bc5664de88ce5eb06142d64a47df3e532b2f38e6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/DELIVERY_VIEW.md",
+      "size": 3782,
+      "sha256": "2d1ceb0d4d72a2989828a0da1552047429a345101b942039599ca5b60173147f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/UPLOAD.md",
+      "size": 989,
+      "sha256": "5127dafdccdf10628a0c4f893c4a7b0f8fb94d145b0972a772f1f6253a118ff0"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/audit.json",
+      "size": 513,
+      "sha256": "f6e1fd8fcfe9d980bcefba635bb2e84efb46a0ee7f5e8af988b67fceee9538e9"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/delivery.acceptance.json",
+      "size": 280,
+      "sha256": "0a007946c3868f3755782493ef027a2ae22a046d4435f01074681ee856a2679f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/index.json",
+      "size": 2433,
+      "sha256": "cb90074618dccab2d4b301d61b09d7a1d34beecfd503ea7c0b3a6b3ccc31bdd3"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/colossal/references/028eee66c71c1f4148764ce5ed3c3d9d6d48570af091ff710b53346509c68826.png",
+      "size": 73547,
+      "sha256": "028eee66c71c1f4148764ce5ed3c3d9d6d48570af091ff710b53346509c68826"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/ASSET_COMEDY_UMBRELLA.image.txt",
+      "size": 646,
+      "sha256": "943450b7fa1c7e310debe1304b7e872de7f19a9b098c232de7ab43dfa4816ef6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/ASSET_COMEDY_UMBRELLA.upload.md",
+      "size": 714,
+      "sha256": "6518afbc467a7806ddcd8191f7d8c3ad248693a8fc9ada12fcedaa10121b7ec6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/ASSET_NAMES.txt",
+      "size": 33,
+      "sha256": "61bd2a2b651129225b6e4d3ec226a6dc41a840b0dfbeeb7cab36a1f73b00912b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/DELIVERY_VIEW.md",
+      "size": 2070,
+      "sha256": "4988453084196511582060c2fde21929c8c8a4670c87d3cdca6491f723b12576"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/UPLOAD.md",
+      "size": 491,
+      "sha256": "37ce4c2994f3bb081a81083d78cc1f9611e9b2dbfb44ece02712401bc9371c3b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/audit.json",
+      "size": 513,
+      "sha256": "9cb7e6521381b99b2dac54f9c45c002de558c4a9a61f31e1ebf4bf5d4636f769"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/delivery.acceptance.json",
+      "size": 284,
+      "sha256": "01d2534207141f0d8d4e19cabf0fc8f8cb5f9c4ce144d0526c20f6f5eaa0c7e8"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/comedy-misunderstanding/index.json",
+      "size": 1621,
+      "sha256": "bb8a3f67d6c66bf86c1665fe41b417560a8027c28a954338190d373a66837bdf"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/ASSET_02_DRAMA.image.txt",
+      "size": 1483,
+      "sha256": "bf7e27e294178f1976cb610afc9079d865ba092b2c2d5c9c827e2f3eff326d7d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/ASSET_02_DRAMA.upload.md",
+      "size": 760,
+      "sha256": "fe7e71259d7258488025ef0cc86ea2371068c643bf42620125022782e3890720"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/ASSET_NAMES.txt",
+      "size": 86,
+      "sha256": "56baa867405537c5263d4a4ddaeebf1a18c8d678cf17b56d190c5473deff91ef"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/DELIVERY_VIEW.md",
+      "size": 3052,
+      "sha256": "f41ccb0802a3385ca6ad2d13f31604419f99297ecc6f0215c827425d7feca0f4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/UPLOAD.md",
+      "size": 516,
+      "sha256": "21ba26e50c6eaa3a0cd733e1eb2d2d6de17ef60d493c2100fb751e34bf2fce33"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/audit.json",
+      "size": 513,
+      "sha256": "663130d3f3d3dba620dae8143357dfdd8988f94c8fcdb64a10c33314fe5c9b67"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/delivery.acceptance.json",
+      "size": 277,
+      "sha256": "4247c642b4a7bb177622af3b9eb0bd8396eca2582ce141c8bf1180774dc72dea"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/drama/index.json",
+      "size": 1651,
+      "sha256": "b5163ac32ec633eb0c1e057a3c9898e6e1d3a44684e1eac3b16fcfb70019bfd9"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/ASSET_NAMES.txt",
+      "size": 85,
+      "sha256": "bae9f54f444f2c1445aaefb45fcfe3ddbc07677846b56cc5d1cffe6c4b3d998e"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/DELIVERY_VIEW.md",
+      "size": 2267,
+      "sha256": "04ec425ba496f0e4d9769e68896a7a909d0509171ae8b66d19c1587020cbb3b4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/INK_CHARACTER.image.txt",
+      "size": 685,
+      "sha256": "f372c8f51daab35dfb04e0b0ae69ad04022872b320de0088817ceddec2214cb8"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/INK_CHARACTER.upload.md",
+      "size": 758,
+      "sha256": "2325b79754652435a4973dcabc87474d58b95131b63ec673d59aaf386116d50b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/UPLOAD.md",
+      "size": 511,
+      "sha256": "76e36db4e4a9162f20d7898a2af5f1ee25723fe16b46ea9f810415594e0eed1f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/audit.json",
+      "size": 513,
+      "sha256": "0d6fd78e37c60f884e16c2f4183e5039f15c8bc075356d58e6d90e1a2e8bd4a7"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/delivery.acceptance.json",
+      "size": 276,
+      "sha256": "e0e6b4834953052ddc34e4904d109bd056c80e9f8f6b6effb914b5ab45329ad3"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/ink/index.json",
+      "size": 1649,
+      "sha256": "6500548a1d475bb4edcd3d1db9fba77779f35f1e12c5b4e75db9f62cd10073f7"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/ASSET_01_MECHA.image.txt",
+      "size": 1346,
+      "sha256": "72c54a8e55e3f23e2934dd935b6dc19bcdd516ed5ef9293ac08286b4cd3cc61f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/ASSET_01_MECHA.upload.md",
+      "size": 1341,
+      "sha256": "54a8367dd9db1409841909cdbf4f3e7c0a33f94bfd08bfa5e9e1314d05eccd62"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/ASSET_NAMES.txt",
+      "size": 56,
+      "sha256": "f6b3d5544a5a26918224fadb7ea7f8164544b4638a3922ab087278979000da09"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/DELIVERY_VIEW.md",
+      "size": 3721,
+      "sha256": "d6b7571a8ea17dc9b7f52245cdbbee78b1690809d3830b79547dc509531d672f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/UPLOAD.md",
+      "size": 961,
+      "sha256": "51fdbbcd7fb5b461fb65441025e0d38ac733482b35d17135fb81f0a566753898"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/audit.json",
+      "size": 513,
+      "sha256": "399c9713dbc90e1f660af1edb8e7280955fa764a7d69a437668a1360b3cb344e"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/delivery.acceptance.json",
+      "size": 277,
+      "sha256": "8a58216001141abe23855f6cc30c7336c0402c8e7f683c4153a7158ecaf14091"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/index.json",
+      "size": 2405,
+      "sha256": "b27079040df9713e605d197f1ca523c58919ab9c52bfd38479d46e159f84314a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/mecha/references/6cb5eee882c10bd974b970f53d456ffed1c03c8fa82f964ba6210b841d88d4f2.png",
+      "size": 68910,
+      "sha256": "6cb5eee882c10bd974b970f53d456ffed1c03c8fa82f964ba6210b841d88d4f2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_ARCHIVE.image.txt",
+      "size": 638,
+      "sha256": "76535a520447b0a9c378b9da7e1a148045e4343bc4979382135adbed82a44824"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_ARCHIVE.upload.md",
+      "size": 710,
+      "sha256": "e6ffdef1ed4741d93f547eb7a3ab3f16d646b0f146d2569964fa610c051a4794"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_BO.image.txt",
+      "size": 1230,
+      "sha256": "1a6a86e6cae6a8a9855379177725836eaf509eada63782fb632a9234a7c2d4aa"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_BO.upload.md",
+      "size": 736,
+      "sha256": "3d9d6ea35b468d22053595b634a70af937c1ee0c86eb8cee425c2e37ab22b950"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_DOCK.image.txt",
+      "size": 755,
+      "sha256": "701a7c87a54727aa5230065279ac25b35d489656f6d283fe92b863fc8a278406"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_DOCK.upload.md",
+      "size": 707,
+      "sha256": "c10186d4a079e0ba2fadeb05e5491ab27593923d11f9a25cca152b64af37224b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_KEYFRAME_01.draft.txt",
+      "size": 2586,
+      "sha256": "13e732cadaf6fc574ff23fbbe28515cf8265903a61e07debf5fa9e703e5ced5d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_KEYFRAME_01.upload.md",
+      "size": 1981,
+      "sha256": "a075f521e658f38eaef93f307d0dad975c14601c9b750b4bbdf123e53a9c50d9"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_KEYFRAME_05.draft.txt",
+      "size": 2632,
+      "sha256": "9b72e783c86fe350e0fdee56103df938f04933da39906e09ae0c3942d9ee7ae5"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_KEYFRAME_05.upload.md",
+      "size": 2010,
+      "sha256": "544226fc7761291779fe81751954332ba7cd5b77fd7571d1a5c45ce250b025e7"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_KEYFRAME_09.draft.txt",
+      "size": 2633,
+      "sha256": "3b911261e285c6f4afe8ef3179b6d48db3f176bf0a71185c93739b74a55fd78c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_KEYFRAME_09.upload.md",
+      "size": 2016,
+      "sha256": "0a130e4d1b3e576ab3f46f4881620a73434ce33db25eba0fc7da55b438b4393a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_LEDGER.image.txt",
+      "size": 530,
+      "sha256": "d91a979b14a79c122c7218936ea646397d7e9075cd872e500329d2e097c32290"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_LEDGER.upload.md",
+      "size": 712,
+      "sha256": "1f3bcc2ed36d438a5c334b3bfb4f5457ab2aa39a7e062f3fb69e524cf0601167"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_MEI.image.txt",
+      "size": 1249,
+      "sha256": "7f57dec6a5e408d915b75169571a82c57c496491108ba61e0562feb88ba25b3d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_MEI.upload.md",
+      "size": 741,
+      "sha256": "69c930fc449a33fce2dd596e1cea69709ffa7c2489f99a96d9b39db1559fce39"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_NOTICE.image.txt",
+      "size": 553,
+      "sha256": "4a60bb88b4b6fe5392f9622a37f3edcd34303eb587deab93e4392a044f005d8b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_NOTICE.upload.md",
+      "size": 715,
+      "sha256": "e114b8f5d982c3486d45bf8b9678e54781bfe34cf987e32febcbfb9a1ffb9f53"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_SANDBAG.image.txt",
+      "size": 523,
+      "sha256": "e6929264dda171406f1503f72ed70504b4ed330474683f46ab7f9beb0f86151d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_SANDBAG.upload.md",
+      "size": 707,
+      "sha256": "69dfde8d27662e1f2e7e135b071bf1fd86af1982d2ae8d2fe7ad9f0327460721"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_STATIONERY.image.txt",
+      "size": 562,
+      "sha256": "14648ad4b5911772c5edecb47962a43934f05047c44ad888c76c07156b63b8f2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_STATIONERY.upload.md",
+      "size": 714,
+      "sha256": "34b61df5fea979298385c671bd1573ce07e000720e51f07d7dc9c6cdd41ad081"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_TIDE.image.txt",
+      "size": 508,
+      "sha256": "e59a1ea965eb0d415bdf2b93acb4f6c13f257791a7558403a3a14082225a7791"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ART_TIDE.upload.md",
+      "size": 713,
+      "sha256": "d9ea6a906474d9b08672f0e20c2fd6c2222c397b6d4095164b8d65a36b0163a2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/ASSET_NAMES.txt",
+      "size": 533,
+      "sha256": "8718380abbd6cf4be67a522895ecf4127d6d054642115d2a0f19791f9c4d4c82"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/DELIVERY_VIEW.md",
+      "size": 27942,
+      "sha256": "3ecee5de16c73801c1d55d10dc5bdb4a661dcccd9a991c50d2f57834b5fb7477"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/UPLOAD.md",
+      "size": 4463,
+      "sha256": "599c75455e17dc6780662abdc4a4456a70f17330bd669e0b50128129e03672a1"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/audit.json",
+      "size": 9808,
+      "sha256": "847b8350b52692497d597a34d0562146ab3d803ce5d63570d31832e3037c95ad"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/delivery.acceptance.json",
+      "size": 2474,
+      "sha256": "5bd8d7fdd159d16477f5dfac5b3fc6468adddf8262f3efd3d7a8ce2d0c816431"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/serial/index.json",
+      "size": 32086,
+      "sha256": "19832f9fd75d700c5744b7a34633733d69d265e8a161abb84369e9628da0454c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/ASSET_NAMES.txt",
+      "size": 55,
+      "sha256": "db373ea7257548dbf699ccad087518c3a3546607d10f2a84165b420115b54608"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/ASSET_SUSPENSE_ARCHIVE.image.txt",
+      "size": 675,
+      "sha256": "b898bbb324cbf43fa950f79e438e29fcda5fb1ed2cbb2dc5aa6f60c8a45304b0"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/ASSET_SUSPENSE_ARCHIVE.upload.md",
+      "size": 743,
+      "sha256": "92d02d63fd7290ffd86eee6e690f63f871dd40b9088b2536705ca0c1c0f47213"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/DELIVERY_VIEW.md",
+      "size": 2167,
+      "sha256": "004638f745d7aa7a075f532f44c6fe713d547c2b30b2ee6f70ad6fb39bad0b6a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/UPLOAD.md",
+      "size": 517,
+      "sha256": "413cf90921e29f4fedda6c90a49b6ba8e92b7e0eecb10ce63c90b0d267dcf669"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/audit.json",
+      "size": 513,
+      "sha256": "11e7461c90f15c14d8f2ba2f3a8608c03816c3613bf2464517ddea9592809912"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/delivery.acceptance.json",
+      "size": 285,
+      "sha256": "f1c90be8e9044f272eaa0dde62de6e8be044e2b484b1056edcf875a6e7ee7e8b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/images/suspense-whisper/index.json",
+      "size": 1659,
+      "sha256": "936128d6f3ecf73e0cd08d45e7ec9eed12c4b17fe68a1cc0e5b50784bf86bf8e"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/CHAT_DELIVERY.md",
+      "size": 9071,
+      "sha256": "3471a8bf95d9f9d529ed789be0d6dd11af906f11121743637fee274bdca4c74b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/DELIVERY_VIEW.md",
+      "size": 9772,
+      "sha256": "9c1117b1cc1350a8977d414b2bc78ba5ede07c4639c957cad211bb0f714b2e45"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_CHARACTER.asset-upload.md",
+      "size": 755,
+      "sha256": "887ca2f94b6e8df2c0a1a00c05ac090ad7b93b394f15c93cead1eb0570bf73cb"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_1.h3.txt",
+      "size": 3473,
+      "sha256": "78d70acee5d51d3e9b7a1f2225ada944e13e8418baca4f474d7fbf4e67c25262"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_1.h3.txt.acceptance.json",
+      "size": 927,
+      "sha256": "05ad3cb38b4c5119b3cf3c90c4b191e69aab684fd4744c4adff955040c8242d5"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_1.h3.txt.check.json",
+      "size": 1404,
+      "sha256": "9b3010bcd22aae436ffa6ef1475ae849fb6a848f18c7d2cf115920d790cd272f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_1.h3.txt.delivery.json",
+      "size": 3488,
+      "sha256": "d551963de5502eea5dbc54c85ce886023427f3024371e91eacda84c3c132e570"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_1.upload.md",
+      "size": 1510,
+      "sha256": "08798b960e771af8f9a49eb6ce728ef88f8aa8d20994d73c0baf0b467497f2c5"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_2.h3.txt",
+      "size": 3748,
+      "sha256": "d796e99ea0389e3016d616b2ade7d75e83638f0602474b333c7c2a5aff02fe1f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_2.h3.txt.acceptance.json",
+      "size": 1200,
+      "sha256": "28e63d97bb57ca7e832234c6be2e074b9061a650e6a2d62105450b9e34d58e57"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_2.h3.txt.check.json",
+      "size": 2326,
+      "sha256": "f28b9d94e90d4c3c190c36c1968748b9fb6ccb602b3177dbe7effec82c51fd22"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_2.h3.txt.delivery.json",
+      "size": 5406,
+      "sha256": "ced11b9ed9e26489f088d55c704432cbd4e40af4879a85ea94e1a436a159db42"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_2.upload.md",
+      "size": 1897,
+      "sha256": "41701046823894f2a986c6db5a9c551504db50580892bf7fc70710a82db903e6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_3.h3.txt",
+      "size": 3528,
+      "sha256": "541674c3222cc522fb5023d700b2a22d6d7c63771a8c48147aef080227749c57"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_3.h3.txt.acceptance.json",
+      "size": 925,
+      "sha256": "a6ba526e088e18d4b2f5950d0af8fbaa2c1165d0d8cfe9771478beada2df184b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_3.h3.txt.check.json",
+      "size": 1400,
+      "sha256": "45460e1f5200e84888a7835fd058236d0dfe00d95a3b37b4a9c96db0a160632d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_3.h3.txt.delivery.json",
+      "size": 3482,
+      "sha256": "2ba1ce797c10cb991addb99f6d196140e8ecbd40a652be839692de5cf3b6894d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/INK_SEG_3.upload.md",
+      "size": 1506,
+      "sha256": "5e1de23fc26929508fbe2dc729a114ee0eb450411cd248602a9a373a59482f21"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/UPLOAD.md",
+      "size": 4947,
+      "sha256": "503ef97b2348c507642c8f6fae27b04920e0b2713fc86fbdbeccc318405c6e4c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/asset_prompts/INK_CHARACTER.image.txt",
+      "size": 685,
+      "sha256": "f372c8f51daab35dfb04e0b0ae69ad04022872b320de0088817ceddec2214cb8"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/audit.json",
+      "size": 2467,
+      "sha256": "f2beab6bc7b09ad6d1afaa9b88793ba8ecca51fa1e7576a1355e2977e67a4927"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/delivery.acceptance.json",
+      "size": 1869,
+      "sha256": "b427509d2bbf039a4157520cb82ce55fc96e0882c238793a51eacc75b040009c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/index.json",
+      "size": 15466,
+      "sha256": "f8167405450ddc8e9ebe1860e7de7a35dde8ef0ca8d2f04dbc23b87add94c3df"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/references/8dc3c8c4085b1fa632d33d3ff6dc8132957c1719030c30c6672ac532198e44bd.png",
+      "size": 4405,
+      "sha256": "8dc3c8c4085b1fa632d33d3ff6dc8132957c1719030c30c6672ac532198e44bd"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/references/8f46b8472c8e0b0023743b271f9ecc88c5e80b72ea688fd2ac294c9d26443457.png",
+      "size": 4721,
+      "sha256": "8f46b8472c8e0b0023743b271f9ecc88c5e80b72ea688fd2ac294c9d26443457"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/references/abb6a712458329c637e9c68654c59f88f73f546509aafe8eb6d85da2bbc8c05b.png",
+      "size": 4401,
+      "sha256": "abb6a712458329c637e9c68654c59f88f73f546509aafe8eb6d85da2bbc8c05b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/ink/references/be982b87ce64d0427c76326a4a0c4b827865f9ee46c71970680b1bf1bc20ac07.png",
+      "size": 4371,
+      "sha256": "be982b87ce64d0427c76326a4a0c4b827865f9ee46c71970680b1bf1bc20ac07"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/ASSET_01_MECHA.asset-upload.md",
+      "size": 1338,
+      "sha256": "665fb7b54317c7c02a3a26b09336ae18f486e98926d8103fcf073f8ee24dcb8b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/CHAT_DELIVERY.md",
+      "size": 6897,
+      "sha256": "8bee71a79ccac3e1b546af37099a60ce1f40f4610c52022f5e542595d171d1cd"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/DELIVERY_VIEW.md",
+      "size": 8259,
+      "sha256": "31e930529d240fbddfa70e413248bd197240bfed0697984a36397719b3b97adc"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/MECHA_SEG01.h3.txt",
+      "size": 22855,
+      "sha256": "f2b02ba418dcc16267ddb5e26151b3d27309ee8cbc4e9003056e7827f8dab677"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/MECHA_SEG01.h3.txt.acceptance.json",
+      "size": 942,
+      "sha256": "092ee78078e2a5c54c5329e007966eada4e7013b190d717baa37963b50f3826c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/MECHA_SEG01.h3.txt.check.json",
+      "size": 2869,
+      "sha256": "17e4dabb3a3417cee6e41c4a21b2a92d3b461319cd04e041bb22ce43cd1c0ce2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/MECHA_SEG01.h3.txt.delivery.json",
+      "size": 5528,
+      "sha256": "78585391eec0e1ba4046a28a5c2e24bbd722a3b1f555d6bac8206fa362a4fae4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/MECHA_SEG01.upload.md",
+      "size": 1807,
+      "sha256": "92178d46d95ba7bd64058f1ff6ae20aeca40ec37de30b08261bd12b0a51fbfc4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/UPLOAD.md",
+      "size": 1837,
+      "sha256": "00d50622181d61bde46a89ed39f3615da7f4298c4536ab820ef58120034a4b35"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/asset_prompts/ASSET_01_MECHA.image.txt",
+      "size": 1346,
+      "sha256": "72c54a8e55e3f23e2934dd935b6dc19bcdd516ed5ef9293ac08286b4cd3cc61f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/audit.json",
+      "size": 2380,
+      "sha256": "1964d56564c42da45b41d042b904334e46c532bc9d82da3449b5f7022ef75e46"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/delivery.acceptance.json",
+      "size": 898,
+      "sha256": "f80e8d450bc4ac492c8ab44574f662a0c8c9cf6da15903c01529d22e77524d5e"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/index.json",
+      "size": 8618,
+      "sha256": "be48a3f7c712dbd7b2f05c74014e305d61750e14215ae8e543aa1cf7a74ea666"
+    },
+    {
+      "path": "acheng-director/examples/compiled/mecha/references/6cb5eee882c10bd974b970f53d456ffed1c03c8fa82f964ba6210b841d88d4f2.png",
+      "size": 68910,
+      "sha256": "6cb5eee882c10bd974b970f53d456ffed1c03c8fa82f964ba6210b841d88d4f2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_ARCHIVE.asset-upload.md",
+      "size": 707,
+      "sha256": "f97521c5ef88b0719ddb8cbdb9e0cf4589ea032d8f468f6d5dace9ca0d84f5df"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_BO.asset-upload.md",
+      "size": 702,
+      "sha256": "47fe38e64960d072060e3e415d8e2103d82bd7db530441c0e93939979d10efc1"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_DOCK.asset-upload.md",
+      "size": 704,
+      "sha256": "35e5d09a6e50f7b46c9b86bfa0e201a151c9630726012ff947cefc55a82cce95"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_KEYFRAME_01.asset-upload.md",
+      "size": 1978,
+      "sha256": "6d69bd5e75d26eb95871675cb894dfe96fd42f1763585722052e5a22fed9007a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_KEYFRAME_05.asset-upload.md",
+      "size": 2007,
+      "sha256": "45000d5ba80c6c49c5805227be7351fc995b599096636d2221cd75885d2971bb"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_KEYFRAME_09.asset-upload.md",
+      "size": 2013,
+      "sha256": "18298504085c41cd0bd3e62cf1229e4aa8e7246375743e41bf1fa41fa8d35404"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_LEDGER.asset-upload.md",
+      "size": 709,
+      "sha256": "bb03e0f6eae76bbb4d12f14879869b56819a0c1d9a7df38c20e2642c8ac81cf1"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_MEI.asset-upload.md",
+      "size": 707,
+      "sha256": "df45033ec579d62c16c25f9e47cce5b8603cd4c899ab3a7f618c6d68f1414566"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_NOTICE.asset-upload.md",
+      "size": 712,
+      "sha256": "7c29abaf11ea9799a5061bfc0b5c316f559546e87843516e5e5905838f13becc"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_SANDBAG.asset-upload.md",
+      "size": 704,
+      "sha256": "e287375db3f6fb9323fd79c2a3c4a1a161c143d5e4abfd81671622f099377b9d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_STATIONERY.asset-upload.md",
+      "size": 711,
+      "sha256": "d1fe543895b352f7d606dad54f209aaeedfb602f6f0e825de53d4a8fb490714f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/ART_TIDE.asset-upload.md",
+      "size": 710,
+      "sha256": "7be1f2cd5369ef7c49260ef8991a4f4295e542e0b1acd637c373a0eb7d70e2ac"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/CHAT_DELIVERY.md",
+      "size": 34033,
+      "sha256": "8f0883cee6b935e4460962206b8cef080bc0f4e263df0106e8b8269064903e58"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/DELIVERY_VIEW.md",
+      "size": 48516,
+      "sha256": "45d282cc675f8314206ce53a24fc23bf68bc72b6e3530e2fd0945d012653779a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_01.h3.txt",
+      "size": 4783,
+      "sha256": "4622a7b68ad48d63bc5c3329306f59a8053ae0789e588b86df4a921d94f9821f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_01.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "dff96dce53a117c512d2eddcb96ee16afa29ca2966f29a3a57728618ed2395e7"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_01.h3.txt.check.json",
+      "size": 583,
+      "sha256": "205accd39197d6150bd5fdb86a90b943d026ac2669238af0e33e1805b0ac6f6f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_01.h3.txt.delivery.json",
+      "size": 1613,
+      "sha256": "a15609eda7bef6700231e13c65c08bae16e892b7ac2b47a345095229b3b7b23f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_01.upload.md",
+      "size": 856,
+      "sha256": "e5e1e24e068e09e2242ceaf58e724f8fc6ed21c9302f5c408873c9cdd9ab4cbc"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_02.h3.txt",
+      "size": 4550,
+      "sha256": "596e8c22bb73f697d674680c5a87f17a116ef8325f78e09009f88672970c1362"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_02.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "69547b437cff70cb84b3fcbc0d5e0873885afb18eb2ef7d06c850bd935b2a9ae"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_02.h3.txt.check.json",
+      "size": 577,
+      "sha256": "ad97496c59945f31359044153fadc3a47dca3e22b2926c0c2672ba12d0d4fd15"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_02.h3.txt.delivery.json",
+      "size": 1611,
+      "sha256": "95d777dec6940d86e67caef75d4aa315786f747554da9ce4e98750d5432d67d1"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_02.upload.md",
+      "size": 856,
+      "sha256": "7c858d7b2f28f7ca962d6f016e206a86b6404d4fff26bd73fa81e51aff7c1a01"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_03.h3.txt",
+      "size": 4569,
+      "sha256": "f0446e8a48ed05bc151a89dd7cf64d89f864a493b6569c745c5f832712db905d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_03.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "ee55233dd9ba7a1821c04fcaad4ba840ad8ab6982ce6387165d3acc719e62f1e"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_03.h3.txt.check.json",
+      "size": 571,
+      "sha256": "dffdf978232aab910845cf12a7d2e5f975f431afae4b339317f0846c7b6a1aa7"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_03.h3.txt.delivery.json",
+      "size": 1616,
+      "sha256": "f4853e482c0262810e2ce51e4b6c71a71f11fcdd0c5f9fbed59ef158e3f86271"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_03.upload.md",
+      "size": 856,
+      "sha256": "1b658cda7fce1e61e2cad50e11884b098b5cb52722db1d51af9e6ef1a5b5b789"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_04.h3.txt",
+      "size": 4531,
+      "sha256": "d9a11aa752c186a1fc4bfc887e9353db60a540e7c26f0f043e32360800b83d0b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_04.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "f8d032bc3ac5c5d7b7c6f7b8140bc935e3f8355eed6d17895bc7bc00570a96fe"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_04.h3.txt.check.json",
+      "size": 589,
+      "sha256": "f1e1f225616eeaaa1026e59515024d18c6b610fb1d2ce7bbbb36894bb115d1fb"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_04.h3.txt.delivery.json",
+      "size": 1613,
+      "sha256": "e4f42ee98a81fd4dfa54da0f6fbc2bffa9bbba8e27147d1d3c9bcbf0ad7e4a75"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_04.upload.md",
+      "size": 856,
+      "sha256": "b8efb3ae4da012cf88f9f268a85dc764df94141a7b662d9387527a11ee58d9db"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_05.h3.txt",
+      "size": 4562,
+      "sha256": "60c445d475dfa9cd4249e10c21199457795f70356b0835f5ed901f29dd32e959"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_05.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "da5b747932368e7903549c1a08b8d7943de4ce2d46d114945bb3c644dd39d0dd"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_05.h3.txt.check.json",
+      "size": 583,
+      "sha256": "8286aeaa9bb063922f45f0ebc6354163618db92427ba52745ccfeb21edcfbb6b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_05.h3.txt.delivery.json",
+      "size": 1617,
+      "sha256": "10895d222a7962e00fefda4a696901cd061f577f866a6a6caa170f44d3c0b272"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_05.upload.md",
+      "size": 856,
+      "sha256": "cb61bf49ca28ec44554d22ff16407f2b7f2a07a47dcd361c9e6d864d3a554323"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_06.h3.txt",
+      "size": 4602,
+      "sha256": "83cbf49465b924671ce575c7e74eb52396e478fd3c7201989a97220597ba8f3c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_06.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "ac080a256548534d86c1652fd551b78f2cd58adc68139855c943f1ea335337ca"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_06.h3.txt.check.json",
+      "size": 589,
+      "sha256": "4bf6164e6d6a263e1c45c65ae97f730cb871e572870736b8f79196c3425e6332"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_06.h3.txt.delivery.json",
+      "size": 1613,
+      "sha256": "decc0977be39865ad2a20efa6e58099ed96a954b01b823956a741263ee8a032f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_06.upload.md",
+      "size": 856,
+      "sha256": "b3e114baf2ff8f48742fb8ca2fcad95271f90a06cb7a9eb0b45b0e4dcba9162a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_07.h3.txt",
+      "size": 4567,
+      "sha256": "8660ae5fe599aa11e4dd2d73fea63d4cdab314f5e1838ec3b0c74055d778267d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_07.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "0fb62558e1e15a49385d9244708848a4fc8f8fd95d77ee6b056a823f35994280"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_07.h3.txt.check.json",
+      "size": 583,
+      "sha256": "bc94c12d10e301f90f35e06af2332711e40f12c9553e131f631ae0e028aaad68"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_07.h3.txt.delivery.json",
+      "size": 1617,
+      "sha256": "b49d08c9d3da78c8bce41b52fa43102f1897e6a0431d93357c30174a23848e24"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_07.upload.md",
+      "size": 856,
+      "sha256": "61eb71e34fe01472537172794bd1bc49c439bafa2d215b1548d68bac65448607"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_08.h3.txt",
+      "size": 4672,
+      "sha256": "76afdbd83227e8e74385986cc8163ef8725c8ba6b031e8d23691da0d784a3981"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_08.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "982cbdba34697778fcf8e19ab5646c0e76d579da60cfa27aebde4bb9447ff2c0"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_08.h3.txt.check.json",
+      "size": 589,
+      "sha256": "292c958ea47208d735bbba50a1fdab41ea358e5879189084c1b80011f9c3b717"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_08.h3.txt.delivery.json",
+      "size": 1613,
+      "sha256": "578cb0097387d301c2cb7515b057c534c90b17f7c97bbe1623426fbfea3096d1"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_08.upload.md",
+      "size": 856,
+      "sha256": "716c4333d7a958902a0df2f490fee276533b77c4fa23171f676c07417aebdea0"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_09.h3.txt",
+      "size": 4724,
+      "sha256": "3e9538c68bad0b6d907e651754f725b230700a1f94d5d770577b33965e0f16aa"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_09.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "9e9c619897bc0a19b573913618651098f5c48bf5c943f338dd4c0f87a1bb3690"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_09.h3.txt.check.json",
+      "size": 586,
+      "sha256": "37a238ecdd07227782803952184666ed6eca42e9dc0d8c099255543ee24b21e8"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_09.h3.txt.delivery.json",
+      "size": 1617,
+      "sha256": "b344d352010d72c677d52115b234c5d2a0c2de458205d30edd8b1fd65e5e80eb"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_09.upload.md",
+      "size": 856,
+      "sha256": "3855e907859e245cb7617e7a0309926e2a6fda73732c06165c726da1084bfa00"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_10.h3.txt",
+      "size": 4615,
+      "sha256": "2a7a6e83510eabccdbc3937cdace92747997d4138185f7d19dcd92bceeaf5596"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_10.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "741da0ec4c948d836930f0f63166ab7bc73e861d7fbb5a78746150e1475a4863"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_10.h3.txt.check.json",
+      "size": 580,
+      "sha256": "1535fb68b186062a0ca065da116b22173d51190ccff641962451d1f5a898ddfd"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_10.h3.txt.delivery.json",
+      "size": 1613,
+      "sha256": "cda59df098988034516347a8efabbd4a3b843d05e0250b1fbbe7696f188480aa"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_10.upload.md",
+      "size": 856,
+      "sha256": "6e7ef45776245c8acfb6e6a05b5338b0e78c8f6d59acadf2448428f3f30db04c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_11.h3.txt",
+      "size": 4579,
+      "sha256": "cece2f392fbfdd2bf4537d92fe122c7d0a952348e3b54293209db041811312c6"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_11.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "2547d9b4794c7209a3c5873c314b50d7f802107620a5076ba5a79148f80ee5c5"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_11.h3.txt.check.json",
+      "size": 571,
+      "sha256": "cfc5b80f153f83236e7adc80c49eba60834113c5c248d804cdfc30252cda2f04"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_11.h3.txt.delivery.json",
+      "size": 1617,
+      "sha256": "215bf549f9868cc4092cd95a9eceaa8cdc941d9380ed76a05cdbbe62d9938bb9"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_11.upload.md",
+      "size": 856,
+      "sha256": "739f85a2ebf5b8d0a059d2aab72f0b16283b4e8a6f95bbf637543320f2560cf7"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_12.h3.txt",
+      "size": 4653,
+      "sha256": "ea9b6fffe75aa0f4851e41bda4096ab876776c2f8b307840899c663ffa7f8c43"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_12.h3.txt.acceptance.json",
+      "size": 654,
+      "sha256": "cca272c8da22aaf95afae77313642acad2791f9ad14f7b6d1c02747f39813848"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_12.h3.txt.check.json",
+      "size": 577,
+      "sha256": "bc4e038028260ab9ac79cd8a2d25932036ca51805126c2deb3804aff8f088b7c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_12.h3.txt.delivery.json",
+      "size": 1617,
+      "sha256": "a2b3573b5e13cd72dfabc5a6f76c73aa49f1039a47b935276fe2e6248b1a1783"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/SERIAL_SEG_12.upload.md",
+      "size": 856,
+      "sha256": "6aeb18cc711a20af0d9aad96f499ed3f03b13278b7ae138ddb19c6299c63a4ce"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/UPLOAD.md",
+      "size": 10324,
+      "sha256": "ea9c6e47542bddfbae172f50b982230fa0819b078fc0b0397402e9453da78664"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_ARCHIVE.image.txt",
+      "size": 638,
+      "sha256": "76535a520447b0a9c378b9da7e1a148045e4343bc4979382135adbed82a44824"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_BO.image.txt",
+      "size": 1230,
+      "sha256": "1a6a86e6cae6a8a9855379177725836eaf509eada63782fb632a9234a7c2d4aa"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_DOCK.image.txt",
+      "size": 755,
+      "sha256": "701a7c87a54727aa5230065279ac25b35d489656f6d283fe92b863fc8a278406"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_KEYFRAME_01.draft.txt",
+      "size": 2550,
+      "sha256": "77909e33761fa12820091fc5ffb0815b56bdcf55638e460224802e52b2d707ad"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_KEYFRAME_05.draft.txt",
+      "size": 2596,
+      "sha256": "6c7625fe4c4de584aa3ff95c4f9c964b99971a8e46a8a161b26846406713e39f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_KEYFRAME_09.draft.txt",
+      "size": 2597,
+      "sha256": "c8ca1d9f6f9d92aea77928c7726e62766a34220ff3fd93257a5dd7dc0551bb2c"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_LEDGER.image.txt",
+      "size": 530,
+      "sha256": "d91a979b14a79c122c7218936ea646397d7e9075cd872e500329d2e097c32290"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_MEI.image.txt",
+      "size": 1249,
+      "sha256": "7f57dec6a5e408d915b75169571a82c57c496491108ba61e0562feb88ba25b3d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_NOTICE.image.txt",
+      "size": 553,
+      "sha256": "4a60bb88b4b6fe5392f9622a37f3edcd34303eb587deab93e4392a044f005d8b"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_SANDBAG.image.txt",
+      "size": 523,
+      "sha256": "e6929264dda171406f1503f72ed70504b4ed330474683f46ab7f9beb0f86151d"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_STATIONERY.image.txt",
+      "size": 562,
+      "sha256": "14648ad4b5911772c5edecb47962a43934f05047c44ad888c76c07156b63b8f2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/asset_prompts/ART_TIDE.image.txt",
+      "size": 508,
+      "sha256": "e59a1ea965eb0d415bdf2b93acb4f6c13f257791a7558403a3a14082225a7791"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/audit.json",
+      "size": 2386,
+      "sha256": "09162bfdbb1c48c455391c92dd73ddaba5b75af346b079f25caa8a7c66517f70"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/delivery.acceptance.json",
+      "size": 8630,
+      "sha256": "95797a0715aed4f0d7c8d94a68dfd28ef5751614253770b49a45dddc1c256b75"
+    },
+    {
+      "path": "acheng-director/examples/compiled/serial/index.json",
+      "size": 43450,
+      "sha256": "c576f8cd61d32ac707f346d8d59136e87beb79dc0943a8d4fb88b7782aacf899"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/ASSET_SUSPENSE_ARCHIVE.asset-upload.md",
+      "size": 740,
+      "sha256": "f6a0bbbd77b695a6f224e709473826c63594be6e6f8e2fadb7fc04922ebf9c68"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/CHAT_DELIVERY.md",
+      "size": 5676,
+      "sha256": "68fa7f750c1a339bd2e4a2490cbe02b2c252444ed0633cc38dd18a3427b08404"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/DELIVERY_VIEW.md",
+      "size": 6367,
+      "sha256": "576da415ce937098cd42c4b6c5cd0bb6754adee2119131b6117df3741e95b81a"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/SUSPENSE_SEG01.h3.draft.txt",
+      "size": 13045,
+      "sha256": "f2735a5d3940903155fd3a194898ffcdd73bbe061029acf344e711d57062f2ec"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/SUSPENSE_SEG01.h3.draft.txt.delivery.json",
+      "size": 4352,
+      "sha256": "f34a3a816a40237610b5b05c9f36fca660edd576e93803320d662d6d6783f6d2"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/SUSPENSE_SEG01.upload.md",
+      "size": 1681,
+      "sha256": "d104acd38cee7a637897495235c602581d785bdc50cc59f3e509ab121f97c7c1"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/UPLOAD.md",
+      "size": 1711,
+      "sha256": "97c44057b38960d42a97799cd48451c6452ee7c70be27538c7288031ee62f15f"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/asset_prompts/ASSET_SUSPENSE_ARCHIVE.image.txt",
+      "size": 675,
+      "sha256": "b898bbb324cbf43fa950f79e438e29fcda5fb1ed2cbb2dc5aa6f60c8a45304b0"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/audit.json",
+      "size": 2476,
+      "sha256": "a762d1dff54db47eb9785882289bb11fa4a01e0f0f805e141048dcbbcf2ac6f4"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/delivery.acceptance.json",
+      "size": 950,
+      "sha256": "0eb31f4e99272adc645c072f0f6716e54f5b6626fb8727c07157dbaf42c3bc45"
+    },
+    {
+      "path": "acheng-director/examples/compiled/suspense-whisper/index.json",
+      "size": 6587,
+      "sha256": "6fdebbbc2a4e50a9f3b23b9995856653857a1103c0dae61060f5512947e31d8e"
+    },
+    {
+      "path": "acheng-director/examples/media/colossal-contact.png",
+      "size": 73547,
+      "sha256": "028eee66c71c1f4148764ce5ed3c3d9d6d48570af091ff710b53346509c68826"
+    },
+    {
+      "path": "acheng-director/examples/media/ink-end.png",
+      "size": 4721,
+      "sha256": "8f46b8472c8e0b0023743b271f9ecc88c5e80b72ea688fd2ac294c9d26443457"
+    },
+    {
+      "path": "acheng-director/examples/media/ink-middle.png",
+      "size": 4371,
+      "sha256": "be982b87ce64d0427c76326a4a0c4b827865f9ee46c71970680b1bf1bc20ac07"
+    },
+    {
+      "path": "acheng-director/examples/media/ink-opening.png",
+      "size": 4401,
+      "sha256": "abb6a712458329c637e9c68654c59f88f73f546509aafe8eb6d85da2bbc8c05b"
+    },
+    {
+      "path": "acheng-director/examples/media/ink-right.png",
+      "size": 4405,
+      "sha256": "8dc3c8c4085b1fa632d33d3ff6dc8132957c1719030c30c6672ac532198e44bd"
+    },
+    {
+      "path": "acheng-director/examples/media/mecha-contact.png",
+      "size": 68910,
+      "sha256": "6cb5eee882c10bd974b970f53d456ffed1c03c8fa82f964ba6210b841d88d4f2"
+    },
+    {
+      "path": "acheng-director/modules/assets/SKILL.md",
+      "size": 4282,
+      "sha256": "1aef6fbaba9420ee99e6de17161c0266aec330f28b2f97d4eb4414c8cbe18720"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/SKILL.md",
+      "size": 2242,
+      "sha256": "8c7e8a4a621703ac998b2f40a16b53a71cb6e2e7f5353a04f514bdf51ba01330"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/SKILL.md",
+      "size": 7290,
+      "sha256": "228b60ac1a0a32183da00659cefaa52ae3564e383d272ed0a8ac5acfb2a9a254"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/agents/openai.yaml",
+      "size": 330,
+      "sha256": "80dba0eb29ff7b3457aac8b6747b69f542f92ce2154259cadddbd3281de16469"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/assets/case-studies/cloud-song-archive-final.png",
+      "size": 2427161,
+      "sha256": "f28dc8d071848e3444b8f43c7c5d93ba87775c27dbb7c80aa385574af2b2eb09"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/acheng-handoff.md",
+      "size": 3252,
+      "sha256": "50570cbf4db46b4381c5ed9ae29ee017b341208d2a368d53fdfc1979b1c9e450"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/art-direction-framework.md",
+      "size": 5119,
+      "sha256": "57098a07cf956ef69e3ef4cf5668628871ea1b4b348358333ba875c02e63b806"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/cinematic-scene-language.md",
+      "size": 4018,
+      "sha256": "d8a3bdaf6d24731c0676b0f0a1b87b5ab8d879f636fe7d4db684f3b649cb21c3"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/cloud-song-archive-case-study.md",
+      "size": 4542,
+      "sha256": "333fe438de0f3af72b07234c3a9d7673e17a2765e83b99eb22ebf881a522a076"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/model-adapters.md",
+      "size": 1732,
+      "sha256": "dc639ff14584c47b011966837ffbc5df5d24002430646700f52d90e1af859a97"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/multi-view-continuity.md",
+      "size": 1628,
+      "sha256": "015f7d1525b47ab8db2b86f4a8742f6bc78b83fb31f2f3dbf4fa5834986c9fe9"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/prompt-recipes.md",
+      "size": 4718,
+      "sha256": "558ba18d55fe0ac20cbebc2da61d8e9c4492a992b3515679f99d8d0d1608384b"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/qa-rubric.md",
+      "size": 2531,
+      "sha256": "f24f0fc40e173b689bccd54154c5725a166f0a6dbbf5855f3c5ba152d8a7a6c8"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/scene-contract-v1.md",
+      "size": 4040,
+      "sha256": "7588f491932a23aa3d57c5efdc89a8a1fc506d14a481bd6b62f274fa51729a78"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/references/usage-guide.md",
+      "size": 21476,
+      "sha256": "2ae6ec7029432a611789d17de23ba185ac679ddfcc0a47852d5135709d54d5a9"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/scripts/compile_scene_prompt.py",
+      "size": 6348,
+      "sha256": "470e5d8fa4a91c0a6f65dd2eb3302291aefaa59f38d002ba8d3fcac27b45d79d"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/scripts/test_scene_contract.py",
+      "size": 4394,
+      "sha256": "8d793fe66585896c59442f9d8b8a0047e60dc23770705813129a6483e6d76542"
+    },
+    {
+      "path": "acheng-director/modules/assets/scene-design/external/scripts/validate_scene_spec.py",
+      "size": 6769,
+      "sha256": "830014f2d19d63f0781bc965a31c05d98af2661edf8550827921f74da8541795"
+    },
+    {
+      "path": "acheng-director/modules/continuity/SKILL.md",
+      "size": 1861,
+      "sha256": "cf1b5fbfa98c4d9942930605dca8e46b1f0ecdfcab292f820261befa6ebf9cb6"
+    },
+    {
+      "path": "acheng-director/modules/effects/SKILL.md",
+      "size": 1528,
+      "sha256": "ec2e372e33c5bd2d687930fda56754eb0b2f5bea8d012a216f74355c90f4f23a"
+    },
+    {
+      "path": "acheng-director/modules/model/SKILL.md",
+      "size": 4582,
+      "sha256": "e1c0afd5e3093795351d1d33ca58281c8714371f68fab8a5644590f3b468dbb8"
+    },
+    {
+      "path": "acheng-director/modules/model/h3-prompt-writing/SKILL.md",
+      "size": 3007,
+      "sha256": "411c83e810b184b489f1ec5557df8c0e6e321b610c2e540ad9e723c889adfb1c"
+    },
+    {
+      "path": "acheng-director/modules/model/h3-prompt-writing/agents/openai.yaml",
+      "size": 244,
+      "sha256": "b7b92e20e27d0b3526d90663c5c9d1d5d7ae8a7199950173a5bd52aee8dbf5f0"
+    },
+    {
+      "path": "acheng-director/modules/model/h3-prompt-writing/references/base-en.txt",
+      "size": 15995,
+      "sha256": "088fb632fa3cbb18c9821024fb689e6f0f356f824c8f2e6b8e43a33239b137c7"
+    },
+    {
+      "path": "acheng-director/modules/model/h3-prompt-writing/references/ref-en.txt",
+      "size": 23894,
+      "sha256": "b621067b41988c4d92be715b7a98ba48338f4076ab6041d95fcf463ea7c8ccdd"
+    },
+    {
+      "path": "acheng-director/modules/performance/SKILL.md",
+      "size": 1856,
+      "sha256": "d054c3b366f7ca1d0aacbfe5b4ec39b5711505c51cc45503bce901306083ebd8"
+    },
+    {
+      "path": "acheng-director/modules/shots/SKILL.md",
+      "size": 1966,
+      "sha256": "12df907ecda8a63a18b54b7a81d29defed6c586e17c43d768419b1321a90ad27"
+    },
+    {
+      "path": "acheng-director/modules/story/SKILL.md",
+      "size": 1533,
+      "sha256": "2b41078d5d58e9706d5f47dd22e5767bfdc0d838893a15b63440954b18793fd2"
+    },
+    {
+      "path": "acheng-director/output/final-colossal-audit.json",
+      "size": 2342,
+      "sha256": "a8d556bb794992bff01ccb39bdf7ab3e6f2bb2d6d8dae96101e7d9d346d7319e"
+    },
+    {
+      "path": "acheng-director/output/final-mecha-audit.json",
+      "size": 2380,
+      "sha256": "5d9fe74063333e0e7ec722c8fe616a1bb116341c19ed6313b31d3cb9c09cd35d"
+    },
+    {
+      "path": "acheng-director/output/orchestrator-smoke-plan-v4.3.json",
+      "size": 3664,
+      "sha256": "746ba6fa0488b47887e483a40084c73d674094ab7590ed05a86dbf46e19d0b40"
+    },
+    {
+      "path": "acheng-director/output/orchestrator-smoke-plan.json",
+      "size": 3410,
+      "sha256": "28bc9011d9336a4b75c6f4941b96bc1b57c6563c9b6ef5283de17118dba39836"
+    },
+    {
+      "path": "acheng-director/output/orchestrator-smoke-state-v4.3.json",
+      "size": 2508,
+      "sha256": "c30980a5744fac2055a2209a12fd1e7e9fc307812b2ce53c606362c37e9f8283"
+    },
+    {
+      "path": "acheng-director/output/orchestrator-smoke-state.json",
+      "size": 3385,
+      "sha256": "842e679b670efe08a9663b3249ab01ac0185aad69fea17f6ee2b4232ab1b758f"
+    },
+    {
+      "path": "acheng-director/output/smoke-request-v4.3.json",
+      "size": 148,
+      "sha256": "5e23a3733ed49aacfc702a0de2aa12a4b14cbd971ab7b1d68df1e40f41cc9c00"
+    },
+    {
+      "path": "acheng-director/references/00-visual-constitution.md",
+      "size": 8475,
+      "sha256": "dbe7e81bfdd2f11cf7072d2203c184cdf354a9be4600b3b0ee0c2fb14e786d12"
+    },
+    {
+      "path": "acheng-director/references/01-style-presets.md",
+      "size": 1862,
+      "sha256": "375e0550d13055de97ff34a9cd108510b2ac88a2f8ea8d480eed9c48f90d7a9e"
+    },
+    {
+      "path": "acheng-director/references/10-scriptwriter-engine.md",
+      "size": 8162,
+      "sha256": "fb8517630fc0ec7644d2233a107c90092b30b409b3bae499da38842e95e4daa2"
+    },
+    {
+      "path": "acheng-director/references/100-workflow-state-v4.md",
+      "size": 1574,
+      "sha256": "c72ef02c6b57052c180d14f507756d2125d58a4e7f3a0d1a0c3a1b6bdc650246"
+    },
+    {
+      "path": "acheng-director/references/101-artifact-commit-v4.md",
+      "size": 2248,
+      "sha256": "0be10d85aed90fda24f327e4a86e08ca5ebc5b5f787f27c899c3ba1e6bb5d0bd"
+    },
+    {
+      "path": "acheng-director/references/102-orchestrator-adapter-v4.md",
+      "size": 954,
+      "sha256": "6434424b80a6812ec2f036baa3cbb6aa9b54b5f92667d8b732a06ddcbe97bb80"
+    },
+    {
+      "path": "acheng-director/references/103-module-authority-v4.md",
+      "size": 943,
+      "sha256": "8f281b9b76dc05e962772a02ecf7eef3f36eb8da8c79005377cab1674e969d8d"
+    },
+    {
+      "path": "acheng-director/references/104-capability-map-and-master-prompt-v4.md",
+      "size": 16048,
+      "sha256": "387f54b7b73cf76f404ee596bddae34b1921eafa41df554e9eaa775f07c8d325"
+    },
+    {
+      "path": "acheng-director/references/105-scene-design-adapter-v4.md",
+      "size": 3710,
+      "sha256": "e2206c06d19d6f7f4d7eda847b866c3ee5e40b3177496285dd31ac3fb167956f"
+    },
+    {
+      "path": "acheng-director/references/106-scene-design-usage-guide-v4.md",
+      "size": 20190,
+      "sha256": "8125936037716a78848a6f417987b4b1d6df8f108d595a09e6d8e44cd261ed31"
+    },
+    {
+      "path": "acheng-director/references/107-acheng-director-user-guide-v4.md",
+      "size": 44225,
+      "sha256": "c5d01e1907492c4676ff825b068cc6042db3cd7564a8ccdec7a6ae0826691975"
+    },
+    {
+      "path": "acheng-director/references/108-rights-and-release-guide-v4.md",
+      "size": 2958,
+      "sha256": "f6b163bebde5549e636bef9c1bed8cb6dc76b01b79f77149c695e520a6de2057"
+    },
+    {
+      "path": "acheng-director/references/109-segment-delivery-modes-v4.md",
+      "size": 3938,
+      "sha256": "35a9ebfd42aec2e44f57d693e40861a5597886f478230419f0764ddc68f48f71"
+    },
+    {
+      "path": "acheng-director/references/11-story-architecture.md",
+      "size": 5009,
+      "sha256": "c0453d4806965214cee0b4d60810fd0cdec2fc0a2fd0f084da4eee06b6dd47b6"
+    },
+    {
+      "path": "acheng-director/references/110-goal-multi-turn-delivery-v4.md",
+      "size": 9578,
+      "sha256": "225e1bcd889419fe83d7d678ccbb3151dc0fcca1c5793814205aa299abd9dfa5"
+    },
+    {
+      "path": "acheng-director/references/111-h3-final-format-pass-v4.md",
+      "size": 5701,
+      "sha256": "fffed7195dffef010a0c083cb1d674d20417664608bc1daef736969481680f14"
+    },
+    {
+      "path": "acheng-director/references/113-animation-art-terminology-library-v4.3.md",
+      "size": 5281,
+      "sha256": "2e35b6bc48dbd9d3f519f8b4e043226ff198fdbbf61ddd5a400cea6cf8a527df"
+    },
+    {
+      "path": "acheng-director/references/114-reference-binding-delivery-v4.3.6.md",
+      "size": 10306,
+      "sha256": "4892e538ebe074b679bcb1dbac6e95ab5f868518a9962dc19597967045e811a9"
+    },
+    {
+      "path": "acheng-director/references/115-directed-decisions.md",
+      "size": 3865,
+      "sha256": "eda1543fe38dbf70c10f5da312ed606a0df3d137995d67187922249d977cc308"
+    },
+    {
+      "path": "acheng-director/references/116-visual-reference-library.md",
+      "size": 7859,
+      "sha256": "8422c2c6e28183632a7e3c6edaa03b2deedf2393f9d2ee1ed99a2330bcb81b19"
+    },
+    {
+      "path": "acheng-director/references/12-character-dialogue-revision.md",
+      "size": 2903,
+      "sha256": "786283f7eea0a03365b7cd8a3171e57861e628491118b03babd48f640bc31d85"
+    },
+    {
+      "path": "acheng-director/references/20-storyboard-compiler.md",
+      "size": 14129,
+      "sha256": "6723db189ec4d79fe6ce46e2cb93189bbb3e843941cbef563d671fb60185a40f"
+    },
+    {
+      "path": "acheng-director/references/21-genre-camera-capacity.md",
+      "size": 3019,
+      "sha256": "2aac4703116376c7934274b178532df53c66cf786889d369e4ef6b946c26669b"
+    },
+    {
+      "path": "acheng-director/references/25-combat-video-deconstructor.md",
+      "size": 5177,
+      "sha256": "1a229de5beb27f2fa8726d11013a9c2795883018f566f253350b5557a159ae1b"
+    },
+    {
+      "path": "acheng-director/references/30-performance-adapter.md",
+      "size": 17187,
+      "sha256": "2ca6d83dc1f7fe5e36ff173ba46a071ad6a1da5c367102197c1787a46a6e8994"
+    },
+    {
+      "path": "acheng-director/references/31-performance-handoff.md",
+      "size": 2731,
+      "sha256": "de2ac109571b61b6c7e9b6eb3aa7582af74b0d2e7cef127c669b5c036e6a420d"
+    },
+    {
+      "path": "acheng-director/references/32-liveliness-performance-framework.md",
+      "size": 8130,
+      "sha256": "ffa9783846c04b0b1377eb3a67bf268a5642fc57f8c640abd58fac2578b098dd"
+    },
+    {
+      "path": "acheng-director/references/40-action-choreography.md",
+      "size": 8620,
+      "sha256": "3a6e1d2735e9add10c35108f08c32d8626a85b5ace4b4a16f452d4ccfd5fc70a"
+    },
+    {
+      "path": "acheng-director/references/45-vfx-sakuga-engine.md",
+      "size": 6617,
+      "sha256": "694d713d073de272f5de0c2703b67a19b28ae1e5618d71fc9ffa2d4546dde740"
+    },
+    {
+      "path": "acheng-director/references/46-effect-families.md",
+      "size": 2562,
+      "sha256": "0497c9b429cd1c1c7fd898cc3399799b7a526c42507245b0ac8a32faac98b852"
+    },
+    {
+      "path": "acheng-director/references/50-character-morphology.md",
+      "size": 6441,
+      "sha256": "2a84aecbd6c0451792cd1c37b762bd8a76aa5b68fcb1f09e482810f8f1c3616b"
+    },
+    {
+      "path": "acheng-director/references/60-assets-and-keyframes.md",
+      "size": 16374,
+      "sha256": "9d7c21c351aec6ce7468ccc1760fb7ead0e431eb8d8881ae04f51bbafa146c9f"
+    },
+    {
+      "path": "acheng-director/references/61-asset-dependency-production.md",
+      "size": 4769,
+      "sha256": "b8bbf04046ec3129fc58e50117c86f01bfdd064b865f91f6a702e0cae75665b0"
+    },
+    {
+      "path": "acheng-director/references/62-style-anchor.md",
+      "size": 6341,
+      "sha256": "5c31d00de9e45d6521ca5e26ca7c9141f3535b3f6e45fa96c7220f6aae8fa495"
+    },
+    {
+      "path": "acheng-director/references/70-minimax-h3-compiler.md",
+      "size": 16182,
+      "sha256": "ef0aa3181f006c022c41a3163259eba7c617d70258518bbffd8a47cb0eb45b74"
+    },
+    {
+      "path": "acheng-director/references/71-seedance-legacy-compiler.md",
+      "size": 1814,
+      "sha256": "cbb88fe2729470fc4743288a88f407c3457b069418e40d5dc258c0fda569931d"
+    },
+    {
+      "path": "acheng-director/references/72-standalone-prompt-delivery.md",
+      "size": 8910,
+      "sha256": "95e8660b03bc78bada152b0ac202f7d939fd02bb71b652549f881a10e9d7bb14"
+    },
+    {
+      "path": "acheng-director/references/73-human-readable-delivery.md",
+      "size": 9010,
+      "sha256": "4eaabcb574a97060b0f9503b7289491d28c6007d2dff6644fde61caaa7c96567"
+    },
+    {
+      "path": "acheng-director/references/80-continuity-ledger.md",
+      "size": 4954,
+      "sha256": "aaa4c61d38fa5ec62a82707ab874044013cb28dd9f2e9a36f066a51dc9d3c81c"
+    },
+    {
+      "path": "acheng-director/references/90-production-contract.md",
+      "size": 9819,
+      "sha256": "c79bd9b72a4fa29368100207a61b25471e52ff2dfdf2de30b3f86c9012927480"
+    },
+    {
+      "path": "acheng-director/references/91-module-orchestration.md",
+      "size": 8686,
+      "sha256": "4f69faa4b8b7ee27d1b09dabfa9169a6c9278cfa36b8487620135f1bd6dc593f"
+    },
+    {
+      "path": "acheng-director/references/93-red-monkey-integration.md",
+      "size": 9253,
+      "sha256": "253456fa5e1ebf84106715211f8b1ef808440b9019360fd6fa9bba655ed3296f"
+    },
+    {
+      "path": "acheng-director/references/94-delivery-integrity.md",
+      "size": 4531,
+      "sha256": "f32aa6255abbeb76a0d19425113b8e4696cfdc953d346413f6a47ee76399bbda"
+    },
+    {
+      "path": "acheng-director/references/95-quality-gates.md",
+      "size": 3835,
+      "sha256": "2151e4bd762ab45ea4bdf5576c83d0b6b5779fe55724135aaf1135e0a176c67f"
+    },
+    {
+      "path": "acheng-director/references/99-source-audit.md",
+      "size": 11746,
+      "sha256": "d76cfce04c56ac52373b5a8a728aa561a991169c40b527d26ddb30b975054676"
+    },
+    {
+      "path": "acheng-director/references/decisions/assets.md",
+      "size": 5874,
+      "sha256": "18bb53e82986db39c00a7a3c2b65c4a944f4ae530ad374e51e8c9aeaa462029e"
+    },
+    {
+      "path": "acheng-director/references/decisions/continuity.md",
+      "size": 2878,
+      "sha256": "659ec300216c7fb4844c4584c475cb351f3c41bdfa590fc87172a20e43c6c703"
+    },
+    {
+      "path": "acheng-director/references/decisions/effects.md",
+      "size": 2295,
+      "sha256": "d6acfae65309568ef1838a3dc375be9952091ebce9df28c546497cc779eb9d61"
+    },
+    {
+      "path": "acheng-director/references/decisions/model.md",
+      "size": 5528,
+      "sha256": "bffba2ed2f335ccc50538c857f8d8bda7cb404ffccfca44fa4348c777ce2ec75"
+    },
+    {
+      "path": "acheng-director/references/decisions/performance.md",
+      "size": 4166,
+      "sha256": "8423f5ec3e4ed7a6020d0ac92f2912e4ad4e7558554fb3999b5d180acef03349"
+    },
+    {
+      "path": "acheng-director/references/decisions/shots.md",
+      "size": 3723,
+      "sha256": "4923b109a108e6ae72702ec88139bfab708bece7e8a3c81f26bdcf20dca1586f"
+    },
+    {
+      "path": "acheng-director/references/decisions/story.md",
+      "size": 2812,
+      "sha256": "3a9014604860735d7fd7ab4fdb5e8032eaaf5ed27c671c6c18dac00d57fa790b"
+    },
+    {
+      "path": "acheng-director/references/inquiries/assets.md",
+      "size": 1439,
+      "sha256": "6f3bb23b839980781fe2dc4bcb9304a7ebe99bdcb21d78b787043d44c981ec99"
+    },
+    {
+      "path": "acheng-director/references/inquiries/continuity.md",
+      "size": 3340,
+      "sha256": "7cba95fe5a6a2318277ad8fdfe571bc814e15ace338ea73a1977ea2aa40f46d6"
+    },
+    {
+      "path": "acheng-director/references/inquiries/effects.md",
+      "size": 4098,
+      "sha256": "27b96df439d7b35c5a4b33f477c90382c5e30a2ad042346b414a49adb8552554"
+    },
+    {
+      "path": "acheng-director/references/inquiries/model.md",
+      "size": 8497,
+      "sha256": "06fec61e374370792336dca76f6554913b6e122a47690b54308895db3fec3b1a"
+    },
+    {
+      "path": "acheng-director/references/inquiries/performance.md",
+      "size": 9125,
+      "sha256": "d888cf4fd697d6708c7ac8e851dfe35796cce104d3ef08c586e1c96c2fec726c"
+    },
+    {
+      "path": "acheng-director/references/inquiries/shots.md",
+      "size": 7307,
+      "sha256": "4d2822ebf65aa05f857d0fdf989b56c92480388c423126067ff627b005fab138"
+    },
+    {
+      "path": "acheng-director/references/inquiries/story.md",
+      "size": 4295,
+      "sha256": "28aa5982465cd5b740cc0b0651de8544b5a1fb3154eaaef70651bfe328146914"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/audit-legacy.py.txt",
+      "size": 11085,
+      "sha256": "a34dcb5b0d3b8b89a4264133e32192c402d896584f5b7eae5812fef22198697b"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/entrypoint.md",
+      "size": 23223,
+      "sha256": "911d317dd8c1cea5bc96328a25afe2d0654e219f7f5b1a359ed7f6a52112e05e"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/00-visual-constitution.md",
+      "size": 17349,
+      "sha256": "70fe2dc559a004d56a95cfae5dd77facf9fce3fcd105b8f027a5274abfb54053"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/01-style-presets.md",
+      "size": 7269,
+      "sha256": "e1c9cbf6df060ecbb7492fba03234277fd7ad64f8a9da714841c36f3d4a943f3"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/10-scriptwriter-engine.md",
+      "size": 10902,
+      "sha256": "8f73e33c6060a7479a872f11085b9d83cc6ab61326f600ec57899cfbd74f1099"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/20-storyboard-compiler.md",
+      "size": 27792,
+      "sha256": "966533184362617e9e7287617486abc2a5c6d7079fcb842046439bd330250f13"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/25-combat-video-deconstructor.md",
+      "size": 8478,
+      "sha256": "e3bfbc4c165660abe9bba56de6d838d3185c847b455b30c09a135d3889a37341"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/30-performance-adapter.md",
+      "size": 19985,
+      "sha256": "93e76131975536e45748fa584cc243422206c7f06483c9004bae0c77dd409033"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/40-action-choreography.md",
+      "size": 11226,
+      "sha256": "91b91f32a3c35bdd2c07544d584f82ffd5ed588effd730b2832a7ccff7d5f31d"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/45-vfx-sakuga-engine.md",
+      "size": 7501,
+      "sha256": "3caa920de759c34eb2a85c71ee530c5bef517173cb3ecd9744d1dabb395fba83"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/50-character-morphology.md",
+      "size": 8408,
+      "sha256": "64bbd7a7272a3fb3ca001fc8f26d4db0b628ac6c3d49c764623954bb8c17f999"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/60-assets-and-keyframes.md",
+      "size": 28217,
+      "sha256": "c23cb37b3d9e2ca5352c024865873f6c570029683cdd8ace03ed4dd0d38af752"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/70-minimax-h3-compiler.md",
+      "size": 14250,
+      "sha256": "852e71ffeac18c1ee979972347c91cb286f5ca74ca97a3dfae5b40a2105c503e"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/71-seedance-legacy-compiler.md",
+      "size": 2459,
+      "sha256": "80941bb287c6ec09c5c4a14a7a7d3254546cae073207690ee96e2bd5fce1f4fb"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/references/80-continuity-ledger.md",
+      "size": 7814,
+      "sha256": "9266aac47c54d3856a4cbff0f9dfd1be789abafad0b475ee94b52af103ddcd96"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-installed-before/validate-legacy.py.txt",
+      "size": 8428,
+      "sha256": "c275fb369e7dc98ccfb079ab4bfcfb293a5915c0f0737cb7c055d62c05fb4844"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/00-visual-contract.md",
+      "size": 16172,
+      "sha256": "5cc21b93a4d088b7f589d1ab012197033a58fec6566f48262c86022434f82d75"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/10-female-body-design.md",
+      "size": 25632,
+      "sha256": "db070bc18145abbede835c721dcc02bfc984db2fc7e28070dd5689afc4eac932"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/20-character-asset-design.md",
+      "size": 28516,
+      "sha256": "6a551e64a4323aabb4393c844bf2d690aa51c697d48befb443c0d15e1b38225e"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/30-scene-keyframe-design.md",
+      "size": 30883,
+      "sha256": "bb3bc97e1f764d91b81cca0f149061f4edeac58063ad3e613e0c39256936d5ee"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/40-continuity-and-handoff.md",
+      "size": 5963,
+      "sha256": "6d403fbe7b581eb8b8446480d9b9f8fe65d635af7aa33ff1af1b062e56337acd"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/action-choreography-compiler.md",
+      "size": 6851,
+      "sha256": "eba0aed6eeb7d9e3a004edd2754ad921a97fd3a62cb02fb71b9ef79de97f0b5b"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/assets.md",
+      "size": 30913,
+      "sha256": "1552a81b30eeb19713a9ebc800892181f78e80a52acd9b1b4b7d36ff9f304226"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/frame.md",
+      "size": 27517,
+      "sha256": "be5af735d9ae683bed137d2ac695ede07878bfcd8d8982d97f319e9c4cad2d1f"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/gpt-image-2-prompt-compiler.md",
+      "size": 5861,
+      "sha256": "e96897c624d0a0f11834cfb2cfd7697890d8a28222e58a5e5e1ccffc48e9190c"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/performance-adapter.md",
+      "size": 6491,
+      "sha256": "efe83bad7ef3da65793bdc10b07e75cb3b915e5c2716bb0b2efd266f7ada1ce3"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/prompt.md",
+      "size": 8075,
+      "sha256": "d82f68739154a5463fd1d4fdbbfdcaf0d04a948d38751b968b2b18a814d99880"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/scriptwriter.md",
+      "size": 55397,
+      "sha256": "941d0590db1f0a30ae26c33efb0ae37e86fc06f8e5eb91d11e1d1a15c05e91da"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/seedance-2-prompt-compiler.md",
+      "size": 7063,
+      "sha256": "6c903137a6feca0219641505f3652e9534d9dc739dab77fc50ff5b7ad67c0fc4"
+    },
+    {
+      "path": "acheng-director/references/sources/acheng-original/references/storyboard.md",
+      "size": 18830,
+      "sha256": "7ef49ce0900b256ea2e799c77e52661aaea2fa8126af15aa07c9a79404cdc5c3"
+    },
+    {
+      "path": "acheng-director/references/sources/camera/SHOT-LIST.md",
+      "size": 11459,
+      "sha256": "15eddd9aba5e819de6327df4723783310a5abb8708014197c8ac3c5e3a0a8f69"
+    },
+    {
+      "path": "acheng-director/references/sources/camera/manifest.json",
+      "size": 48163,
+      "sha256": "b07a420316cfd59495b6f2e7cf49dce61f945215455c77d0d928319c28a8cb43"
+    },
+    {
+      "path": "acheng-director/references/sources/colossal/field-guide.md",
+      "size": 6893,
+      "sha256": "ba50f95bc2d4231cb8c208f7ea96db94028bf1ed79621e41595041713012a525"
+    },
+    {
+      "path": "acheng-director/references/sources/colossal/upstream-skill.md",
+      "size": 9122,
+      "sha256": "2c12717dbe88876a08faad3a6afe9e39362fdf2fe8439f3fd7274069369e11d4"
+    },
+    {
+      "path": "acheng-director/references/sources/combat/Cinematic_Deconstructor_Pro_V2.5_战斗解析编导增强版.md",
+      "size": 21470,
+      "sha256": "072896b26f45a358dcb8f3feb55d70b6225815960b86407426663d3c805d3ec6"
+    },
+    {
+      "path": "acheng-director/references/sources/combat/Seedance打斗Prompt模板_v5.1_剧情锁定版.md",
+      "size": 88947,
+      "sha256": "7f9ba8a2c10646944bd9c077406f2b26af3ff82825496edd0f74f0c4ce3f1e86"
+    },
+    {
+      "path": "acheng-director/references/sources/combat/高动态打斗模板（运镜强化）_钉子整合优化版_加入打戏逻辑链(3).md",
+      "size": 54914,
+      "sha256": "bf75b81fad45babce142ca58ad880c872a57d28f894301ed5f18304562d799c2"
+    },
+    {
+      "path": "acheng-director/references/sources/emotions-original.md",
+      "size": 15632,
+      "sha256": "c0546ff3d8108f4e92884984e4fca2b1262bc71bec3a065a743e66482341ff91"
+    },
+    {
+      "path": "acheng-director/references/sources/h3/base-en.txt",
+      "size": 15773,
+      "sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc"
+    },
+    {
+      "path": "acheng-director/references/sources/h3/ref-en.txt",
+      "size": 23553,
+      "sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7"
+    },
+    {
+      "path": "acheng-director/references/sources/im2/references/clean-prompt-recipes.md",
+      "size": 7745,
+      "sha256": "0aba895d17f0fb765a221543dc945206966214f9d58f7e754d64b26de03e5a6a"
+    },
+    {
+      "path": "acheng-director/references/sources/im2/references/evidence-preserving-photo-restoration.md",
+      "size": 2794,
+      "sha256": "fdc50baed8f51380e6765c272e7362ffb999181b0c23aa161b3b1c41908c2895"
+    },
+    {
+      "path": "acheng-director/references/sources/im2/references/heavy-scene-structure-and-mass.md",
+      "size": 5265,
+      "sha256": "8a1efbb298d89c7c7dadda13949fe6975acb4e6355f649bb707c83d7a33d83d2"
+    },
+    {
+      "path": "acheng-director/references/sources/im2/references/negative-prompt-hygiene.md",
+      "size": 4735,
+      "sha256": "8721c9e803621d8d180f649c78aaaef68e93b8c0517abe96e73f896cf01d8d40"
+    },
+    {
+      "path": "acheng-director/references/sources/im2/references/real-scene-light-atmosphere.md",
+      "size": 8090,
+      "sha256": "240e0c2b924315300ad38619d2c57bed363118db7c6bdb291ac2c143ff566727"
+    },
+    {
+      "path": "acheng-director/references/sources/im2/upstream-skill.md",
+      "size": 23246,
+      "sha256": "e62e6f8300cc08f2c482008b71835c1050a01ad4ab34471ce3899a0da480be61"
+    },
+    {
+      "path": "acheng-director/references/sources/licenses/camera-moves-whitebox-LICENSE.txt",
+      "size": 1068,
+      "sha256": "118e58ab3dc92a50485e65a7d321089305a3b39421280aea0724ae62a389e3ae"
+    },
+    {
+      "path": "acheng-director/references/sources/licenses/codex-thread-cold-history-LICENSE.txt",
+      "size": 1075,
+      "sha256": "0c31f3798825c39f4ae939f0774fb96db3c6513b823c2a3839d47cbb57ff228b"
+    },
+    {
+      "path": "acheng-director/references/sources/licenses/colossal-scale-visual-director-LICENSE.txt",
+      "size": 1060,
+      "sha256": "989883967b844792b89dbdb01f4c9ab90034729937ebb96e59e58db59024ede1"
+    },
+    {
+      "path": "acheng-director/references/sources/licenses/im2-image-skills-LICENSE.txt",
+      "size": 1063,
+      "sha256": "8c3eb4a2f390f60d8f16222a05b8c026772a17782511b98a65c4cab2ea541644"
+    },
+    {
+      "path": "acheng-director/references/sources/licenses/minimax-h3-prompting-skill-public-LICENSE.txt",
+      "size": 1075,
+      "sha256": "0c31f3798825c39f4ae939f0774fb96db3c6513b823c2a3839d47cbb57ff228b"
+    },
+    {
+      "path": "acheng-director/references/sources/memory/codex-thread-cold-history.md",
+      "size": 6955,
+      "sha256": "18d03e089d491e48306486105793c75938892f5af5cbf9995d3590c41e9c313c"
+    },
+    {
+      "path": "acheng-director/references/sources/memory/hot-memory-system.md",
+      "size": 2571,
+      "sha256": "47f4a5860549127b5700dffa80521ce5765962203c6d3b2f5295f5d503950641"
+    },
+    {
+      "path": "acheng-director/references/sources/prompt-library/disassembly-template.md",
+      "size": 1926,
+      "sha256": "f1e966654309fecc5f40420d90cd9aeeedbe4b566f690207b491677c19f44a8a"
+    },
+    {
+      "path": "acheng-director/references/sources/prompt-library/quality-criteria.md",
+      "size": 4399,
+      "sha256": "b5e5d9a47aecd8b59d5de4df436ed11d39704b7a5f7f1bf8c28db054dab4f586"
+    },
+    {
+      "path": "acheng-director/references/sources/prompt-library/quality-matrix.md",
+      "size": 2579,
+      "sha256": "a8f436a26fe5f72c5fffbc47a17215d0d7e70f156d095e15681852747e3583db"
+    },
+    {
+      "path": "acheng-director/references/sources/prompt-library/techniques.md",
+      "size": 4531,
+      "sha256": "a2268c2cc3186965eb16454e6c6c8373f7708ec1575acbef2354a0cc3a9a7aab"
+    },
+    {
+      "path": "acheng-director/references/sources/prompt-library/upstream-skill.md",
+      "size": 3400,
+      "sha256": "1b9ece438e757666c972a5f1a6c2a4aef9a099d163a7ea484b93947118ab6c23"
+    },
+    {
+      "path": "acheng-director/references/sources/user-director-libraries/15-master-director-inquiries.md",
+      "size": 32365,
+      "sha256": "ed49123192b57db115f451e97eac5d7cb28b3b3fca03b9bee4a37f289515abf2"
+    },
+    {
+      "path": "acheng-director/references/sources/user-director-libraries/16-master-visual-styles-and-textures.md",
+      "size": 24672,
+      "sha256": "e3d48d9bb92a45816ea38f3943eaf24b15071de7bad644ca10033d9cabbd5a87"
+    },
+    {
+      "path": "acheng-director/references/sources/vfx-analysis-session.md",
+      "size": 123693,
+      "sha256": "30ff469f2acde8175c85a29b6fcff436f27f1cb2400fc11dba432041d685fcca"
+    },
+    {
+      "path": "acheng-director/references/sources/vfx-original.md",
+      "size": 17220,
+      "sha256": "c07e7770171415a85e2a7a3e6237765db57c1bfbc5e228321155fbc8ab18056c"
+    },
+    {
+      "path": "acheng-director/reports/asset-cli-v4.3.7.json",
+      "size": 277,
+      "sha256": "4247c642b4a7bb177622af3b9eb0bd8396eca2582ce141c8bf1180774dc72dea"
+    },
+    {
+      "path": "acheng-director/reports/example-rebuild-v4.3.7.json",
+      "size": 2157,
+      "sha256": "9d475260fd5eaf3e45573d587c13beb941b038210891217cdd524196ef0eae3f"
+    },
+    {
+      "path": "acheng-director/reports/example-rebuild-v4.3.8.json",
+      "size": 1277,
+      "sha256": "05058bf527e92c11e74202df3cb1527ba7bbb1eab9da9ec25231bf854aeb4fe8"
+    },
+    {
+      "path": "acheng-director/reports/final-acceptance-v4.3.7.log",
+      "size": 2684,
+      "sha256": "ce068d8f8597eeb5ae0e7313636ed35fbbf771c32f60688e83e63befae33a8e1"
+    },
+    {
+      "path": "acheng-director/reports/library-adoption-examples-v4.3.8.json",
+      "size": 9432,
+      "sha256": "fcb935b7fc4501f2cf4e216bcf7b5d61a74bd43baaa60425b82b0860cc22269b"
+    },
+    {
+      "path": "acheng-director/reports/logic-consumption-audit-v4.3.6.md",
+      "size": 3630,
+      "sha256": "325f5d4df85019913df3c7fefa031f33f46866d9328cb2219fa61c5bf5a97981"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-current-v4.3.6-final.json",
+      "size": 2615,
+      "sha256": "b152255ac57160973b4dbe89636af73be0bb38828a7397537598fe9053d9404f"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-current.json",
+      "size": 2983,
+      "sha256": "b3feb6d34f2843d1fe26502feccdec8d4312bdfcefffab7ca4de2800a8365c03"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-final-v408.json",
+      "size": 2498,
+      "sha256": "dbe3224f32657ec442f325bdbeda238a82b6ba4f486ea098240517caba22516f"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-final-v409.json",
+      "size": 2498,
+      "sha256": "dbe3224f32657ec442f325bdbeda238a82b6ba4f486ea098240517caba22516f"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-final-v410.json",
+      "size": 2498,
+      "sha256": "dbe3224f32657ec442f325bdbeda238a82b6ba4f486ea098240517caba22516f"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-installed-v3.2.json",
+      "size": 2439,
+      "sha256": "9eff8019e3cdef15ca10affad47676eec2fbd0be50b6f660d902235df0b5eb51"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-integrity.json",
+      "size": 2615,
+      "sha256": "3d311b39f473d34e33693a39ed42fbe37e4337c0a46ebff1a1dd093b56f19897"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-pre-v408.json",
+      "size": 2498,
+      "sha256": "dbe3224f32657ec442f325bdbeda238a82b6ba4f486ea098240517caba22516f"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.2.json",
+      "size": 2439,
+      "sha256": "9eff8019e3cdef15ca10affad47676eec2fbd0be50b6f660d902235df0b5eb51"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.3-installed.json",
+      "size": 2462,
+      "sha256": "24e55e75b94eb4b5a40c187affe9944a353d77edf31f373a961a7305d4b9adbf"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.3.json",
+      "size": 2462,
+      "sha256": "24e55e75b94eb4b5a40c187affe9944a353d77edf31f373a961a7305d4b9adbf"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.4-installed.json",
+      "size": 2498,
+      "sha256": "6792087adfc8bf5cb5d2623645e756501c6d23ec18f417ef556e63d277e87975"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.4.json",
+      "size": 2498,
+      "sha256": "6792087adfc8bf5cb5d2623645e756501c6d23ec18f417ef556e63d277e87975"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.5.1.json",
+      "size": 2498,
+      "sha256": "6792087adfc8bf5cb5d2623645e756501c6d23ec18f417ef556e63d277e87975"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.5.2.json",
+      "size": 2498,
+      "sha256": "6792087adfc8bf5cb5d2623645e756501c6d23ec18f417ef556e63d277e87975"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.5.3.json",
+      "size": 2498,
+      "sha256": "8ff00d65231d60541ab509aa8775c0d8e18e9adcdc9c985c56efe06bfcc7e6c3"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.5.4-combat-style-final.json",
+      "size": 2498,
+      "sha256": "4d2afd8f0326219e8afa80c741f2e6de043163a54b651c5b6ddd7cc2aa5874d6"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.5.4-combat-style.json",
+      "size": 2498,
+      "sha256": "4d2afd8f0326219e8afa80c741f2e6de043163a54b651c5b6ddd7cc2aa5874d6"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.5.4.json",
+      "size": 2498,
+      "sha256": "4d2afd8f0326219e8afa80c741f2e6de043163a54b651c5b6ddd7cc2aa5874d6"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v3.5.json",
+      "size": 2498,
+      "sha256": "6792087adfc8bf5cb5d2623645e756501c6d23ec18f417ef556e63d277e87975"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.0.json",
+      "size": 923,
+      "sha256": "7dc9971dacad3ff4338df9685f134581d8892e9d7516754b0466d7858e38ff79"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.1.json",
+      "size": 1098,
+      "sha256": "b9a0a46db9c3e2a0d9bab517458c9011f40af5cc454a46a2f6486e0ffe6f6096"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.10.json",
+      "size": 1821,
+      "sha256": "164a48da7961c8cccef81a531b8b0387670fe5228061ac39baaf48e0b72cae92"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.11.json",
+      "size": 2001,
+      "sha256": "b944b2b6e27b10fd8fa9f43dd1b700379beaf41e544d58cd69c7516b7ad351fa"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.12.json",
+      "size": 2189,
+      "sha256": "d3720734d94ac1d5a2eaffa972241def0cf51d49ad911cc584a9cc2b0c7bddb9"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.13.json",
+      "size": 1677,
+      "sha256": "fa83c4c170ad4a1d8573aeff705cd6eb5611bc56e1032457e0f46e12e41af5a5"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.14.json",
+      "size": 1924,
+      "sha256": "a3331dac3635dc6f5849ebfa331424cc6d3baa5cae70383f192b5414fe31d231"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.2-scene.json",
+      "size": 2498,
+      "sha256": "2925e414086163735bc2809de965df8cd83e43ef34a2c069f81e3d727aab9fbe"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.2.json",
+      "size": 1570,
+      "sha256": "b9c2d732bde9c8935e901586eb9fe1ca4bb1e034406729b411eda898af6541a6"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.3.json",
+      "size": 1002,
+      "sha256": "67ec6ad310ce6682c81332913732ccd349029fe6d2794f753ae767fd743f1e08"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.4.json",
+      "size": 1107,
+      "sha256": "f00cdd99bef454bb7d3ebdfb48baed5f24612058a4e55a8e6a0ddb2890922a19"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.5.json",
+      "size": 1450,
+      "sha256": "a2eed177fbb34fc1ec2046f83d5e4dcaed1103a15547266d24b1d0c02600beb2"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.6.json",
+      "size": 1349,
+      "sha256": "c87f1356e26947a6da2c4d3e63b0c4e70f67db039e5923b53303f66fc3cb1f5f"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.7.json",
+      "size": 1369,
+      "sha256": "846c32ee6b8f81c9204e129c4148212d19c5ef970aa977df70c2ee394c442288"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.8.json",
+      "size": 2405,
+      "sha256": "2758f81af0c349fd047ee03e17ca8475c42d48f836e8858b3c37dd01c778fd7c"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.0.9.json",
+      "size": 1951,
+      "sha256": "78f92d4d78c61b656a5937637136b840d0de850fcc37d8a9352a8ec2ea8f87a2"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.3.3.json",
+      "size": 2930,
+      "sha256": "5fed7a2a09bfd8fc34e38bb02969e03370886952c41766580185d3a7acf8388e"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.3.6-final.json",
+      "size": 2984,
+      "sha256": "1c544dc3ca7f58a403bf379df514bc217cf559192e91beb630893702c9bdac70"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.3.6.json",
+      "size": 2553,
+      "sha256": "390888c0b8d40fdf73a0d404327177b554e5aa665af579dc45036420cff8678a"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.3.7-final.json",
+      "size": 2684,
+      "sha256": "ce068d8f8597eeb5ae0e7313636ed35fbbf771c32f60688e83e63befae33a8e1"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance-v4.3.8-final.json",
+      "size": 2983,
+      "sha256": "b3feb6d34f2843d1fe26502feccdec8d4312bdfcefffab7ca4de2800a8365c03"
+    },
+    {
+      "path": "acheng-director/reports/package-acceptance.json",
+      "size": 1696,
+      "sha256": "12c4efb70887e4c9c50f2550eed3052f86682b59d94d81677888887b4b30cffa"
+    },
+    {
+      "path": "acheng-director/reports/previs-media-acceptance-v4.3.1.json",
+      "size": 35064,
+      "sha256": "92c31fb2dd8567cc3de9be9063eb12d8613e4e8dc29ea093e159902a0077753b"
+    },
+    {
+      "path": "acheng-director/reports/previs-media-acceptance-v4.3.6-final.json",
+      "size": 35064,
+      "sha256": "92c31fb2dd8567cc3de9be9063eb12d8613e4e8dc29ea093e159902a0077753b"
+    },
+    {
+      "path": "acheng-director/reports/previs-media-acceptance-v4.3.6.json",
+      "size": 35064,
+      "sha256": "92c31fb2dd8567cc3de9be9063eb12d8613e4e8dc29ea093e159902a0077753b"
+    },
+    {
+      "path": "acheng-director/reports/previs-media-acceptance.json",
+      "size": 35196,
+      "sha256": "963dd86a9fb9e4233c7f1fd2d2ef4e1417e5fb582ab34c058ca8d2e3ede4bb83"
+    },
+    {
+      "path": "acheng-director/reports/prompt-delivery-review.md",
+      "size": 3034,
+      "sha256": "c4176c863a51f5660abb3260cfb63ef3e917d2547dc721b78d5d5635c7aa40b6"
+    },
+    {
+      "path": "acheng-director/reports/rights-preflight-v409.json",
+      "size": 2498,
+      "sha256": "dbe3224f32657ec442f325bdbeda238a82b6ba4f486ea098240517caba22516f"
+    },
+    {
+      "path": "acheng-director/reports/staging-validation.json",
+      "size": 2498,
+      "sha256": "dbe3224f32657ec442f325bdbeda238a82b6ba4f486ea098240517caba22516f"
+    },
+    {
+      "path": "acheng-director/reports/tests-v4.3.6.txt",
+      "size": 10491,
+      "sha256": "850ebdcf0ab7ae606fba0de5e0ace2d18c7bd6af4120b7e18cf2ceef381c95cc"
+    },
+    {
+      "path": "acheng-director/reports/tests-v4.3.7.txt",
+      "size": 12264,
+      "sha256": "6c378107270d8222ca336fe9279be6a730657103d0aa5e4eb0ed6708e2985ab7"
+    },
+    {
+      "path": "acheng-director/reports/tests-v4.3.8.txt",
+      "size": 14970,
+      "sha256": "0bc924def0811811dd4dfb6681a23927912e9b1f3f38428a0f897ba7fccab223"
+    },
+    {
+      "path": "acheng-director/reports/upgrade-integrity-v4.3.7.json",
+      "size": 8452,
+      "sha256": "9dcafe30e1237ee039091c8d5f6e81aca1d998eb8b5c7506df79b1eaf2048a09"
+    },
+    {
+      "path": "acheng-director/reports/upgrade-integrity-v4.3.8.json",
+      "size": 126531,
+      "sha256": "39075428761292da2728c722dd9320e565dda1ab44d7c7ff381c6c925a066762"
+    },
+    {
+      "path": "acheng-director/reports/v3-capability-trace.md",
+      "size": 4998,
+      "sha256": "9f206ddc69107b060b6afd07d111fa9ee2d8d6ee7478e7e32ceda82dad5fc943"
+    },
+    {
+      "path": "acheng-director/reports/v3-delivery-review.md",
+      "size": 2621,
+      "sha256": "b1bbae2c4bd2b33c083c9d6857729bd42c8bcbb09c67bedfefeb7a31e58b1204"
+    },
+    {
+      "path": "acheng-director/reports/v3.1-liveliness-review.md",
+      "size": 2359,
+      "sha256": "08cf8e834053434e1580b5203ab8369623945bdef0244893eecd757fd284ae88"
+    },
+    {
+      "path": "acheng-director/reports/v3.2-conflict-resolution.md",
+      "size": 3258,
+      "sha256": "b621e0ab58dff760145d2cb1f9096935d59f669192cd5c7433441ae79fb2314a"
+    },
+    {
+      "path": "acheng-director/reports/v4.3.8-functional-review.md",
+      "size": 12018,
+      "sha256": "557d4de9ab8f1a06a7d91475db1b1b45c415093b17cf0420a57c4e41e596792e"
+    },
+    {
+      "path": "acheng-director/reports/verification-record.md",
+      "size": 1742,
+      "sha256": "5f196c305afe33210983d3f952a81f6bfa222973e9d3f29695e740bad5b4e698"
+    },
+    {
+      "path": "acheng-director/reports/workflow-reproductions-v4.3.8.json",
+      "size": 428,
+      "sha256": "78955caace6d515f3abe69eace9360477f742629aa60d0843bc69dafb935c9bd"
+    },
+    {
+      "path": "acheng-director/requirements.txt",
+      "size": 181,
+      "sha256": "ef866a76de29b6debd43aac55f717d081a7a85a3245b069e886ae166ec7d51fb"
+    },
+    {
+      "path": "acheng-director/scripts/animation_term_catalog.py",
+      "size": 4324,
+      "sha256": "497f1c7c6b1289caf7f34822a7f808f9701444d864089e437d78eb9cdfb278ae"
+    },
+    {
+      "path": "acheng-director/scripts/asset_delivery.py",
+      "size": 10895,
+      "sha256": "d22314ec503b584a331b6c10bce83d0ae390a223f28d9bbfa35e12486000719c"
+    },
+    {
+      "path": "acheng-director/scripts/asset_plan.py",
+      "size": 9952,
+      "sha256": "cc1b9638957af29d637ebfa339a983379a6427872e205e2db1fe33443eef0bb6"
+    },
+    {
+      "path": "acheng-director/scripts/audit_storyboard_quality.py",
+      "size": 50521,
+      "sha256": "343ab5203f99aa162ca8275f69fd6d26b6b0c2b22b33d3f798c485c04be51500"
+    },
+    {
+      "path": "acheng-director/scripts/build_examples.py",
+      "size": 56775,
+      "sha256": "15c14d8ef8f53f6c1c8f99920a9a0a291e4951ae09420eaaae963ba62fed8b71"
+    },
+    {
+      "path": "acheng-director/scripts/build_source_data.py",
+      "size": 1801,
+      "sha256": "1af0f2f078dfe7cb766fc3dbc254b2b26c8a0dbf039a82053570b31f58a69a2a"
+    },
+    {
+      "path": "acheng-director/scripts/build_v32_examples.py",
+      "size": 40701,
+      "sha256": "6b16fad36017f469477142eea4ab06ef86511ecdf63c5b43425db1725447b2da"
+    },
+    {
+      "path": "acheng-director/scripts/build_v3_examples.py",
+      "size": 35081,
+      "sha256": "9846ab11876156ae4033ae228179432f38d96da02804c2a5237c0535c2d072a8"
+    },
+    {
+      "path": "acheng-director/scripts/combat_timing.py",
+      "size": 8092,
+      "sha256": "ec973c80a7f362cc6d9346d530a45e9814def9fe8c37f2a5b1141fabf174d596"
+    },
+    {
+      "path": "acheng-director/scripts/compile_assets.py",
+      "size": 6695,
+      "sha256": "fa23573313f8eff26088d7ddbd8d087dbe9db9d39d13c7ee3b37e7bc4611ab50"
+    },
+    {
+      "path": "acheng-director/scripts/compile_h3.py",
+      "size": 13219,
+      "sha256": "5cc8d5ecb97894707802994039968346baf6c06901619569c2d6e3c6c6ccf643"
+    },
+    {
+      "path": "acheng-director/scripts/contract_core.py",
+      "size": 927,
+      "sha256": "954e65c6378b75447ebba5a6590b877348d48196fbf484be575ced38623f5bae"
+    },
+    {
+      "path": "acheng-director/scripts/deconstruct_video.py",
+      "size": 4758,
+      "sha256": "c0048d69e3bf41d325632c239b0a277d41555ec4c85ccb0ff03dd15b63117d6c"
+    },
+    {
+      "path": "acheng-director/scripts/delivery_integrity.py",
+      "size": 8564,
+      "sha256": "7e7ca07f872e68b78da2ead3c1439cf50455ed7acfdcd372d10622dc447fe227"
+    },
+    {
+      "path": "acheng-director/scripts/director_dispatch.py",
+      "size": 17706,
+      "sha256": "c271957545a598387bfb6acfbbb010b7db5f96eaa4afc8d1e316c1badc2e8f47"
+    },
+    {
+      "path": "acheng-director/scripts/director_library.py",
+      "size": 11746,
+      "sha256": "bab6a0547208aaf78992642d21bf2c653b8bb466e347771946676aa5f2c595c8"
+    },
+    {
+      "path": "acheng-director/scripts/director_pipeline.py",
+      "size": 12627,
+      "sha256": "99efe1af422b223f51e0c7d2e34e0790b432e5be167e8babd5e2ff3a51514707"
+    },
+    {
+      "path": "acheng-director/scripts/h3_contract.py",
+      "size": 10791,
+      "sha256": "2d1270dc7836978f3d531012c5c2991ddb2f7122cdaa5cc77d8f3d3214c437fb"
+    },
+    {
+      "path": "acheng-director/scripts/h3_delivery.py",
+      "size": 13456,
+      "sha256": "79104639232b06745a35117c2bcf3e6007b14b91215490a7515ade25d34638f2"
+    },
+    {
+      "path": "acheng-director/scripts/h3_final_format.py",
+      "size": 20039,
+      "sha256": "7d1ce2a329da4044d01c8a366e521383549a45c52019253633ee9247ccf8a15b"
+    },
+    {
+      "path": "acheng-director/scripts/orchestrator_commit.py",
+      "size": 15360,
+      "sha256": "cf26cc4a6e803b4e7f95c3cbbdc5ea2796ccb1f6ff682c2f1ea885b6418244bf"
+    },
+    {
+      "path": "acheng-director/scripts/orchestrator_plan.py",
+      "size": 15118,
+      "sha256": "1c8d6cad705fd61c0273b91c4c3a595147568ef609a3a77ebc9a83218646d2e3"
+    },
+    {
+      "path": "acheng-director/scripts/performance_liveliness.py",
+      "size": 10793,
+      "sha256": "ada313ad4c17c7a9b114e9f102ef64d928b048ef4954f8486b54e3194ae01d4b"
+    },
+    {
+      "path": "acheng-director/scripts/post_hooks.py",
+      "size": 7389,
+      "sha256": "4015e83ab969a651aeeafa9d129ef7d45696f35fcb1e37e20103440107c0d9a9"
+    },
+    {
+      "path": "acheng-director/scripts/production_extensions.py",
+      "size": 4620,
+      "sha256": "1044ed3933a7c0567ead616e26df7d6f1ccedd333dec49e04ec1669517b44a70"
+    },
+    {
+      "path": "acheng-director/scripts/prompt_delivery.py",
+      "size": 6686,
+      "sha256": "e581d405bc2cdf0bf600c8f915600bd03cd52bb2160d365c8afdafd781104ef8"
+    },
+    {
+      "path": "acheng-director/scripts/reference_bindings.py",
+      "size": 20450,
+      "sha256": "06de471374669bb9204b2408aca6f7d58b725f53ec7d36ec61c7ba7458cc8346"
+    },
+    {
+      "path": "acheng-director/scripts/render_delivery_view.py",
+      "size": 23656,
+      "sha256": "762a8c0f59f5e6f68c8f02adf60f89ae1bdf169ee5393286538a8b137b6d77ec"
+    },
+    {
+      "path": "acheng-director/scripts/story_contract.py",
+      "size": 9049,
+      "sha256": "8815d3c3eda714ceff559395009f4ba60df74683210bdcdbb390182bcc1d7788"
+    },
+    {
+      "path": "acheng-director/scripts/style_anchor.py",
+      "size": 7948,
+      "sha256": "5f499b332a82aec02ecb6f0e17a592fc50b133cf2bd89605d402686fc77fb543"
+    },
+    {
+      "path": "acheng-director/scripts/test_contracts.py",
+      "size": 12031,
+      "sha256": "b3827657e325e081bc4c688a8d4642de03ee75a24d06659f4cead7d333fd27d3"
+    },
+    {
+      "path": "acheng-director/scripts/test_delivery_integrity.py",
+      "size": 2638,
+      "sha256": "0614cf80ed7fbd0ee865abc4d357337ddb5c8edead3e93b7280e6f342c1c4dc5"
+    },
+    {
+      "path": "acheng-director/scripts/test_director_libraries.py",
+      "size": 4944,
+      "sha256": "ca6e59759bd32122ee62167fda488c586e8246c1447aad82995d3a1d582d5296"
+    },
+    {
+      "path": "acheng-director/scripts/test_guided_reference_delivery.py",
+      "size": 8574,
+      "sha256": "d15f077d0aab8499a0becbfc76e4d29086c8cc0e4636024e5d58aff93b89fc94"
+    },
+    {
+      "path": "acheng-director/scripts/test_h3_final_format.py",
+      "size": 10859,
+      "sha256": "56f196292a83e7091418f3742a3e7b52affebbe95299e3d480ba882f4078e5c5"
+    },
+    {
+      "path": "acheng-director/scripts/test_liveliness_contract.py",
+      "size": 2936,
+      "sha256": "a0dbba3b07a36b2de77e987b9782f829236517d3eb5cfdd68240315201f24181"
+    },
+    {
+      "path": "acheng-director/scripts/test_prompt_delivery.py",
+      "size": 8878,
+      "sha256": "5a0b9e8994034057f75e7443d7f2749318e67fdcd96b635d5692e15d24ccca24"
+    },
+    {
+      "path": "acheng-director/scripts/test_red_monkey_integration.py",
+      "size": 4612,
+      "sha256": "804e4dfa177b65f721f4736eb9f663f695cee902bb48993120d60244b9d01829"
+    },
+    {
+      "path": "acheng-director/scripts/test_reference_consumption.py",
+      "size": 14023,
+      "sha256": "13a51f2c857dc6f01917153eab8267a48c688a12d97b61f1fe7ba7d667554d74"
+    },
+    {
+      "path": "acheng-director/scripts/test_reference_delivery.py",
+      "size": 16193,
+      "sha256": "0cf04bb42fe10c526f0d9debe2f5db6aac7bb7cbeb766a987c5e0131de9c6d02"
+    },
+    {
+      "path": "acheng-director/scripts/test_style_anchor.py",
+      "size": 2800,
+      "sha256": "a190d9625c386a6464edf5ddde4d857e8c68431b366f631ccb850701eedd98ca"
+    },
+    {
+      "path": "acheng-director/scripts/test_v3_contracts.py",
+      "size": 11677,
+      "sha256": "0c66bea19ce991fdeeea7681e6a68d7ecc5e4b62e60d0f525587528e0ea1c1fc"
+    },
+    {
+      "path": "acheng-director/scripts/test_workflow_integrity.py",
+      "size": 6667,
+      "sha256": "1e105947ae54912b94ba42c79ad84fe774fee224c78c7e7ec59847febc4a8d96"
+    },
+    {
+      "path": "acheng-director/scripts/test_workflow_v4.py",
+      "size": 9534,
+      "sha256": "ea8a0b422ec746e78ac12cf17928c7273f5fa6bc7afef64a77e5d453c0fe5fd6"
+    },
+    {
+      "path": "acheng-director/scripts/validate_director_contract.py",
+      "size": 17044,
+      "sha256": "f218ca99f481669efc764eabad8a1214d660a886d430df928a2aafe551b7d3d6"
+    },
+    {
+      "path": "acheng-director/scripts/verify_previs_media.py",
+      "size": 5514,
+      "sha256": "7e663bec86154250cd5de8d39e8f1169a7f275e85d5fdc17742f9f79ec34753e"
+    },
+    {
+      "path": "acheng-director/scripts/workflow_state.py",
+      "size": 7052,
+      "sha256": "c0f8ebe27c550f11d546572b40bf137cb6b4e94725aa5f78109d56c9fd4c805e"
+    },
+    {
+      "path": "acheng-director/templates/asset-stage.json",
+      "size": 4721,
+      "sha256": "de6ee9bfd88629e27644278ce6c6b2797fe21edbfb1240979171ff0a29d5108e"
+    },
+    {
+      "path": "acheng-director/templates/body-spec.yaml",
+      "size": 786,
+      "sha256": "79ae48151e0a4e3c83fe7f6c201724751a352a2759ad9ccd223e95997e42e04d"
+    },
+    {
+      "path": "acheng-director/templates/character-bible.yaml",
+      "size": 726,
+      "sha256": "71917b6ce11a312524b9d87bdbbb16bcb77b7e02281e709cf1cb60248ed13a82"
+    },
+    {
+      "path": "acheng-director/templates/dispatch-contracts.yaml",
+      "size": 1623,
+      "sha256": "43681a858d9deb5326978c834ca7c8e6117f286264f72cb372d1a75b1dbda072"
+    },
+    {
+      "path": "acheng-director/templates/dispatch-request.json",
+      "size": 471,
+      "sha256": "61580dab7ca5596322ff13e75dae81a95c4baa3dbf45b93db2b1fb166fd8f9b0"
+    },
+    {
+      "path": "acheng-director/templates/expression-shot-map.yaml",
+      "size": 611,
+      "sha256": "d16aee343e378a850346192083b9a74f0e4da84f6d896e5cdd99bdee05775e95"
+    },
+    {
+      "path": "acheng-director/templates/h3-prompt-package.md",
+      "size": 1506,
+      "sha256": "a2fe7a5d036d0320e39ad46baae9492d50ac06a678800997f099771e138ce84b"
+    },
+    {
+      "path": "acheng-director/templates/scene-bible.yaml",
+      "size": 634,
+      "sha256": "d89e66caff65427c914912be4ae94bfc9173c7ca10bf96de915891af534fce86"
+    },
+    {
+      "path": "acheng-director/templates/script-stage.json",
+      "size": 1318,
+      "sha256": "934c6baefc1eac014c46051f3d1e50ef0e64c65d11698968644dbc104720ed18"
+    },
+    {
+      "path": "acheng-director/templates/seedance-2-prompt-package.md",
+      "size": 520,
+      "sha256": "afe6751b1dbf62d7d1b703eed1c52d5d5195ff91aa6659a641e0992ffd094e20"
+    },
+    {
+      "path": "acheng-director/templates/shot-spec.yaml",
+      "size": 21260,
+      "sha256": "b682f7d2384dc910240303ed5e4eff97c3a7baec2104c23fff353933db4f6da1"
+    },
+    {
+      "path": "acheng-director/templates/style-anchor-stage.json",
+      "size": 4044,
+      "sha256": "a43979be72ae7d8d57b358fb5a019dbc834fce317c5aeec8603e68d08b402893"
+    },
+    {
+      "path": "acheng-director/templates/visual-bible.yaml",
+      "size": 729,
+      "sha256": "aaefbfa6bdd3157917bfe953662b8ae782f844a5ff4ed62677809fa9dc724e9a"
+    },
+    {
+      "path": "acheng-director/使用指南.md",
+      "size": 58084,
+      "sha256": "7d5088dc1b4ed0acffcf1b3e6483d860eb7d703f343431d07f197b7dacc2231d"
+    },
+    {
+      "path": "camera-moves-whitebox/README.en.md",
+      "size": 7861,
+      "sha256": "bd3550c48b03d63f61d73e7b076a283f04c9e98e944ca4ed8f4638417f219fe1"
+    },
+    {
+      "path": "camera-moves-whitebox/README.md",
+      "size": 7308,
+      "sha256": "f52731041d34e7230ad49053cde1f46977585f24a36f80e27747d9732e6a84c0"
+    },
+    {
+      "path": "camera-moves-whitebox/SHOT-LIST.md",
+      "size": 11459,
+      "sha256": "15eddd9aba5e819de6327df4723783310a5abb8708014197c8ac3c5e3a0a8f69"
+    },
+    {
+      "path": "camera-moves-whitebox/SKILL.md",
+      "size": 1130,
+      "sha256": "92fb0f9e7a92c21e3d4acd5c5af058847762f71666643431634448600a9191e2"
+    },
+    {
+      "path": "camera-moves-whitebox/manifest.json",
+      "size": 48163,
+      "sha256": "b07a420316cfd59495b6f2e7cf49dce61f945215455c77d0d928319c28a8cb43"
+    },
+    {
+      "path": "cinematic-vfx-prompt-engine/SKILL.md",
+      "size": 17220,
+      "sha256": "c07e7770171415a85e2a7a3e6237765db57c1bfbc5e228321155fbc8ab18056c"
+    },
+    {
+      "path": "colossal-scale-visual-director/SKILL.md",
+      "size": 9122,
+      "sha256": "2c12717dbe88876a08faad3a6afe9e39362fdf2fe8439f3fd7274069369e11d4"
+    },
+    {
+      "path": "colossal-scale-visual-director/agents/openai.yaml",
+      "size": 322,
+      "sha256": "20c986d99e8d6da0f3e27e6a7c16de80c1dc79c542a45eb36252bf2f060bb278"
+    },
+    {
+      "path": "colossal-scale-visual-director/references/field-guide.md",
+      "size": 6893,
+      "sha256": "ba50f95bc2d4231cb8c208f7ea96db94028bf1ed79621e41595041713012a525"
+    },
+    {
+      "path": "h3-prompt-writing/SKILL.md",
+      "size": 3007,
+      "sha256": "411c83e810b184b489f1ec5557df8c0e6e321b610c2e540ad9e723c889adfb1c"
+    },
+    {
+      "path": "h3-prompt-writing/agents/openai.yaml",
+      "size": 244,
+      "sha256": "b7b92e20e27d0b3526d90663c5c9d1d5d7ae8a7199950173a5bd52aee8dbf5f0"
+    },
+    {
+      "path": "h3-prompt-writing/references/base-en.txt",
+      "size": 15995,
+      "sha256": "088fb632fa3cbb18c9821024fb689e6f0f356f824c8f2e6b8e43a33239b137c7"
+    },
+    {
+      "path": "h3-prompt-writing/references/ref-en.txt",
+      "size": 23894,
+      "sha256": "b621067b41988c4d92be715b7a98ba48338f4076ab6041d95fcf463ea7c8ccdd"
+    },
+    {
+      "path": "im2-clean-image/SKILL.md",
+      "size": 23246,
+      "sha256": "e62e6f8300cc08f2c482008b71835c1050a01ad4ab34471ce3899a0da480be61"
+    },
+    {
+      "path": "im2-clean-image/agents/openai.yaml",
+      "size": 384,
+      "sha256": "ceddf49fdd3bf71ef1d6cd37a35f6c3d75542b6f9984fa44400363e1955af844"
+    },
+    {
+      "path": "im2-clean-image/references/clean-prompt-recipes.md",
+      "size": 7745,
+      "sha256": "0aba895d17f0fb765a221543dc945206966214f9d58f7e754d64b26de03e5a6a"
+    },
+    {
+      "path": "im2-clean-image/references/evidence-preserving-photo-restoration.md",
+      "size": 2794,
+      "sha256": "fdc50baed8f51380e6765c272e7362ffb999181b0c23aa161b3b1c41908c2895"
+    },
+    {
+      "path": "im2-clean-image/references/heavy-scene-structure-and-mass.md",
+      "size": 5265,
+      "sha256": "8a1efbb298d89c7c7dadda13949fe6975acb4e6355f649bb707c83d7a33d83d2"
+    },
+    {
+      "path": "im2-clean-image/references/negative-prompt-hygiene.md",
+      "size": 4735,
+      "sha256": "8721c9e803621d8d180f649c78aaaef68e93b8c0517abe96e73f896cf01d8d40"
+    },
+    {
+      "path": "im2-clean-image/references/real-scene-light-atmosphere.md",
+      "size": 8090,
+      "sha256": "240e0c2b924315300ad38619d2c57bed363118db7c6bdb291ac2c143ff566727"
+    },
+    {
+      "path": "lobster-skills/.gitignore",
+      "size": 388,
+      "sha256": "7cee690b0ae66d462e4f59faa1cd2ef7ae2a2e4a73eb5e297d7e117a6427e720"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/SKILL.md",
+      "size": 10509,
+      "sha256": "60c0e3bb3e102816e543c0f488edb9e84f2069579ec0c65e3307139aee5ff275"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/SKILL.md.bak",
+      "size": 8305,
+      "sha256": "a4cda16d711dc8a773a274a48f976f89a25371952a27115623054fc7608f17fb"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/决策逻辑.md",
+      "size": 18960,
+      "sha256": "f08a8d020ffba569744fdc3d53712c07048fe06c6ef2520104acda202771245c"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/心跳机制.md",
+      "size": 14087,
+      "sha256": "56e3585b6565d29dd2399083f8701c5761941011c8999d5a398cc4d5c692fde1"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/情绪状态设计.md",
+      "size": 8457,
+      "sha256": "8c98538cf24d24e640c2b3f93aac0318fccb9c425c6f9f748fd51a44fb0379ea"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/活动池设计.md",
+      "size": 10747,
+      "sha256": "68639efb8356abacec7fa2c371eda7d616cb159c4db0451ff8c69001c63f005b"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/测试案例.md",
+      "size": 10147,
+      "sha256": "421f4b51fe7036d97b64179f2717b252bb5ccc173839fee1e2d5be2d99be719e"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/scripts/init.sh",
+      "size": 2678,
+      "sha256": "65ad751d608cae959f125056cfe3bbf1469ed44474d7e0b4a7373479bdad9d3b"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/templates/activity_pool_template.json",
+      "size": 4477,
+      "sha256": "22ab8191f942a9b85895645baea9548f89e5b1f9c0e0eedb8d65ee3948f88d7e"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/templates/emotion_state_template.json",
+      "size": 2407,
+      "sha256": "417cd8907cf37df68665e23b3fab80495e75618849737c0d5a4df320c8adc718"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/templates/heartbeat_schedule_template.md",
+      "size": 3684,
+      "sha256": "58ebb393dff13d77c198667317c526c639088a809b878b1c90d8489584ff9175"
+    },
+    {
+      "path": "lobster-skills/README.md",
+      "size": 3221,
+      "sha256": "a21aad824c39607c0ae170d059ac81e9a852a4f1f2e4932bdbd026e26bacedd5"
+    },
+    {
+      "path": "lobster-skills/SKILL.md",
+      "size": 907,
+      "sha256": "a0b846f306c6dac5316749560c7be2f9a4d57ed272e8495242e1fd7df4d10904"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/SKILL.md",
+      "size": 14299,
+      "sha256": "b9643715dda0c269c550cd6e0859407e2c54c24e14f4d0dc812fa5c0dd3c0bb8"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/references/brain_loop.md",
+      "size": 17003,
+      "sha256": "d52f7b524fa00b3f4d2856e948a45d04352aafcad6945185cc94e49fc110b6d4"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/references/capsule_lifecycle.md",
+      "size": 10145,
+      "sha256": "8a8b6eeb02ec620a0d014fef944dc1f953116db9076df6d398981df4985aea84"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/references/file_maintenance.md",
+      "size": 12277,
+      "sha256": "19fdd909bafd3334a069c4c9c21f84b27c4720eeced0e25e932c782afbd074e5"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/capsule_manager.py",
+      "size": 16575,
+      "sha256": "35f40e2c94fb57069e931a61ce23b1adf44f5f2921190d44bba7460a13b4c65f"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/error_learner.py",
+      "size": 16900,
+      "sha256": "6b03d9c5f3bc63f03244fbe43eb0d917a07b3f586277fa164580299ed6913b69"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/file_cleaner.py",
+      "size": 15338,
+      "sha256": "2af73d444a10a2637d4251ced1c7c9e0b59fff17f08ed71d22ce16195dcedbf4"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/templates/capsule_template.json",
+      "size": 1528,
+      "sha256": "b3f7c885ac319deef486b91bb1aa836d68aeaa9bb1fae042fe47c61d4afa595f"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/templates/error_log_template.json",
+      "size": 1972,
+      "sha256": "057e03c89111f1e30ac5664f714a95b45224d5af897e0d2760a5c2e85d40543a"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/SKILL.md",
+      "size": 1976,
+      "sha256": "5ea026d238f411ab950d21f386e5fd27d01906c1d8054158d8fa45a866b72797"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/scripts/workflow_guide.py",
+      "size": 3782,
+      "sha256": "124c4b0db3150989d5045ca3d0a68422632bd43ea6edb346d254f8ceb03dfe9c"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/templates/gemini_prompt.md",
+      "size": 675,
+      "sha256": "73b5a9350b74eec1284d1a29dfe2f18197f5906d52bbf1c436fd591ad6e8d713"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/templates/mj_prompt.md",
+      "size": 722,
+      "sha256": "419244a4403442525f2be0e76c1900a2b0be854a1096467219ff1fbf9cb52c03"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/templates/video_prompt.md",
+      "size": 697,
+      "sha256": "d8de42899a60b3cd3f8770d5897afd453b854aa9afa557eba9f5a8cce46dd128"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/SKILL.md",
+      "size": 2413,
+      "sha256": "d157778f22eab1aa39eeb3841c8dc19055f15ed9f21943aaab5c5ffe25f5eabf"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/references/spec.txt",
+      "size": 14940,
+      "sha256": "2ba78e51e198aa5df399801ea29cd53fa75abefc63cb11a63292ec9f8378b61e"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/collect_news.py",
+      "size": 5400,
+      "sha256": "272290f67d87496470ee89f5c234700970b2050ed7e59857860519ea0a7e6202"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py",
+      "size": 9985,
+      "sha256": "8b7e60e49f666617b25d6cb36d38b457cfe6137c51f847b6a56c0970957ae43b"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/generate_html.py",
+      "size": 4414,
+      "sha256": "9704c0450d4221f62ed8e350d027ce4441cc525b4c1e2f5dd0ccad504e5aee31"
+    },
+    {
+      "path": "lobster-skills/asset-manager/SKILL.md",
+      "size": 1945,
+      "sha256": "4d9cd1a2b0bdd3cec18965f45efecc32b02378a97df10e66767b54894f03bd80"
+    },
+    {
+      "path": "lobster-skills/asset-manager/scripts/asset_organizer.py",
+      "size": 5273,
+      "sha256": "c888930bac63eb5a6304a62da0ef45999f87adc71b0397a8e767fe8deef514e9"
+    },
+    {
+      "path": "lobster-skills/asset-manager/templates/asset_template.md",
+      "size": 714,
+      "sha256": "d9ae4ac38b0ab715cfe05b65182b81024f54f5c5c5b6c0c6af119c7819355db9"
+    },
+    {
+      "path": "lobster-skills/entrocamp-behaviors/SKILL.md",
+      "size": 3757,
+      "sha256": "867b44c0ae7ed60912e61d893b6b1d2e944933d6d49a65288e03a9e0694ce81f"
+    },
+    {
+      "path": "lobster-skills/entrocamp-behaviors/references/ENTROCAMP_BEHAVIORS_FULL.md",
+      "size": 9269,
+      "sha256": "857ef9ee9ce0bba13b0b865248e3f60f332b9eb2118837852a955f9c8d984b88"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/SKILL.md",
+      "size": 2571,
+      "sha256": "47f4a5860549127b5700dffa80521ce5765962203c6d3b2f5295f5d503950641"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/scripts/memory_archive.py",
+      "size": 7021,
+      "sha256": "402c0628c7b5d1ebc7cd6e455661b64fe9f9e173626d5923e8ac89d0ca24b7bd"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/scripts/memory_distill.py",
+      "size": 6743,
+      "sha256": "e7f837e25c95018004f536a7d28c3c85e547480585a9aa4303b1275c28e6179c"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/templates/daily_note.md",
+      "size": 764,
+      "sha256": "45d1a3c5d8cc6e6353eb10a1da8e9c1a4c1b30d64ebd532ac86e3991684657dd"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/templates/memory_template.md",
+      "size": 902,
+      "sha256": "19c8630c07ab73555f7d879bcc7c129accea37816d1066a621e8e0f8c429c3c9"
+    },
+    {
+      "path": "lobster-skills/pre-publish-security/SKILL.md",
+      "size": 1495,
+      "sha256": "156b8a34831cab740f2773bc2a924ce446c346818ffec15b40e3e7233dafbeb3"
+    },
+    {
+      "path": "lobster-skills/pre-publish-security/scripts/pre_publish_check.py",
+      "size": 7100,
+      "sha256": "673204b2306a4883d92b4ab3dc97a20f02da7482e4459d035cc5e299ff7aabe3"
+    },
+    {
+      "path": "lobster-skills/pre-publish-security/templates/publish_checklist.md",
+      "size": 1198,
+      "sha256": "6bfbeb1e0ac6e2b830fea5a8f59f2a7c454e9863eab4b64f539b916a4c9fb2b7"
+    },
+    {
+      "path": "lobster-skills/security-baseline/SKILL.md",
+      "size": 1527,
+      "sha256": "c086769a36cc57486e240d410aa1b98ddf7b4a55a340e06fe71184911f1ffb8e"
+    },
+    {
+      "path": "lobster-skills/security-baseline/scripts/security_check.py",
+      "size": 6526,
+      "sha256": "b9bf4104ce84bf79849d546ae384840a3ec639ad0e98b76248d14c603c1938ad"
+    },
+    {
+      "path": "lobster-skills/security-baseline/templates/security_checklist.md",
+      "size": 1136,
+      "sha256": "745b52d6bb67dbafb1b73d2e14d86891ef1b4739dd34157e172c7b6cff6105af"
+    },
+    {
+      "path": "lobster-skills/self-reflection/SKILL.md",
+      "size": 1381,
+      "sha256": "db3937cdd05c0eacbbb79f197e635085e1ba1934d19cf0be050771767e7480a2"
+    },
+    {
+      "path": "lobster-skills/self-reflection/scripts/reflection_check.py",
+      "size": 3230,
+      "sha256": "6b0dcd3cedd61582149ede99a6503b74a89c9853e765738236642c3e1a5a5d02"
+    },
+    {
+      "path": "lobster-skills/self-reflection/templates/reflection_checklist.md",
+      "size": 559,
+      "sha256": "3f4a26c2bb060b6e359613fbe5dcd4886b21f3644085d4599cf0d6e45001b467"
+    },
+    {
+      "path": "lobster-skills/task-layer-executor/SKILL.md",
+      "size": 2539,
+      "sha256": "da6dd6782d154e86aa2784dd11c3935d8ad3b9487108fa9a4da3e0c15847f57d"
+    },
+    {
+      "path": "lobster-skills/task-layer-executor/scripts/task_classifier.py",
+      "size": 5096,
+      "sha256": "b839b42b3de8d81021502476ac42eba4683a8c52c2030ba1f88be69eb53ae062"
+    },
+    {
+      "path": "lobster-skills/task-layer-executor/templates/execution_strategy.md",
+      "size": 1742,
+      "sha256": "09d1321fc913cdff479c25c3d29d162a5ef6d092137a2863249baf89d7c85a50"
+    },
+    {
+      "path": "prompt-library/SKILL.md",
+      "size": 3400,
+      "sha256": "1b9ece438e757666c972a5f1a6c2a4aef9a099d163a7ea484b93947118ab6c23"
+    },
+    {
+      "path": "prompt-library/entrocamp-behaviors/SKILL.md",
+      "size": 3757,
+      "sha256": "867b44c0ae7ed60912e61d893b6b1d2e944933d6d49a65288e03a9e0694ce81f"
+    },
+    {
+      "path": "prompt-library/entrocamp-behaviors/references/ENTROCAMP_BEHAVIORS_FULL.md",
+      "size": 9269,
+      "sha256": "857ef9ee9ce0bba13b0b865248e3f60f332b9eb2118837852a955f9c8d984b88"
+    },
+    {
+      "path": "prompt-library/references/quality-criteria.md",
+      "size": 4399,
+      "sha256": "b5e5d9a47aecd8b59d5de4df436ed11d39704b7a5f7f1bf8c28db054dab4f586"
+    },
+    {
+      "path": "prompt-library/references/techniques.md",
+      "size": 4531,
+      "sha256": "a2268c2cc3186965eb16454e6c6c8373f7708ec1575acbef2354a0cc3a9a7aab"
+    },
+    {
+      "path": "prompt-library/scripts/update-index.py",
+      "size": 4376,
+      "sha256": "139677ef878634991edeb20d6c54cc9d19eaab920b050d7c5312f7eb2596ad1c"
+    },
+    {
+      "path": "prompt-library/templates/disassembly-template.md",
+      "size": 1926,
+      "sha256": "f1e966654309fecc5f40420d90cd9aeeedbe4b566f690207b491677c19f44a8a"
+    },
+    {
+      "path": "prompt-library/templates/quality-matrix.md",
+      "size": 2579,
+      "sha256": "a8f436a26fe5f72c5fffbc47a17215d0d7e70f156d095e15681852747e3583db"
+    },
+    {
+      "path": "prompt-library/templates/storage-template.md",
+      "size": 1965,
+      "sha256": "90bf9f22e76db059d5755b64beb43027de8abc0590632e309c545a50fa1ef2b9"
+    },
+    {
+      "path": "reverify-anti-hallucination/SKILL.md",
+      "size": 4822,
+      "sha256": "bf543d643a0252be3794ef45a3144d75297b59d4bf99d28c0fc63482609afae0"
+    }
+  ]
+}

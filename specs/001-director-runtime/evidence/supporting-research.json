@@ -1,0 +1,1018 @@
+{
+  "schema_version": "1.0",
+  "client_research_date": "2026-10-09",
+  "execution_utc": "2026-10-08T21:54:43.911947Z",
+  "scope": "8 supporting suites excluding acheng-director",
+  "source_root": "D:\\bugu_data\\ai漫剧\\skills\\Acheng 影视牛马skill（全自动全资产生成skill）\\Acheng 影视牛马skill（全自动全资产生成skill）\\acheng-director-suite-v4.3.9\\skills",
+  "runtime": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Python314\\python.exe"
+  },
+  "isolation": {
+    "scratch": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\bugu-supporting-audit-702217d788e9446bad77d0058487ee61",
+    "working_directory": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\bugu-supporting-audit-702217d788e9446bad77d0058487ee61\\workspace",
+    "home": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\bugu-supporting-audit-702217d788e9446bad77d0058487ee61\\workspace",
+    "source_copies_unmodified": true,
+    "source_hashes_unchanged": true,
+    "external_network_calls": 0,
+    "media_generation_calls": 0,
+    "business_acceptance": false
+  },
+  "counts": {
+    "files": 85,
+    "skill_entries": 20,
+    "python_scripts": 15,
+    "reproduced_defects": 21
+  },
+  "camera": {
+    "declared_count": 132,
+    "manifest_entries": 132,
+    "unique_keys": 132,
+    "local_video_files": 0,
+    "existing_manifest_absolute_paths": 0,
+    "claimed_bytes": 116638496,
+    "ok_claims": 132,
+    "distinct_specifications": [
+      [
+        1920,
+        1080,
+        24.0,
+        96,
+        4.0
+      ]
+    ]
+  },
+  "syntax_checks": [
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/capsule_manager.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/error_learner.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/file_cleaner.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/scripts/workflow_guide.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/collect_news.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/generate_html.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/asset-manager/scripts/asset_organizer.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/scripts/memory_archive.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/scripts/memory_distill.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/pre-publish-security/scripts/pre_publish_check.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/security-baseline/scripts/security_check.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/self-reflection/scripts/reflection_check.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "lobster-skills/task-layer-executor/scripts/task_classifier.py",
+      "syntax": "valid"
+    },
+    {
+      "path": "prompt-library/scripts/update-index.py",
+      "syntax": "valid"
+    }
+  ],
+  "reproduction_tests": [
+    {
+      "id": "SUP-01",
+      "source": "lobster-skills/ai-video-workflow/scripts/workflow_guide.py:72,79-84",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Projects do not share stage state; final stage cannot finish before predecessors and evidence.",
+      "actual": {
+        "accepted_out_of_order": true,
+        "a_final": "completed",
+        "b_final": "completed",
+        "same_step_object": true
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-02",
+      "source": "lobster-skills/self-reflection/scripts/reflection_check.py:76",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Formatting a supported check result succeeds.",
+      "actual": {
+        "type": "AttributeError",
+        "message": "'ConfidenceLevel' object has no attribute 'icon'"
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-03",
+      "source": "lobster-skills/self-reflection/scripts/reflection_check.py:29-55",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "A source keyword does not establish real evidence.",
+      "actual": {
+        "factuality": "有来源依据",
+        "confidence": "CERTAIN"
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-04",
+      "source": "lobster-skills/security-baseline/scripts/security_check.py:57-65,140-148",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Sensitive path checks normalize Windows separators and enforce filesystem capabilities.",
+      "actual": {
+        "input": "查看 C:\\Users\\fixture\\.aws\\config",
+        "level": "SAFE",
+        "block": false,
+        "paths": []
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-05",
+      "source": "lobster-skills/security-baseline/scripts/security_check.py:32,89-95",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Legitimate encoding discussion is separated from instruction injection.",
+      "actual": {
+        "level": "DANGEROUS",
+        "block": true
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-06",
+      "source": "lobster-skills/pre-publish-security/scripts/pre_publish_check.py:134-142",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Host allowlist compares normalized complete hosts with explicit suffix policy.",
+      "actual": {
+        "issues": [],
+        "report": "✅ 所有检查项通过，可以发布"
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-07",
+      "source": "lobster-skills/pre-publish-security/scripts/pre_publish_check.py:49-55,114-117",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Configured subprocess detection covers subprocess.run and shell execution.",
+      "actual": {
+        "issues": []
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-08",
+      "source": "lobster-skills/asset-manager/scripts/asset_organizer.py:56-93",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Registration requires file existence and verified metadata; archival copies and checksums are durable.",
+      "actual": {
+        "source_exists": false,
+        "registered": {
+          "id": "asset_1",
+          "filename": "absent.mp4",
+          "project": "fixture",
+          "type": "video",
+          "tags": [],
+          "notes": "",
+          "registered_at": "2026-10-09T05:54:43.886717",
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\bugu-supporting-audit-702217d788e9446bad77d0058487ee61\\workspace\\absent.mp4"
+        },
+        "indexed_count": 1
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-09",
+      "source": "lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:61-75",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "The documented nested pattern schema is preserved.",
+      "actual": {
+        "pattern": {
+          "what_worked": "",
+          "when_to_apply": [],
+          "why_it_works": ""
+        }
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-10",
+      "source": "lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:188-200",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Failures increase attempt/failure counts and leave success_count unchanged.",
+      "actual": {
+        "success_count_after_failure": 1,
+        "confidence": 0.45
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-11",
+      "source": "lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:249-261",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Retrieving a procedure does not manufacture verified execution or a successful outcome.",
+      "actual": {
+        "return_success": true,
+        "success_count": 1,
+        "confidence": 0.68,
+        "last_result": "在场景'fixture context'中应用成功"
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-12",
+      "source": "lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:156-171",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "State transitions validate predecessor, scenario bindings, and real success evidence.",
+      "actual": {
+        "accepted": true,
+        "status": "internalized",
+        "success_count": 0
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-13",
+      "source": "lobster-skills/agent-self-maintenance/scripts/file_cleaner.py:30-40,47-59",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "A valid multi-record JSONL file is verified record by record.",
+      "actual": {
+        "valid_jsonl": true,
+        "accepted": false,
+        "message": "JSON损坏: Extra data: line 2 column 1 (char 14)"
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-14",
+      "source": "lobster-skills/agent-self-maintenance/scripts/file_cleaner.py:148-157",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Same-day archive rotations use unique immutable names and preserve earlier batches.",
+      "actual": {
+        "first_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\bugu-supporting-audit-702217d788e9446bad77d0058487ee61\\workspace\\maintenance\\daily\\2026-10-09\\error_log_2026-10-09_001.jsonl",
+        "second_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\bugu-supporting-audit-702217d788e9446bad77d0058487ee61\\workspace\\maintenance\\daily\\2026-10-09\\error_log_2026-10-09_001.jsonl",
+        "first_content_preserved": false
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-15",
+      "source": "lobster-skills/hot-memory-system/scripts/memory_archive.py:49-65,68-74",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Distinct writes receive collision-resistant IDs.",
+      "actual": {
+        "first_id": "archive_20261009055443",
+        "second_id": "archive_20261009055443",
+        "index_entries": 2,
+        "file_count": 1,
+        "first_retrieval_content": "second fixture"
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-16",
+      "source": "lobster-skills/hot-memory-system/scripts/memory_distill.py:99-105,110-124",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Hard constraints persist by explicit type regardless of keyword phrasing.",
+      "actual": {
+        "result": {
+          "warm": [],
+          "cold": [],
+          "cleared": [
+            "禁止公开演员肖像未经授权"
+          ]
+        },
+        "summary": {
+          "hot_count": 0,
+          "warm_count": 0,
+          "cold_count": 0,
+          "last_distill": "2026-10-09T05:54:43.901922"
+        }
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-17",
+      "source": "lobster-skills/aigc-daily-briefing/scripts/collect_news.py:34-42,79-115",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "A missing provider is reported unavailable and does not pass dependency verification.",
+      "actual": {
+        "dependency_check": true,
+        "real_provider_invoked": false,
+        "collected_count": 0,
+        "topic_tracking_present_in_supplied_package": false
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-18",
+      "source": "lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py:230-234",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Within the same source level audio ranks before video.",
+      "actual": {
+        "actual_domain_order": [
+          "video",
+          "audio"
+        ]
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-19",
+      "source": "lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py:123-136",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "A historical news window rejects future dates.",
+      "actual": {
+        "future_by_days": 10,
+        "accepted": true
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-20",
+      "source": "lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py:109-113",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Official source classification validates exact source ownership.",
+      "actual": {
+        "classified_level": 1
+      },
+      "status": "DEFECT_REPRODUCED"
+    },
+    {
+      "id": "SUP-21",
+      "source": "lobster-skills/aigc-daily-briefing/scripts/generate_html.py:136-147",
+      "method": "isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation",
+      "expected_enterprise_behavior": "Untrusted titles and content are escaped, with explicitly trusted markup separated.",
+      "actual": {
+        "raw_script_tag_written": true,
+        "browser_or_script_executed": false
+      },
+      "status": "DEFECT_REPRODUCED"
+    }
+  ],
+  "read_coverage": [
+    {
+      "path": "camera-moves-whitebox/manifest.json",
+      "lines": 1728,
+      "bytes": 48163,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b07a420316cfd59495b6f2e7cf49dce61f945215455c77d0d928319c28a8cb43"
+    },
+    {
+      "path": "camera-moves-whitebox/README.en.md",
+      "lines": 152,
+      "bytes": 7861,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "bd3550c48b03d63f61d73e7b076a283f04c9e98e944ca4ed8f4638417f219fe1"
+    },
+    {
+      "path": "camera-moves-whitebox/README.md",
+      "lines": 142,
+      "bytes": 7308,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "f52731041d34e7230ad49053cde1f46977585f24a36f80e27747d9732e6a84c0"
+    },
+    {
+      "path": "camera-moves-whitebox/SHOT-LIST.md",
+      "lines": 231,
+      "bytes": 11459,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "15eddd9aba5e819de6327df4723783310a5abb8708014197c8ac3c5e3a0a8f69"
+    },
+    {
+      "path": "camera-moves-whitebox/SKILL.md",
+      "lines": 20,
+      "bytes": 1130,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "92fb0f9e7a92c21e3d4acd5c5af058847762f71666643431634448600a9191e2"
+    },
+    {
+      "path": "cinematic-vfx-prompt-engine/SKILL.md",
+      "lines": 204,
+      "bytes": 17220,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "c07e7770171415a85e2a7a3e6237765db57c1bfbc5e228321155fbc8ab18056c"
+    },
+    {
+      "path": "colossal-scale-visual-director/agents/openai.yaml",
+      "lines": 4,
+      "bytes": 322,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "20c986d99e8d6da0f3e27e6a7c16de80c1dc79c542a45eb36252bf2f060bb278"
+    },
+    {
+      "path": "colossal-scale-visual-director/references/field-guide.md",
+      "lines": 159,
+      "bytes": 6893,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "ba50f95bc2d4231cb8c208f7ea96db94028bf1ed79621e41595041713012a525"
+    },
+    {
+      "path": "colossal-scale-visual-director/SKILL.md",
+      "lines": 172,
+      "bytes": 9122,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "2c12717dbe88876a08faad3a6afe9e39362fdf2fe8439f3fd7274069369e11d4"
+    },
+    {
+      "path": "h3-prompt-writing/agents/openai.yaml",
+      "lines": 4,
+      "bytes": 244,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b7b92e20e27d0b3526d90663c5c9d1d5d7ae8a7199950173a5bd52aee8dbf5f0"
+    },
+    {
+      "path": "h3-prompt-writing/references/base-en.txt",
+      "lines": 222,
+      "bytes": 15995,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "088fb632fa3cbb18c9821024fb689e6f0f356f824c8f2e6b8e43a33239b137c7"
+    },
+    {
+      "path": "h3-prompt-writing/references/ref-en.txt",
+      "lines": 341,
+      "bytes": 23894,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b621067b41988c4d92be715b7a98ba48338f4076ab6041d95fcf463ea7c8ccdd"
+    },
+    {
+      "path": "h3-prompt-writing/SKILL.md",
+      "lines": 46,
+      "bytes": 3007,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "411c83e810b184b489f1ec5557df8c0e6e321b610c2e540ad9e723c889adfb1c"
+    },
+    {
+      "path": "im2-clean-image/agents/openai.yaml",
+      "lines": 6,
+      "bytes": 384,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "ceddf49fdd3bf71ef1d6cd37a35f6c3d75542b6f9984fa44400363e1955af844"
+    },
+    {
+      "path": "im2-clean-image/references/clean-prompt-recipes.md",
+      "lines": 75,
+      "bytes": 7745,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "0aba895d17f0fb765a221543dc945206966214f9d58f7e754d64b26de03e5a6a"
+    },
+    {
+      "path": "im2-clean-image/references/evidence-preserving-photo-restoration.md",
+      "lines": 46,
+      "bytes": 2794,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "fdc50baed8f51380e6765c272e7362ffb999181b0c23aa161b3b1c41908c2895"
+    },
+    {
+      "path": "im2-clean-image/references/heavy-scene-structure-and-mass.md",
+      "lines": 71,
+      "bytes": 5265,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "8a1efbb298d89c7c7dadda13949fe6975acb4e6355f649bb707c83d7a33d83d2"
+    },
+    {
+      "path": "im2-clean-image/references/negative-prompt-hygiene.md",
+      "lines": 110,
+      "bytes": 4735,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "8721c9e803621d8d180f649c78aaaef68e93b8c0517abe96e73f896cf01d8d40"
+    },
+    {
+      "path": "im2-clean-image/references/real-scene-light-atmosphere.md",
+      "lines": 161,
+      "bytes": 8090,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "240e0c2b924315300ad38619d2c57bed363118db7c6bdb291ac2c143ff566727"
+    },
+    {
+      "path": "im2-clean-image/SKILL.md",
+      "lines": 264,
+      "bytes": 23246,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "e62e6f8300cc08f2c482008b71835c1050a01ad4ab34471ce3899a0da480be61"
+    },
+    {
+      "path": "lobster-skills/.gitignore",
+      "lines": 44,
+      "bytes": 388,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "7cee690b0ae66d462e4f59faa1cd2ef7ae2a2e4a73eb5e297d7e117a6427e720"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/references/brain_loop.md",
+      "lines": 611,
+      "bytes": 17003,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "d52f7b524fa00b3f4d2856e948a45d04352aafcad6945185cc94e49fc110b6d4"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/references/capsule_lifecycle.md",
+      "lines": 367,
+      "bytes": 10145,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "8a8b6eeb02ec620a0d014fef944dc1f953116db9076df6d398981df4985aea84"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/references/file_maintenance.md",
+      "lines": 470,
+      "bytes": 12277,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "19fdd909bafd3334a069c4c9c21f84b27c4720eeced0e25e932c782afbd074e5"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/capsule_manager.py",
+      "lines": 442,
+      "bytes": 16575,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "35f40e2c94fb57069e931a61ce23b1adf44f5f2921190d44bba7460a13b4c65f"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/error_learner.py",
+      "lines": 443,
+      "bytes": 16900,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "6b03d9c5f3bc63f03244fbe43eb0d917a07b3f586277fa164580299ed6913b69"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/scripts/file_cleaner.py",
+      "lines": 438,
+      "bytes": 15338,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "2af73d444a10a2637d4251ced1c7c9e0b59fff17f08ed71d22ce16195dcedbf4"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/SKILL.md",
+      "lines": 461,
+      "bytes": 14299,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b9643715dda0c269c550cd6e0859407e2c54c24e14f4d0dc812fa5c0dd3c0bb8"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/templates/capsule_template.json",
+      "lines": 55,
+      "bytes": 1528,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b3f7c885ac319deef486b91bb1aa836d68aeaa9bb1fae042fe47c61d4afa595f"
+    },
+    {
+      "path": "lobster-skills/agent-self-maintenance/templates/error_log_template.json",
+      "lines": 59,
+      "bytes": 1972,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "057e03c89111f1e30ac5664f714a95b45224d5af897e0d2760a5c2e85d40543a"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/决策逻辑.md",
+      "lines": 578,
+      "bytes": 18960,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "f08a8d020ffba569744fdc3d53712c07048fe06c6ef2520104acda202771245c"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/心跳机制.md",
+      "lines": 391,
+      "bytes": 14087,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "56e3585b6565d29dd2399083f8701c5761941011c8999d5a398cc4d5c692fde1"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/情绪状态设计.md",
+      "lines": 275,
+      "bytes": 8457,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "8c98538cf24d24e640c2b3f93aac0318fccb9c425c6f9f748fd51a44fb0379ea"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/活动池设计.md",
+      "lines": 450,
+      "bytes": 10747,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "68639efb8356abacec7fa2c371eda7d616cb159c4db0451ff8c69001c63f005b"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/references/测试案例.md",
+      "lines": 527,
+      "bytes": 10147,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "421f4b51fe7036d97b64179f2717b252bb5ccc173839fee1e2d5be2d99be719e"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/scripts/init.sh",
+      "lines": 99,
+      "bytes": 2678,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "65ad751d608cae959f125056cfe3bbf1469ed44474d7e0b4a7373479bdad9d3b"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/SKILL.md",
+      "lines": 334,
+      "bytes": 10509,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "60c0e3bb3e102816e543c0f488edb9e84f2069579ec0c65e3307139aee5ff275"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/SKILL.md.bak",
+      "lines": 261,
+      "bytes": 8305,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "a4cda16d711dc8a773a274a48f976f89a25371952a27115623054fc7608f17fb"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/templates/activity_pool_template.json",
+      "lines": 138,
+      "bytes": 4477,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "22ab8191f942a9b85895645baea9548f89e5b1f9c0e0eedb8d65ee3948f88d7e"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/templates/emotion_state_template.json",
+      "lines": 66,
+      "bytes": 2407,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "417cd8907cf37df68665e23b3fab80495e75618849737c0d5a4df320c8adc718"
+    },
+    {
+      "path": "lobster-skills/Agent情绪管理系统/templates/heartbeat_schedule_template.md",
+      "lines": 133,
+      "bytes": 3684,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "58ebb393dff13d77c198667317c526c639088a809b878b1c90d8489584ff9175"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/scripts/workflow_guide.py",
+      "lines": 115,
+      "bytes": 3782,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "124c4b0db3150989d5045ca3d0a68422632bd43ea6edb346d254f8ceb03dfe9c"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/SKILL.md",
+      "lines": 70,
+      "bytes": 1976,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "5ea026d238f411ab950d21f386e5fd27d01906c1d8054158d8fa45a866b72797"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/templates/gemini_prompt.md",
+      "lines": 32,
+      "bytes": 675,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "73b5a9350b74eec1284d1a29dfe2f18197f5906d52bbf1c436fd591ad6e8d713"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/templates/mj_prompt.md",
+      "lines": 27,
+      "bytes": 722,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "419244a4403442525f2be0e76c1900a2b0be854a1096467219ff1fbf9cb52c03"
+    },
+    {
+      "path": "lobster-skills/ai-video-workflow/templates/video_prompt.md",
+      "lines": 26,
+      "bytes": 697,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "d8de42899a60b3cd3f8770d5897afd453b854aa9afa557eba9f5a8cce46dd128"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/references/spec.txt",
+      "lines": 364,
+      "bytes": 14940,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "2ba78e51e198aa5df399801ea29cd53fa75abefc63cb11a63292ec9f8378b61e"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/collect_news.py",
+      "lines": 184,
+      "bytes": 5400,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "272290f67d87496470ee89f5c234700970b2050ed7e59857860519ea0a7e6202"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py",
+      "lines": 330,
+      "bytes": 9985,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "8b7e60e49f666617b25d6cb36d38b457cfe6137c51f847b6a56c0970957ae43b"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/scripts/generate_html.py",
+      "lines": 180,
+      "bytes": 4414,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "9704c0450d4221f62ed8e350d027ce4441cc525b4c1e2f5dd0ccad504e5aee31"
+    },
+    {
+      "path": "lobster-skills/aigc-daily-briefing/SKILL.md",
+      "lines": 71,
+      "bytes": 2413,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "d157778f22eab1aa39eeb3841c8dc19055f15ed9f21943aaab5c5ffe25f5eabf"
+    },
+    {
+      "path": "lobster-skills/asset-manager/scripts/asset_organizer.py",
+      "lines": 159,
+      "bytes": 5273,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "c888930bac63eb5a6304a62da0ef45999f87adc71b0397a8e767fe8deef514e9"
+    },
+    {
+      "path": "lobster-skills/asset-manager/SKILL.md",
+      "lines": 97,
+      "bytes": 1945,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "4d9cd1a2b0bdd3cec18965f45efecc32b02378a97df10e66767b54894f03bd80"
+    },
+    {
+      "path": "lobster-skills/asset-manager/templates/asset_template.md",
+      "lines": 32,
+      "bytes": 714,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "d9ae4ac38b0ab715cfe05b65182b81024f54f5c5c5b6c0c6af119c7819355db9"
+    },
+    {
+      "path": "lobster-skills/entrocamp-behaviors/references/ENTROCAMP_BEHAVIORS_FULL.md",
+      "lines": 322,
+      "bytes": 9269,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "857ef9ee9ce0bba13b0b865248e3f60f332b9eb2118837852a955f9c8d984b88"
+    },
+    {
+      "path": "lobster-skills/entrocamp-behaviors/SKILL.md",
+      "lines": 117,
+      "bytes": 3757,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "867b44c0ae7ed60912e61d893b6b1d2e944933d6d49a65288e03a9e0694ce81f"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/scripts/memory_archive.py",
+      "lines": 208,
+      "bytes": 7021,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "402c0628c7b5d1ebc7cd6e455661b64fe9f9e173626d5923e8ac89d0ca24b7bd"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/scripts/memory_distill.py",
+      "lines": 205,
+      "bytes": 6743,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "e7f837e25c95018004f536a7d28c3c85e547480585a9aa4303b1275c28e6179c"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/SKILL.md",
+      "lines": 118,
+      "bytes": 2571,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "47f4a5860549127b5700dffa80521ce5765962203c6d3b2f5295f5d503950641"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/templates/daily_note.md",
+      "lines": 42,
+      "bytes": 764,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "45d1a3c5d8cc6e6353eb10a1da8e9c1a4c1b30d64ebd532ac86e3991684657dd"
+    },
+    {
+      "path": "lobster-skills/hot-memory-system/templates/memory_template.md",
+      "lines": 49,
+      "bytes": 902,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "19c8630c07ab73555f7d879bcc7c129accea37816d1066a621e8e0f8c429c3c9"
+    },
+    {
+      "path": "lobster-skills/pre-publish-security/scripts/pre_publish_check.py",
+      "lines": 211,
+      "bytes": 7100,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "673204b2306a4883d92b4ab3dc97a20f02da7482e4459d035cc5e299ff7aabe3"
+    },
+    {
+      "path": "lobster-skills/pre-publish-security/SKILL.md",
+      "lines": 72,
+      "bytes": 1495,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "156b8a34831cab740f2773bc2a924ce446c346818ffec15b40e3e7233dafbeb3"
+    },
+    {
+      "path": "lobster-skills/pre-publish-security/templates/publish_checklist.md",
+      "lines": 58,
+      "bytes": 1198,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "6bfbeb1e0ac6e2b830fea5a8f59f2a7c454e9863eab4b64f539b916a4c9fb2b7"
+    },
+    {
+      "path": "lobster-skills/README.md",
+      "lines": 105,
+      "bytes": 3221,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "a21aad824c39607c0ae170d059ac81e9a852a4f1f2e4932bdbd026e26bacedd5"
+    },
+    {
+      "path": "lobster-skills/security-baseline/scripts/security_check.py",
+      "lines": 195,
+      "bytes": 6526,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b9bf4104ce84bf79849d546ae384840a3ec639ad0e98b76248d14c603c1938ad"
+    },
+    {
+      "path": "lobster-skills/security-baseline/SKILL.md",
+      "lines": 57,
+      "bytes": 1527,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "c086769a36cc57486e240d410aa1b98ddf7b4a55a340e06fe71184911f1ffb8e"
+    },
+    {
+      "path": "lobster-skills/security-baseline/templates/security_checklist.md",
+      "lines": 61,
+      "bytes": 1136,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "745b52d6bb67dbafb1b73d2e14d86891ef1b4739dd34157e172c7b6cff6105af"
+    },
+    {
+      "path": "lobster-skills/self-reflection/scripts/reflection_check.py",
+      "lines": 87,
+      "bytes": 3230,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "6b0dcd3cedd61582149ede99a6503b74a89c9853e765738236642c3e1a5a5d02"
+    },
+    {
+      "path": "lobster-skills/self-reflection/SKILL.md",
+      "lines": 43,
+      "bytes": 1381,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "db3937cdd05c0eacbbb79f197e635085e1ba1934d19cf0be050771767e7480a2"
+    },
+    {
+      "path": "lobster-skills/self-reflection/templates/reflection_checklist.md",
+      "lines": 20,
+      "bytes": 559,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "3f4a26c2bb060b6e359613fbe5dcd4886b21f3644085d4599cf0d6e45001b467"
+    },
+    {
+      "path": "lobster-skills/SKILL.md",
+      "lines": 17,
+      "bytes": 907,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "a0b846f306c6dac5316749560c7be2f9a4d57ed272e8495242e1fd7df4d10904"
+    },
+    {
+      "path": "lobster-skills/task-layer-executor/scripts/task_classifier.py",
+      "lines": 161,
+      "bytes": 5096,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b839b42b3de8d81021502476ac42eba4683a8c52c2030ba1f88be69eb53ae062"
+    },
+    {
+      "path": "lobster-skills/task-layer-executor/SKILL.md",
+      "lines": 85,
+      "bytes": 2539,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "da6dd6782d154e86aa2784dd11c3935d8ad3b9487108fa9a4da3e0c15847f57d"
+    },
+    {
+      "path": "lobster-skills/task-layer-executor/templates/execution_strategy.md",
+      "lines": 85,
+      "bytes": 1742,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "09d1321fc913cdff479c25c3d29d162a5ef6d092137a2863249baf89d7c85a50"
+    },
+    {
+      "path": "prompt-library/entrocamp-behaviors/references/ENTROCAMP_BEHAVIORS_FULL.md",
+      "lines": 322,
+      "bytes": 9269,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "857ef9ee9ce0bba13b0b865248e3f60f332b9eb2118837852a955f9c8d984b88"
+    },
+    {
+      "path": "prompt-library/entrocamp-behaviors/SKILL.md",
+      "lines": 117,
+      "bytes": 3757,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "867b44c0ae7ed60912e61d893b6b1d2e944933d6d49a65288e03a9e0694ce81f"
+    },
+    {
+      "path": "prompt-library/references/quality-criteria.md",
+      "lines": 204,
+      "bytes": 4399,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "b5e5d9a47aecd8b59d5de4df436ed11d39704b7a5f7f1bf8c28db054dab4f586"
+    },
+    {
+      "path": "prompt-library/references/techniques.md",
+      "lines": 231,
+      "bytes": 4531,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "a2268c2cc3186965eb16454e6c6c8373f7708ec1575acbef2354a0cc3a9a7aab"
+    },
+    {
+      "path": "prompt-library/scripts/update-index.py",
+      "lines": 134,
+      "bytes": 4376,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "139677ef878634991edeb20d6c54cc9d19eaab920b050d7c5312f7eb2596ad1c"
+    },
+    {
+      "path": "prompt-library/SKILL.md",
+      "lines": 136,
+      "bytes": 3400,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "1b9ece438e757666c972a5f1a6c2a4aef9a099d163a7ea484b93947118ab6c23"
+    },
+    {
+      "path": "prompt-library/templates/disassembly-template.md",
+      "lines": 108,
+      "bytes": 1926,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "f1e966654309fecc5f40420d90cd9aeeedbe4b566f690207b491677c19f44a8a"
+    },
+    {
+      "path": "prompt-library/templates/quality-matrix.md",
+      "lines": 114,
+      "bytes": 2579,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "a8f436a26fe5f72c5fffbc47a17215d0d7e70f156d095e15681852747e3583db"
+    },
+    {
+      "path": "prompt-library/templates/storage-template.md",
+      "lines": 107,
+      "bytes": 1965,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "90bf9f22e76db059d5755b64beb43027de8abc0590632e309c545a50fa1ef2b9"
+    },
+    {
+      "path": "reverify-anti-hallucination/SKILL.md",
+      "lines": 107,
+      "bytes": 4822,
+      "review": "full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry",
+      "sha256": "bf543d643a0252be3794ef45a3144d75297b59d4bf99d28c0fc63482609afae0"
+    }
+  ],
+  "not_verified": [
+    "actual paid media providers",
+    "real media workload and subjective artistic quality",
+    "DSH stable-version runtime integration",
+    "camera video pixels and original verification reports",
+    "upstream license provenance and commercial entitlement",
+    "emotion-system 16-day operation claim",
+    "production availability, recovery, concurrency, observability, release acceptance"
+  ],
+  "reproduction_script": "import ast\nimport hashlib\nimport importlib.util\nimport json\nimport os\nfrom pathlib import Path\nimport shutil\nimport sys\nfrom datetime import datetime, timedelta, timezone\n\nsys.dont_write_bytecode = True\nSOURCE = Path(r'D:\\bugu_data\\ai漫剧\\skills\\Acheng 影视牛马skill（全自动全资产生成skill）\\Acheng 影视牛马skill（全自动全资产生成skill）\\acheng-director-suite-v4.3.9\\skills')\nSCRATCH = Path(__file__).resolve().parent\nassert SCRATCH.is_relative_to(Path(os.environ['TEMP']).resolve())\nassert SCRATCH.name.startswith('bugu-supporting-audit-')\nWORK = SCRATCH / 'workspace'\nWORK.mkdir(exist_ok=True)\nfor name in ('HOME', 'USERPROFILE'):\n    os.environ[name] = str(WORK)\nos.environ['HOMEDRIVE'] = WORK.drive\nos.environ['HOMEPATH'] = str(WORK)[len(WORK.drive):]\nos.chdir(WORK)\n\nfiles = sorted(p for p in SOURCE.rglob('*') if p.is_file() and p.relative_to(SOURCE).parts[0] != 'acheng-director')\nbefore = {p.relative_to(SOURCE).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in files}\nentries = []\ncoverage = []\nfor p in files:\n    content = p.read_text(encoding='utf-8-sig')\n    coverage.append({'path': p.relative_to(SOURCE).as_posix(), 'lines': len(content.splitlines()), 'bytes': p.stat().st_size, 'review': 'full source read; manifest parsed in full; duplicate behavior references verified by hash; backup compared to full current entry'})\n    if p.suffix == '.py':\n        tree = ast.parse(content, filename=str(p))\n        compile(tree, str(p), 'exec')\n        entries.append({'path': p.relative_to(SOURCE).as_posix(), 'syntax': 'valid'})\n\ndef module(relative, name):\n    original = SOURCE / relative\n    copied = SCRATCH / 'copy' / relative\n    copied.parent.mkdir(parents=True, exist_ok=True)\n    shutil.copy2(original, copied)\n    assert hashlib.sha256(copied.read_bytes()).hexdigest() == before[relative]\n    spec = importlib.util.spec_from_file_location(name, copied)\n    loaded = importlib.util.module_from_spec(spec)\n    sys.modules[name] = loaded\n    spec.loader.exec_module(loaded)\n    return loaded\n\nresults = []\ndef record(test_id, source, expectation, actual, defect):\n    results.append({'id': test_id, 'source': source, 'method': 'isolated execution of unmodified copied source with adversarial/minimal test fixture; no network or media generation', 'expected_enterprise_behavior': expectation, 'actual': actual, 'status': 'DEFECT_REPRODUCED' if defect else 'DEFECT_NOT_REPRODUCED'})\n\nwf = module('lobster-skills/ai-video-workflow/scripts/workflow_guide.py', 'audit_workflow')\na, b = wf.VideoWorkflow('fixture_a'), wf.VideoWorkflow('fixture_b')\nfinish = a.complete_step(3)\nrecord('SUP-01', 'lobster-skills/ai-video-workflow/scripts/workflow_guide.py:72,79-84', 'Projects do not share stage state; final stage cannot finish before predecessors and evidence.', {'accepted_out_of_order': finish, 'a_final': a.steps[3].status, 'b_final': b.steps[3].status, 'same_step_object': a.steps[3] is b.steps[3]}, finish and b.steps[3].status == 'completed')\n\nreflection = module('lobster-skills/self-reflection/scripts/reflection_check.py', 'audit_reflection')\ncheck = reflection.ReflectionChecker()\ntry:\n    check.format_result(check.check('Minimal fixture statement'))\n    error = None\nexcept Exception as exc:\n    error = {'type': type(exc).__name__, 'message': str(exc)}\nrecord('SUP-02', 'lobster-skills/self-reflection/scripts/reflection_check.py:76', 'Formatting a supported check result succeeds.', error, error is not None and error['type'] == 'AttributeError')\nclaim = check.check('根据不存在的研究，方案有效。')\nrecord('SUP-03', 'lobster-skills/self-reflection/scripts/reflection_check.py:29-55', 'A source keyword does not establish real evidence.', {'factuality': claim['factuality'], 'confidence': claim['confidence'].name}, claim['confidence'].name == 'CERTAIN')\n\nsecurity = module('lobster-skills/security-baseline/scripts/security_check.py', 'audit_security')\nchecker = security.SecurityChecker()\npath_fixture = r'查看 C:\\Users\\fixture\\.aws\\config'\nscan = checker.check(path_fixture)\nrecord('SUP-04', 'lobster-skills/security-baseline/scripts/security_check.py:57-65,140-148', 'Sensitive path checks normalize Windows separators and enforce filesystem capabilities.', {'input': path_fixture, 'level': scan['level'].name, 'block': scan['block'], 'paths': scan['forbidden_paths']}, not scan['block'])\nscan = checker.check('解释 base64 图像编码格式')\nrecord('SUP-05', 'lobster-skills/security-baseline/scripts/security_check.py:32,89-95', 'Legitimate encoding discussion is separated from instruction injection.', {'level': scan['level'].name, 'block': scan['block']}, scan['block'])\n\npublish = module('lobster-skills/pre-publish-security/scripts/pre_publish_check.py', 'audit_publish')\nchecker = publish.PrePublishChecker()\nissues = checker.check_file('url = \"https://api.openai.com.attacker.invalid/v1\"', 'fixture.py')\nrecord('SUP-06', 'lobster-skills/pre-publish-security/scripts/pre_publish_check.py:134-142', 'Host allowlist compares normalized complete hosts with explicit suffix policy.', {'issues': [i.issue for i in issues], 'report': checker.generate_report(issues)}, not issues)\nissues = checker.check_file('subprocess.run(command, shell=True)', 'fixture.py')\nrecord('SUP-07', 'lobster-skills/pre-publish-security/scripts/pre_publish_check.py:49-55,114-117', 'Configured subprocess detection covers subprocess.run and shell execution.', {'issues': [i.issue for i in issues]}, not issues)\n\nassets = module('lobster-skills/asset-manager/scripts/asset_organizer.py', 'audit_assets')\nregistry = assets.AssetOrganizer(str(WORK / 'assets'))\nmissing = WORK / 'absent.mp4'\nasset = registry.register(str(missing), project='fixture')\nrecord('SUP-08', 'lobster-skills/asset-manager/scripts/asset_organizer.py:56-93', 'Registration requires file existence and verified metadata; archival copies and checksums are durable.', {'source_exists': missing.exists(), 'registered': asset, 'indexed_count': len(registry.index['assets'])}, not missing.exists() and len(registry.index['assets']) == 1)\n\ncapsules = module('lobster-skills/agent-self-maintenance/scripts/capsule_manager.py', 'audit_capsules')\ncm = capsules.CapsuleManager(str(WORK / 'memory/capsules.json'))\ncap = cm.create_capsule({'name': 'fixture', 'pattern': {'what_worked': 'verified procedure', 'when_to_apply': ['fixture context'], 'why_it_works': 'observed evidence'}})\nrecord('SUP-09', 'lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:61-75', 'The documented nested pattern schema is preserved.', {'pattern': cap['pattern']}, not cap['pattern']['what_worked'])\ncm.record_application(cap['id'], False, 'fixture failure')\nrecord('SUP-10', 'lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:188-200', 'Failures increase attempt/failure counts and leave success_count unchanged.', {'success_count_after_failure': cap['success_count'], 'confidence': cap['confidence']}, cap['success_count'] == 1)\ncap2 = cm.create_capsule({'name': 'no execution fixture'})\napplied = cm.apply_capsule(cap2['id'], 'fixture context')\nrecord('SUP-11', 'lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:249-261', 'Retrieving a procedure does not manufacture verified execution or a successful outcome.', {'return_success': applied['success'], 'success_count': cap2['success_count'], 'confidence': cap2['confidence'], 'last_result': cap2['last_apply_result']}, applied['success'] and cap2['success_count'] == 1)\ncap3 = cm.create_capsule({'name': 'direct state fixture'})\naccepted = cm.update_status(cap3['id'], 'internalized')\nrecord('SUP-12', 'lobster-skills/agent-self-maintenance/scripts/capsule_manager.py:156-171', 'State transitions validate predecessor, scenario bindings, and real success evidence.', {'accepted': accepted, 'status': cap3['status'], 'success_count': cap3['success_count']}, accepted and cap3['success_count'] == 0)\n\ncleaner = module('lobster-skills/agent-self-maintenance/scripts/file_cleaner.py', 'audit_cleaner')\nfc = cleaner.FileCleaner(str(WORK / 'maintenance'))\nlog = WORK / 'maintenance/error_log.jsonl'\nlog.write_text('{\"fixture\":1}\\n{\"fixture\":2}\\n', encoding='utf-8')\nok, msg = fc.check_json_integrity(str(log))\nrecord('SUP-13', 'lobster-skills/agent-self-maintenance/scripts/file_cleaner.py:30-40,47-59', 'A valid multi-record JSONL file is verified record by record.', {'valid_jsonl': True, 'accepted': ok, 'message': msg}, not ok)\nlog.write_text('{\"batch\":\"first\"}\\n' * 2, encoding='utf-8')\nfirst_archive = fc.archive_jsonl(str(log), max_lines=1)\nlog.write_text('{\"batch\":\"second\"}\\n' * 2, encoding='utf-8')\ntry:\n    second_archive = fc.archive_jsonl(str(log), max_lines=1)\n    preserved = 'first' in Path(first_archive).read_text(encoding='utf-8')\n    collision = {'first_path': first_archive, 'second_path': second_archive, 'first_content_preserved': preserved}\n    defect = first_archive == second_archive and not preserved\nexcept Exception as exc:\n    collision = {'type': type(exc).__name__, 'message': str(exc)}\n    defect = True\nrecord('SUP-14', 'lobster-skills/agent-self-maintenance/scripts/file_cleaner.py:148-157', 'Same-day archive rotations use unique immutable names and preserve earlier batches.', collision, defect)\n\narchive = module('lobster-skills/hot-memory-system/scripts/memory_archive.py', 'audit_archive')\narchiver = archive.MemoryArchiver(str(WORK / 'archives'))\nfirst = archiver.archive('first fixture', 'first')\nsecond = archiver.archive('second fixture', 'second')\nrecord('SUP-15', 'lobster-skills/hot-memory-system/scripts/memory_archive.py:49-65,68-74', 'Distinct writes receive collision-resistant IDs.', {'first_id': first, 'second_id': second, 'index_entries': len(archiver.index['archives']), 'file_count': len(list((WORK / 'archives').glob('archive_*.json'))), 'first_retrieval_content': archiver.retrieve(first)['content']}, first == second)\n\ndistiller = module('lobster-skills/hot-memory-system/scripts/memory_distill.py', 'audit_distill')\ndm = distiller.MemoryDistiller(str(WORK / 'distilled'))\ndm.add_hot_memory('禁止公开演员肖像未经授权', source='explicit_user_constraint_fixture')\ndistilled = dm.distill()\nrecord('SUP-16', 'lobster-skills/hot-memory-system/scripts/memory_distill.py:99-105,110-124', 'Hard constraints persist by explicit type regardless of keyword phrasing.', {'result': distilled, 'summary': dm.get_summary()}, bool(distilled['cleared']))\n\ncollect = module('lobster-skills/aigc-daily-briefing/scripts/collect_news.py', 'audit_collect')\ndep = collect.check_topic_tracking_skill()\nnews = collect.call_topic_tracking(collect.build_search_queries())\nrecord('SUP-17', 'lobster-skills/aigc-daily-briefing/scripts/collect_news.py:34-42,79-115', 'A missing provider is reported unavailable and does not pass dependency verification.', {'dependency_check': dep, 'real_provider_invoked': False, 'collected_count': len(news), 'topic_tracking_present_in_supplied_package': False}, dep and not news)\n\nrank = module('lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py', 'audit_rank')\nmoment = datetime.now().isoformat()\nranked, _ = rank.filter_and_rank([{'title': 'OpenAI audio', 'content': 'audio generation fixture', 'url': 'https://openai.com/fixture', 'publish_time': moment}, {'title': 'OpenAI video', 'content': 'video generation fixture', 'url': 'https://openai.com/fixture2', 'publish_time': moment}])\nrecord('SUP-18', 'lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py:230-234', 'Within the same source level audio ranks before video.', {'actual_domain_order': [n['domain'] for n in ranked]}, ranked[0]['domain'] != 'audio')\nfuture = (datetime.now() + timedelta(days=10)).isoformat()\naccepted = rank.check_time_window(future)\nrecord('SUP-19', 'lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py:123-136', 'A historical news window rejects future dates.', {'future_by_days': 10, 'accepted': accepted}, accepted)\nspoofed_level = rank.classify_source_level('https://openai.com.attacker.invalid/fixture')\nrecord('SUP-20', 'lobster-skills/aigc-daily-briefing/scripts/filter_and_rank.py:109-113', 'Official source classification validates exact source ownership.', {'classified_level': spoofed_level}, spoofed_level == 1)\n\nhtml = module('lobster-skills/aigc-daily-briefing/scripts/generate_html.py', 'audit_html')\noutput = html.generate_html([{'title':'<script>fixture()</script>', 'content':'fixture'}], '2026-10-09', 1, str(WORK / 'html'))\nrecord('SUP-21', 'lobster-skills/aigc-daily-briefing/scripts/generate_html.py:136-147', 'Untrusted titles and content are escaped, with explicitly trusted markup separated.', {'raw_script_tag_written': '<script>fixture()</script>' in Path(output).read_text(encoding='utf-8'), 'browser_or_script_executed': False}, '<script>fixture()</script>' in Path(output).read_text(encoding='utf-8'))\n\nmanifest_path = SOURCE / 'camera-moves-whitebox/manifest.json'\nmanifest = json.loads(manifest_path.read_text(encoding='utf-8'))\ncamera = {'declared_count': manifest['count'], 'manifest_entries': len(manifest['moves']), 'unique_keys': len(set(m['key'] for m in manifest['moves'])), 'local_video_files': len(list((SOURCE / 'camera-moves-whitebox').rglob('*.mp4'))), 'existing_manifest_absolute_paths': sum(Path(m['file']).exists() for m in manifest['moves']), 'claimed_bytes': sum(m['size'] for m in manifest['moves']), 'ok_claims': sum(m['ok'] for m in manifest['moves']), 'distinct_specifications': sorted(set((m['width'], m['height'], m['fps'], m['frames'], m['duration']) for m in manifest['moves']))}\nafter = {p.relative_to(SOURCE).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in files}\nassert before == after\nreport = {'schema_version':'1.0', 'client_research_date':'2026-10-09', 'execution_utc':datetime.now(timezone.utc).isoformat(), 'scope':'8 supporting suites excluding acheng-director', 'source_root':str(SOURCE), 'runtime':{'python':sys.version, 'executable':sys.executable}, 'isolation':{'scratch':str(SCRATCH), 'working_directory':str(WORK), 'home':str(Path.home()), 'source_copies_unmodified':True, 'source_hashes_unchanged':True, 'external_network_calls':0, 'media_generation_calls':0, 'business_acceptance':False}, 'counts':{'files':len(files), 'skill_entries':sum(p.name == 'SKILL.md' for p in files), 'python_scripts':len(entries), 'reproduced_defects':sum(r['status'] == 'DEFECT_REPRODUCED' for r in results)}, 'camera':camera, 'syntax_checks':entries, 'reproduction_tests':results, 'read_coverage':coverage, 'not_verified':['actual paid media providers','real media workload and subjective artistic quality','DSH stable-version runtime integration','camera video pixels and original verification reports','upstream license provenance and commercial entitlement','emotion-system 16-day operation claim','production availability, recovery, concurrency, observability, release acceptance']}\ntarget = Path(r'D:\\bugu_projects\\bugu_director_skill\\specs\\001-director-runtime\\evidence\\supporting-research.json')\ntarget.parent.mkdir(parents=True, exist_ok=True)\ntarget.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')\nprint(json.dumps({'output':str(target), 'counts':report['counts'], 'camera':camera, 'tests':[{'id':r['id'],'status':r['status']} for r in results]}, ensure_ascii=False, indent=2))\n",
+  "reproduction_script_sha256": "5b48e915ae34af92ca0394e8782e9813caa83b677403c807814263ae3e87181e",
+  "repository_evidence_path": "specs/001-director-runtime/evidence/supporting-research.json",
+  "execution_original_timestamp": "2026-10-09T05:54:43.911947+08:00",
+  "entrypoints": [
+    "camera-moves-whitebox/SKILL.md",
+    "cinematic-vfx-prompt-engine/SKILL.md",
+    "colossal-scale-visual-director/SKILL.md",
+    "h3-prompt-writing/SKILL.md",
+    "im2-clean-image/SKILL.md",
+    "lobster-skills/agent-self-maintenance/SKILL.md",
+    "lobster-skills/Agent情绪管理系统/SKILL.md",
+    "lobster-skills/ai-video-workflow/SKILL.md",
+    "lobster-skills/aigc-daily-briefing/SKILL.md",
+    "lobster-skills/asset-manager/SKILL.md",
+    "lobster-skills/entrocamp-behaviors/SKILL.md",
+    "lobster-skills/hot-memory-system/SKILL.md",
+    "lobster-skills/pre-publish-security/SKILL.md",
+    "lobster-skills/security-baseline/SKILL.md",
+    "lobster-skills/self-reflection/SKILL.md",
+    "lobster-skills/SKILL.md",
+    "lobster-skills/task-layer-executor/SKILL.md",
+    "prompt-library/entrocamp-behaviors/SKILL.md",
+    "prompt-library/SKILL.md",
+    "reverify-anti-hallucination/SKILL.md"
+  ],
+  "post_read_hash_audit": {
+    "date": "2026-10-09",
+    "timezone": "Asia/Shanghai",
+    "purpose": "Add measured per-file hashes after independent read-only evidence audit",
+    "files": 85,
+    "reference_manifest_sha256": "2e8dc25b713c8bd6364f4b209860efef8d0f0a7a0f778527e06c81488eca0e6d",
+    "all_match": true
+  }
+}

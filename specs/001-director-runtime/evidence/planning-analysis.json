@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-08T22:21:07.245353+00:00",
+  "scope": "Independent read-only Spec Kit semantic analysis and limited follow-up; reference/tool audit; design acceptance only",
+  "reviewer": "/root/upstream_integration",
+  "additional_read_only_auditor": "/root/other_skill_research",
+  "production_acceptance": "not-run",
+  "formal_release_eligible": false,
+  "initial_findings": [
+    {
+      "id": "U1",
+      "severity": "HIGH",
+      "issue": "No isolated admission path for first real acceptance of unverified capability",
+      "locations": [
+        "contracts/production.md",
+        "contracts/lifecycle.md",
+        "data-model.md",
+        "tasks.md:T040/T041/T071-T074"
+      ],
+      "resolution": "Admin capability-trial; ValidationRun/TrialGrant; production/validation purpose and owner isolation; durable request fence and unknown reconciliation; independent real-evidence acceptance and CAS activation",
+      "followup_status": "closed"
+    },
+    {
+      "id": "I1",
+      "severity": "MEDIUM",
+      "issue": "Real-assets vs benchmark-control-index scale wording differed",
+      "locations": [
+        "spec.md:SC-014",
+        "tasks.md:T087",
+        "quickstart.md"
+      ],
+      "resolution": "Labeled benchmark control records may reference authorized real media; full restore includes frozen actual-media manifest; not 20,000 independent business generations",
+      "followup_status": "closed"
+    },
+    {
+      "id": "A1",
+      "severity": "MEDIUM",
+      "issue": "Performance profile and restore byte/measurement boundaries not frozen",
+      "locations": [
+        "spec.md:SC-014",
+        "plan.md:Performance Goals",
+        "tasks.md:T087",
+        "quickstart.md"
+      ],
+      "resolution": "Freeze actual hardware/FS/runtime/data bytes before measurements; 20 concurrent clients, cold first round, 60s warmup and 10min samples; full restore timing includes all data and verification; no scale extrapolation",
+      "followup_status": "closed"
+    },
+    {
+      "id": "L1",
+      "severity": "LOW",
+      "issue": "Old workflows layout comment said only validated registry",
+      "locations": [
+        "plan.md:Target source layout"
+      ],
+      "resolution": "Fixed licensed registry; production validated, trials gated",
+      "followup_status": "closed"
+    }
+  ],
+  "followup": {
+    "result": "pass",
+    "remaining_findings": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "reviewed_document_hashes": {
+      ".specify/memory/constitution.md": "3633c8750e7c9b74af4d29ac3e006fe5dfaaa100a41ea39232c6e6b1273da008",
+      "specs/001-director-runtime/spec.md": "cdbad9e2996e63bb04224f3bfa3e2a11c0a5e72207d6800a9e59ef9aeb301b9b",
+      "specs/001-director-runtime/plan.md": "e8879e7e86deab8b43b19a86d1acf112febbac89885ea037bca7d4258adede04",
+      "specs/001-director-runtime/tasks.md": "adbda928744af62f78e742b14ee16e9a1a47cc2fcd87ace20b0ee8ae0c9d8a2f",
+      "specs/001-director-runtime/data-model.md": "e22bb010a1d3145aad06180e9ab5d9eafecdae5be3a7592de842173dee401c71",
+      "specs/001-director-runtime/research.md": "e4bee7033066716129715e5b365447088970caf92134eb878256d7ea25cab45a",
+      "specs/001-director-runtime/quickstart.md": "7e24fc3647db80061d63bbcbd7ceb5cbd32ae84f060a0965be471127f64abcef",
+      "specs/001-director-runtime/contracts/cli.md": "bd946adce159665ba145a282c80d56f66dc3b5a3960a8c4231ef5dc6bf71877e",
+      "specs/001-director-runtime/contracts/delivery.md": "3fa15b47ab078574328729e5d77b54ee92f025c8d35dc3648c1f5b6b7569db43",
+      "specs/001-director-runtime/contracts/lifecycle.md": "7cff2a6baeca37dfb17b70bbbdb7721a4ab197d164319153a1a363ed34fa5ce8",
+      "specs/001-director-runtime/contracts/production.md": "4d9839259d3d62cd92cf8a91f81881010c9c15e3a87f7a68722912bdb79bbd67",
+      "specs/001-director-runtime/contracts/review.md": "69d47fb40560ac782438022812764996da8fa035fe1d22fee48bf2bdceb3d917"
+    },
+    "requirements_mapped": 54,
+    "functional_requirements": 40,
+    "success_criteria": 14,
+    "unmapped": 0,
+    "unknown_references": 0,
+    "tasks": 90,
+    "parallel_tasks": 21,
+    "missing_dependencies": 0,
+    "forward_dependencies": 0,
+    "dependency_cycles": 0,
+    "completed_at_review": [
+      "T001",
+      "T002",
+      "T003",
+      "T004"
+    ],
+    "product_success_criteria_passed": 0
+  },
+  "root_post_review_record_updates": [
+    "T005 completed only after independent PASS; task progress text updated",
+    "README links analysis evidence",
+    "plan document manifest lists evidence files",
+    "requirements checklist records design review completion",
+    "Final structure validator supplies current document byte hashes; these metadata edits do not claim new product behavior"
+  ],
+  "reference_audit": {
+    "file_count": 871,
+    "skill_entries": 31,
+    "source_manifest_sha256": "2e8dc25b713c8bd6364f4b209860efef8d0f0a7a0f778527e06c81488eca0e6d",
+    "read_levels": {
+      "full": 139,
+      "targeted": 16,
+      "inventory_only": 716
+    },
+    "supporting_file_hashes_checked": 85,
+    "supporting_file_hashes_match": 85,
+    "inventory_resnapshot_matches": true,
+    "reference_source_mutated": false
+  },
+  "research_tools_audit": {
+    "inventory_snapshot": "actual invocation matches saved all-file manifest",
+    "planning_validator": "actual invocation PASS; structure, explicit mappings, local links and JSON only",
+    "secret_candidate_matches": 0,
+    "network_or_production_calls": false,
+    "limitations": [
+      "Both CLI commands write caller-specified report paths",
+      "Inventory rejects output inside reference source tree",
+      "Validator is not semantic or production acceptance; missing required files may raise an exception"
+    ]
+  },
+  "next_uncompleted_gates": [
+    "T006-T087 implementation and real workload acceptance",
+    "T088 independent stable-upstream migration",
+    "T089 formal release decision",
+    "T090 final product Git delivery; planning sync is separately scoped"
+  ]
+}
